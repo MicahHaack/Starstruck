@@ -1,0 +1,9 @@
+*.curseclient
+BotaniaVars.dat
+minecraftinstance.json
+options.txt
+usercache.json
+usernamecache.json
+astralsorcery/
+infinity-data/
+downloads/
