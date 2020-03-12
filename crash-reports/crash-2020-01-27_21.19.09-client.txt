@@ -1,0 +1,138 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  CTMCorePlugin (CTM-MC1.12.2-1.0.1.30.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  GTCELoadingPlugin (gregtech-1.12.2-1.9.0.481.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
+  AstralCore (astralsorcery-1.12.2-1.10.21.jar)
+Contact their authors BEFORE contacting forge
+
+// Who set us up the TNT?
+
+Time: 1/27/20 9:19 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Modular Machinery (modularmachinery)
+Caused by: java.lang.IllegalStateException: Tried to add multiple energy requirements for the same ioType! Please only add one for each ioType!
+	at hellfirepvp.modularmachinery.common.crafting.MachineRecipe.addRequirement(MachineRecipe.java:105)
+	at java.lang.Iterable.forEach(Unknown Source)
+	at hellfirepvp.modularmachinery.common.crafting.RecipeLoader.convertPreparedRecipe(RecipeLoader.java:117)
+	at hellfirepvp.modularmachinery.common.crafting.RecipeLoader.loadRecipes(RecipeLoader.java:89)
+	at hellfirepvp.modularmachinery.common.crafting.RecipeRegistry.loadRecipes(RecipeRegistry.java:91)
+	at hellfirepvp.modularmachinery.common.crafting.RecipeRegistry.loadRecipeRegistry(RecipeRegistry.java:73)
+	at hellfirepvp.modularmachinery.common.CommonProxy.init(CommonProxy.java:102)
+	at hellfirepvp.modularmachinery.client.ClientProxy.init(ClientProxy.java:149)
+	at hellfirepvp.modularmachinery.ModularMachinery.init(ModularMachinery.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 4910568648 bytes (4683 MB) / 6416302080 bytes (6119 MB) up to 6416302080 bytes (6119 MB)
+	JVM Flags: 24 total; -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:ParallelGCThreads=3 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms6144m -Xmx6144m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 31 mods loaded, 31 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                   | Version           | Source                                        | Signature                                |
+	|:----- |:-------------------- |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCHI  | minecraft            | 1.12.2            | minecraft.jar                                 | None                                     |
+	| LCHI  | mcp                  | 9.42              | minecraft.jar                                 | None                                     |
+	| LCHI  | FML                  | 8.0.99.99         | forge-1.12.2-14.23.5.2847-universal.jar       | None                                     |
+	| LCHI  | forge                | 14.23.5.2847      | forge-1.12.2-14.23.5.2847-universal.jar       | None                                     |
+	| LCHI  | ctm                  | MC1.12.2-1.0.1.30 | CTM-MC1.12.2-1.0.1.30.jar                     | None                                     |
+	| LCHI  | appliedenergistics2  | rv6-stable-7      | appliedenergistics2-rv6-stable-7.jar          | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCHI  | baubles              | 1.5.2             | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LCHI  | crafttweaker         | 4.1.20            | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LCHI  | astralsorcery        | 1.10.21           | astralsorcery-1.12.2-1.10.21.jar              | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LCHI  | jei                  | 4.15.0.293        | jei_1.12.2-4.15.0.293.jar                     | None                                     |
+	| LCHI  | base                 | 3.13.0            | base-1.12.2-3.13.0.jar                        | None                                     |
+	| LCHI  | guideapi             | 1.12-2.1.8-63     | Guide-API-1.12-2.1.8-63.jar                   | None                                     |
+	| LCHI  | bloodmagic           | 1.12.2-2.4.3-105  | BloodMagic-1.12.2-2.4.3-105.jar               | None                                     |
+	| LCHI  | thaumcraft           | 6.1.BETA26        | Thaumcraft-1.12.2-6.1.BETA26.jar              | None                                     |
+	| LCHI  | botania              | r1.10-363         | Botania+r1.10-363.jar                         | None                                     |
+	| LCHI  | codechickenlib       | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHI  | contenttweaker       | 1.12.2-4.9.1      | ContentTweaker-1.12.2-4.9.1.jar               | None                                     |
+	| LCHI  | ctgui                | 1.0.0             | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LCHI  | crafttweakerjei      | 2.0.3             | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LCHI  | diethopper           | 1.1               | diethopper-1.1.jar                            | None                                     |
+	| LCHI  | gregtech             | 1.9.0.481         | gregtech-1.12.2-1.9.0.481.jar                 | None                                     |
+	| LCHI  | theoneprobe          | 1.4.28            | theoneprobe-1.12-1.4.28.jar                   | None                                     |
+	| LCHI  | immersiveengineering | 0.12-92           | ImmersiveEngineering-0.12-92.jar              | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+	| LCHI  | immersivepetroleum   | 1.1.9             | immersivepetroleum-1.12.2-1.1.9.jar           | None                                     |
+	| LCHE  | modularmachinery     | 1.10.0            | modularmachinery-1.12.2-1.10.0.jar            | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LCH   | modulardiversity     | 1.9               | Modular+Diversity-1.9.jar                     | None                                     |
+	| LCH   | modularmagic         | 1.4.0             | modularmagic-1.4.0.jar                        | None                                     |
+	| LCH   | nuclearcraft         | 2.18o             | NuclearCraft-2.18o-1.12.2.jar                 | None                                     |
+	| LCH   | portality            | 1.0-SNAPSHOT      | portality-1.12.2-1.2.3-15.jar                 | None                                     |
+	| LCH   | resourceloader       | 1.5.3             | ResourceLoader-MC1.12.1-1.5.3.jar             | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCH   | gtadditions          | 1.12.2-2.13.0     | Shadows_of_Greg-1.12.2-2.13.0.jar             | None                                     |
+
+	Loaded coremods (and transformers): 
+CTMCorePlugin (CTM-MC1.12.2-1.0.1.30.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+GTCELoadingPlugin (gregtech-1.12.2-1.9.0.481.jar)
+  gregtech.common.asm.GTCETransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-92.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+AstralCore (astralsorcery-1.12.2-1.10.21.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 432.00' Renderer: 'GeForce GTX 960/PCIe/SSE2'
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768

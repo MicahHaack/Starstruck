@@ -1,0 +1,124 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  GTCELoadingPlugin (gregtech-1.12.2-1.9.0.481.jar)
+  AstralCore (astralsorcery-1.12.2-1.10.21.jar)
+Contact their authors BEFORE contacting forge
+
+// Uh... Did I do that?
+
+Time: 1/26/20 9:23 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Modular Magic (modularmagic)
+Caused by: java.lang.NoSuchMethodError: hellfirepvp.modularmachinery.common.crafting.ComponentType.setRegistryName(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+	at fr.frinn.modularmagic.common.crafting.component.ModularMagicComponents.registerComponent(ModularMagicComponents.java:43)
+	at fr.frinn.modularmagic.common.crafting.component.ModularMagicComponents.initComponents(ModularMagicComponents.java:24)
+	at fr.frinn.modularmagic.common.proxy.CommonProxy.preInit(CommonProxy.java:19)
+	at fr.frinn.modularmagic.common.proxy.ClientProxy.preInit(ClientProxy.java:17)
+	at fr.frinn.modularmagic.ModularMagic.preInit(ModularMagic.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 5953772712 bytes (5677 MB) / 6416302080 bytes (6119 MB) up to 6416302080 bytes (6119 MB)
+	JVM Flags: 24 total; -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:ParallelGCThreads=3 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms6144m -Xmx6144m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 27 mods loaded, 27 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                  | Version          | Source                                        | Signature                                |
+	|:----- |:------------------- |:---------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft           | 1.12.2           | minecraft.jar                                 | None                                     |
+	| LCH   | mcp                 | 9.42             | minecraft.jar                                 | None                                     |
+	| LCH   | FML                 | 8.0.99.99        | forge-1.12.2-14.23.5.2847-universal.jar       | None                                     |
+	| LCH   | forge               | 14.23.5.2847     | forge-1.12.2-14.23.5.2847-universal.jar       | None                                     |
+	| LCH   | appliedenergistics2 | rv6-stable-7     | appliedenergistics2-rv6-stable-7.jar          | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCH   | baubles             | 1.5.2            | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LCH   | crafttweaker        | 4.1.20           | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LCH   | astralsorcery       | 1.10.21          | astralsorcery-1.12.2-1.10.21.jar              | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LCH   | jei                 | 4.15.0.293       | jei_1.12.2-4.15.0.293.jar                     | None                                     |
+	| LCH   | base                | 3.13.0           | base-1.12.2-3.13.0.jar                        | None                                     |
+	| LCH   | guideapi            | 1.12-2.1.8-63    | Guide-API-1.12-2.1.8-63.jar                   | None                                     |
+	| LCH   | bloodmagic          | 1.12.2-2.4.3-105 | BloodMagic-1.12.2-2.4.3-105.jar               | None                                     |
+	| LCH   | thaumcraft          | 6.1.BETA26       | Thaumcraft-1.12.2-6.1.BETA26.jar              | None                                     |
+	| LCH   | botania             | r1.10-363        | Botania+r1.10-363.jar                         | None                                     |
+	| LCH   | codechickenlib      | 3.2.3.358        | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | contenttweaker      | 1.12.2-4.9.1     | ContentTweaker-1.12.2-4.9.1.jar               | None                                     |
+	| LCH   | ctgui               | 1.0.0            | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LCH   | crafttweakerjei     | 2.0.3            | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LCH   | diethopper          | 1.1              | diethopper-1.1.jar                            | None                                     |
+	| LCH   | gregtech            | 1.9.0.481        | gregtech-1.12.2-1.9.0.481.jar                 | None                                     |
+	| LCH   | modularmachinery    | 1.10.0           | modularmachinery-1.12.2-1.10.0.jar            | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LCH   | modulardiversity    | 1.9              | Modular+Diversity-1.9.jar                     | None                                     |
+	| LCE   | modularmagic        | 1.5.0            | modularmagic-1.5.0.jar                        | None                                     |
+	| LC    | nuclearcraft        | 2.18o            | NuclearCraft-2.18o-1.12.2.jar                 | None                                     |
+	| LC    | portality           | 1.0-SNAPSHOT     | portality-1.12.2-1.2.3-15.jar                 | None                                     |
+	| LC    | resourceloader      | 1.5.3            | ResourceLoader-MC1.12.1-1.5.3.jar             | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LC    | gtadditions         | 1.12.2-2.13.0    | Shadows_of_Greg-1.12.2-2.13.0.jar             | None                                     |
+
+	Loaded coremods (and transformers): 
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+GTCELoadingPlugin (gregtech-1.12.2-1.9.0.481.jar)
+  gregtech.common.asm.GTCETransformer
+AstralCore (astralsorcery-1.12.2-1.10.21.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 432.00' Renderer: 'GeForce GTX 960/PCIe/SSE2'
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768

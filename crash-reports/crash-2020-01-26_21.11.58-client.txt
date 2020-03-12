@@ -1,0 +1,129 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  GTCELoadingPlugin (gregtech-1.12.2-1.9.0.481.jar)
+  AstralCore (astralsorcery-1.12.2-1.10.21.jar)
+Contact their authors BEFORE contacting forge
+
+// Don't do that.
+
+Time: 1/26/20 9:11 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderException: java.lang.NoClassDefFoundError: hellfirepvp/modularmachinery/common/crafting/ComponentType$ComponentRegistryEvent
+	at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:89)
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+Caused by: java.lang.NoClassDefFoundError: hellfirepvp/modularmachinery/common/crafting/ComponentType$ComponentRegistryEvent
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.lang.Class.privateGetPublicMethods(Unknown Source)
+	at java.lang.Class.getMethods(Unknown Source)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.register(EventBus.java:82)
+	at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:82)
+	... 44 more
+Caused by: java.lang.ClassNotFoundException: hellfirepvp.modularmachinery.common.crafting.ComponentType$ComponentRegistryEvent
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 50 more
+Caused by: java.lang.NullPointerException
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 6123979040 bytes (5840 MB) / 6416302080 bytes (6119 MB) up to 6416302080 bytes (6119 MB)
+	JVM Flags: 24 total; -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:ParallelGCThreads=3 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms6144m -Xmx6144m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 27 mods loaded, 27 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                  | Version          | Source                                        | Signature                                |
+	|:----- |:------------------- |:---------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LC    | minecraft           | 1.12.2           | minecraft.jar                                 | None                                     |
+	| LC    | mcp                 | 9.42             | minecraft.jar                                 | None                                     |
+	| LC    | FML                 | 8.0.99.99        | forge-1.12.2-14.23.5.2847-universal.jar       | None                                     |
+	| LC    | forge               | 14.23.5.2847     | forge-1.12.2-14.23.5.2847-universal.jar       | None                                     |
+	| LC    | appliedenergistics2 | rv6-stable-7     | appliedenergistics2-rv6-stable-7.jar          | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LC    | baubles             | 1.5.2            | Baubles-1.12-1.5.2.jar                        | None                                     |
+	| LC    | crafttweaker        | 4.1.20           | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LC    | astralsorcery       | 1.10.21          | astralsorcery-1.12.2-1.10.21.jar              | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LC    | jei                 | 4.15.0.293       | jei_1.12.2-4.15.0.293.jar                     | None                                     |
+	| LC    | base                | 3.13.0           | base-1.12.2-3.13.0.jar                        | None                                     |
+	| LC    | guideapi            | 1.12-2.1.8-63    | Guide-API-1.12-2.1.8-63.jar                   | None                                     |
+	| LC    | bloodmagic          | 1.12.2-2.4.3-105 | BloodMagic-1.12.2-2.4.3-105.jar               | None                                     |
+	| LC    | thaumcraft          | 6.1.BETA26       | Thaumcraft-1.12.2-6.1.BETA26.jar              | None                                     |
+	| LC    | botania             | r1.10-363        | Botania+r1.10-363.jar                         | None                                     |
+	| LC    | codechickenlib      | 3.2.3.358        | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LC    | contenttweaker      | 1.12.2-4.9.1     | ContentTweaker-1.12.2-4.9.1.jar               | None                                     |
+	| LC    | ctgui               | 1.0.0            | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LC    | crafttweakerjei     | 2.0.3            | CraftTweaker2-1.12-4.1.20.jar                 | None                                     |
+	| LC    | diethopper          | 1.1              | diethopper-1.1.jar                            | None                                     |
+	| LC    | gregtech            | 1.9.0.481        | gregtech-1.12.2-1.9.0.481.jar                 | None                                     |
+	| LC    | modularmachinery    | 1.11.1           | modularmachinery-1.12.2-1.11.1.jar            | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LE    | modulardiversity    | 1.9              | Modular+Diversity-1.9.jar                     | None                                     |
+	| L     | modularmagic        | 1.5.1            | modularmagic-1.5.1.jar                        | None                                     |
+	| L     | nuclearcraft        | 2.18o            | NuclearCraft-2.18o-1.12.2.jar                 | None                                     |
+	| L     | portality           | 1.0-SNAPSHOT     | portality-1.12.2-1.2.3-15.jar                 | None                                     |
+	| L     | resourceloader      | 1.5.3            | ResourceLoader-MC1.12.1-1.5.3.jar             | None                                     |
+	| L     | gtadditions         | 1.12.2-2.13.0    | Shadows_of_Greg-1.12.2-2.13.0.jar             | None                                     |
+
+	Loaded coremods (and transformers): 
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+GTCELoadingPlugin (gregtech-1.12.2-1.9.0.481.jar)
+  gregtech.common.asm.GTCETransformer
+AstralCore (astralsorcery-1.12.2-1.10.21.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 432.00' Renderer: 'GeForce GTX 960/PCIe/SSE2'
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
