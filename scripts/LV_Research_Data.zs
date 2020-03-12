@@ -6,6 +6,7 @@ import mods.modularmachinery.RecipePrimer;
 // ITEM INITS
 val emptyDataStick = <gregtech:meta_item_1:32708>;
 
+
 val poorMotorDS = <gregtech:meta_item_1:32708>.withTag({ench: [], Unbreakable: 0 as byte, HideFlags: 0, display: {Lore: ["§r§7Research Tier: §9LV", "§r§7Research Type: §fMotor", "§r§7Research Quality: §fPoor"], Name: "§rData Stick"}, CanDestroy: []});
 //poorMotorDS.addTooltip(format.darkGray("Research Tier: LV\n" + format.gray("Research Type: Motor\n") + format.black("Research Quality: Poor")));
 
