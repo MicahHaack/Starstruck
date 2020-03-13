@@ -8,6 +8,9 @@
 
 */
 
+// Imports
+import crafttweaker.item.IItemStack;
+
 /* Lore lines begin with: 
 
 §r§7Tier: 
@@ -15,6 +18,10 @@
 §r§7Quality:
 
 */
+
+val TIER    = "§r§7Tier: ";
+val TYPE    = "§r§7Type: ";
+val QUALITY = "§r§7Quality: ";
 
 /* Color code list:
 
@@ -49,15 +56,72 @@ Reset the default color	    §r	\u00A7r
 // Qualitys are: POOR FAIR GOOD GREAT PERFECT
 // Colors:       §8   §f   §6   §b    §a
 
-// Tiers are: LV MV HV EV IV LuV ZPM UV
+val POOR    = "§8Poor";
+val FAIR    = "§fFair";
+val GOOD    = "§6Good";
+val GREAT   = "§bGreat";
+val PERFECT = "§aPerfect";
+
+val qualitys = {
+    "POOR": POOR, 
+    "FAIR": FAIR, 
+    "GOOD": GOOD, 
+    "GREAT": GREAT, 
+    "PERFECT": PERFECT
+    } as string[string];
+
+// Tiers are: LV MV HV EV IV LUV ZPM UV
 // Colors:    §7 §6 §e §8 §f §d  §b  §a
+
+val LV  = "§7LV";
+val MV  = "§6MV";
+val HV  = "§eHV";
+val EV  = "§8EV";
+val IV  = "§fIV";
+val LUV = "§dLuV";
+val ZPM = "§bZPM";
+val UV  = "§aUV";
 
 /* Types I know I want to include:
     Components - MOTOR, PISTON, ARM, PUMP, CONVEYOR, EMITTER, SENSOR, FIELD_GEN
     TODO: Decide chipset line
-    TODO: Research cables per tier?
     TODO: Multiblock list
+
+    Types I need to decide about including:
+    TODO: Research cables per tier?
     TODO: Magic list?
     TODO: Nuclearcraft fuels list?
-
 */
+
+val COMP = "§f";
+val comps = {
+    "MOTOR": "Electric Motor", 
+    "PISTON": "Electric Piston", 
+    "ARM": "Robot Arm", 
+    "PUMP": "Electric Pump", 
+    "CONVEYOR": "Conveyor Module", 
+    "EMITTER": "Emitter", 
+    "SENSOR": "Sensor", 
+    "FIELD_GEN": "Field Generator"
+    } as string[string];
+
+// LV Map Declaration
+global LVResearch as IItemStack[string] = {} as IItemStack[string];
+
+val strtier = TIER + LV;
+
+for compkey, compval in comps {
+    
+    for qualkey, qualval in qualitys {
+
+        val strtype = TYPE + compval;
+        val strqual = QUALITY + qualval;
+
+        val item = <gregtech:meta_item_1:32708>.withTag({display: {Lore: [strtier, strtype, strqual]}});
+
+        LVResearch["LV" + compkey + qualkey] = item;
+
+    }
+
+}
+

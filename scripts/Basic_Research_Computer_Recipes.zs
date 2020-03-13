@@ -4,6 +4,8 @@ import mods.modularmachinery.RecipePrimer;
 
 //mods.modularmachinery.RecipeBuilder.newBuilder(String recipeRegistryName, String associatedMachineRegistryName, int processingTickTime, int sortingPriority);
 
+/*
+
 val LVChip = <ore:circuitBasic>;
 val steelPlate = <gregtech:meta_item_1:12184>;
 
@@ -34,3 +36,5 @@ advMVResearch.setChance(0.2);
 advMVResearch.addItemOutput(MVResearch);
 advMVResearch.setChance(0.2);
 advMVResearch.build();
+
+*/

@@ -1,35 +1,46 @@
 // IMPORTS
 import crafttweaker.item.IIngredient;
 import mods.modularmachinery.RecipePrimer;
-
+import crafttweaker.item.IItemStack;
 
 // ITEM INITS
 val emptyDataStick = <gregtech:meta_item_1:32708>;
 
 
-val poorMotorDS = <gregtech:meta_item_1:32708>.withTag({ench: [], Unbreakable: 0 as byte, HideFlags: 0, display: {Lore: ["§r§7Research Tier: §9LV", "§r§7Research Type: §fMotor", "§r§7Research Quality: §fPoor"], Name: "§rData Stick"}, CanDestroy: []});
-//poorMotorDS.addTooltip(format.darkGray("Research Tier: LV\n" + format.gray("Research Type: Motor\n") + format.black("Research Quality: Poor")));
+// MOTORS
 
-val tooltiptest = mods.modularmachinery.RecipeBuilder.newBuilder("BRC_test_data", "basic_research_computer", 30, 0);
+val parts = [
+    //{
+       <minecraft:stone>
+    /*}*/, 
+    <minecraft:stone:1>, 
+    <minecraft:stone:2>, 
+    <minecraft:stone:3>, 
+    <minecraft:stone:4>
+ ] as IItemStack[];//[string];
 
-tooltiptest.addEnergyPerTickInput(128);
 
-tooltiptest.addItemInput(emptyDataStick);
-// Doesn't work, look into preventing itemstacks from being consumed
-tooltiptest.setChance(0);
-tooltiptest.addItemInput(<ore:plateCopper>);
-tooltiptest.addItemInput(<ore:plateSteel>);
+val names = ["BRC_LV_MOTOR_POOR_RESEARCH", "BRC_LV_MOTOR_FAIR_RESEARCH", "BRC_LV_MOTOR_GOOD_RESEARCH", "BRC_LV_MOTOR_GREAT_RESEARCH", "BRC_LV_MOTOR_PERFECT_RESEARCH"] as string[];
+val quals = ["POOR", "FAIR", "GOOD", "GREAT", "PERFECT"] as string[];
+val machine = "basic_research_computer";
 
-tooltiptest.addItemOutput(poorMotorDS);
-tooltiptest.build();
+var i = 0;
+for name in names {
 
-val tooltiptestm = mods.modularmachinery.RecipeBuilder.newBuilder("BRC_test_data_to_motor", "basic_research_computer", 30, 0);
+    val temp = mods.modularmachinery.RecipeBuilder.newBuilder(name, machine, 30, 1);
+    temp.addEnergyPerTickInput(128);
+    temp.addItemInput(<gregtech:meta_item_1:32708>);
+    //temp.addItemInput(parts[i]); write function?
+    temp.addItemOutput(LVResearch["LV" + "MOTOR" + quals[i]]);
+    temp.build();
+    i += 1;
 
-tooltiptestm.addEnergyPerTickInput(128);
+}
 
-tooltiptestm.addItemInput(poorMotorDS);
 
-tooltiptestm.addItemInput(<ore:plateSteel>);
+function addInputs(recipe as mods.modularmachinery.RecipeBuilder, input as IItemStack[string])
+{
 
-tooltiptestm.addItemOutput(<gregtech:meta_item_1:32600>);
-tooltiptestm.build();
+
+
+}
