@@ -81,6 +81,16 @@ minecraft:llama_spit
 minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
+advancedrocketry:mountdummy
+advancedrocketry:rocket
+advancedrocketry:lasernode
+advancedrocketry:deployedrocket
+advancedrocketry:arabducteditem
+advancedrocketry:arplanetuiitem
+advancedrocketry:arplanetuibutton
+advancedrocketry:arstaruibutton
+advancedrocketry:arspaceelevatorcapsule
+advancedrocketry:arhovercraft
 astralsorcery:entityhighlighted
 astralsorcery:entitystardust
 astralsorcery:entitycrystal

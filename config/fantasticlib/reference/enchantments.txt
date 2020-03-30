@@ -28,6 +28,7 @@ minecraft:luck_of_the_sea
 minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
+advancedrocketry:spacebreathing
 gregtech:disjunction
 astralsorcery:enchantment.as.nightvision
 astralsorcery:enchantment.as.smelting

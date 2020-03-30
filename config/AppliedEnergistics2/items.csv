@@ -1455,6 +1455,205 @@ nuclearcraft:fluid_bas, Molten Boron Arsenide
 nuclearcraft:fluid_sic_vapor, Silicon Carbide Vapor
 nuclearcraft:fluid_alugentum, Molten Alugentum
 nuclearcraft:fluid_alumina, Molten Alumina
+libvulpes:blockphantom, tile.blockPhantom.name
+libvulpes:hatch:0, Input Hatch
+libvulpes:hatch:1, Output Hatch
+libvulpes:hatch:2, Fluid Input Hatch
+libvulpes:hatch:3, Fluid Output Hatch
+libvulpes:placeholder, Machine
+libvulpes:structuremachine, Machine Structure
+libvulpes:creativepowerbattery, Creative Power Input Plug
+libvulpes:forgepowerinput, Power Input Plug
+libvulpes:forgepoweroutput, Power Output Plug
+libvulpes:coalgenerator, Coal Generator
+libvulpes:motor, Motor
+libvulpes:advancedmotor, Advanced Motor
+libvulpes:enhancedmotor, Enhanced Motor
+libvulpes:elitemotor, Elite Motor
+libvulpes:advstructuremachine, Advanced Machine Structure
+libvulpes:gtplug, Gregtech Plug
+libvulpes:productdust:0, Dilithium Dust
+libvulpes:productdust:1, Iron Dust
+libvulpes:productdust:2, Gold Dust
+libvulpes:productdust:3, Silicon Dust
+libvulpes:productdust:4, Copper Dust
+libvulpes:productdust:5, Tin Dust
+libvulpes:productdust:6, Steel Dust
+libvulpes:productdust:7, Titanium Dust
+libvulpes:productdust:9, Aluminum Dust
+libvulpes:productdust:10, Iridium Dust
+libvulpes:productingot:3, Silicon Ingot
+libvulpes:productingot:4, Copper Ingot
+libvulpes:productingot:5, Tin Ingot
+libvulpes:productingot:6, Steel Ingot
+libvulpes:productingot:7, Titanium Ingot
+libvulpes:productingot:9, Aluminum Ingot
+libvulpes:productingot:10, Iridium Ingot
+libvulpes:productgem:0, Dilithium Crystal
+libvulpes:productboule:3, Silicon Boule
+libvulpes:productnugget:3, Silicon Nugget
+libvulpes:productnugget:4, Copper Nugget
+libvulpes:productnugget:5, Tin Nugget
+libvulpes:productnugget:6, Steel Nugget
+libvulpes:productnugget:7, Titanium Nugget
+libvulpes:productnugget:9, Aluminum Nugget
+libvulpes:productnugget:10, Iridium Nugget
+libvulpes:productplate:1, Iron Plate
+libvulpes:productplate:2, Gold Plate
+libvulpes:productplate:3, Silicon Plate
+libvulpes:productplate:4, Copper Plate
+libvulpes:productplate:5, Tin Plate
+libvulpes:productplate:6, Steel Plate
+libvulpes:productplate:7, Titanium Plate
+libvulpes:productplate:9, Aluminum Plate
+libvulpes:productplate:10, Iridium Plate
+libvulpes:productrod:1, Iron Rod
+libvulpes:productrod:4, Copper Rod
+libvulpes:productrod:6, Steel Rod
+libvulpes:productrod:7, Titanium Rod
+libvulpes:productrod:10, Iridium Rod
+libvulpes:productfan:6, Steel Fan
+libvulpes:productsheet:1, Iron Sheet
+libvulpes:productsheet:4, Copper Sheet
+libvulpes:productsheet:6, Steel Sheet
+libvulpes:productsheet:7, Titanium Sheet
+libvulpes:productsheet:9, Aluminum Sheet
+libvulpes:productgear:6, Steel Gear
+libvulpes:productgear:7, Titanium Gear
+libvulpes:ore0:0, Dilithium Ore
+libvulpes:ore0:4, Copper Ore
+libvulpes:ore0:5, Tin Ore
+libvulpes:ore0:8, Rutile Ore
+libvulpes:ore0:9, Aluminum Ore
+libvulpes:ore0:10, Iridium Ore
+libvulpes:metal0:4, Copper Block
+libvulpes:metal0:5, Tin Block
+libvulpes:metal0:6, Steel Block
+libvulpes:metal0:7, Titanium Block
+libvulpes:metal0:9, Aluminum Block
+libvulpes:metal0:10, Iridium Block
+libvulpes:coil0:2, Gold Coil
+libvulpes:coil0:4, Copper Coil
+libvulpes:coil0:7, Titanium Coil
+libvulpes:coil0:9, Aluminum Coil
+libvulpes:coil0:10, Iridium Coil
+advancedrocketry:launchpad, Launch Pad
+advancedrocketry:rocketbuilder, Rocket Assembling Machine
+advancedrocketry:structuretower, Structure Tower
+advancedrocketry:seat, Seat
+advancedrocketry:rocketmotor, Liquid Fueled Engine
+advancedrocketry:advrocketmotor, Advanced Rocket Engine
+advancedrocketry:fueltank, Liquid Fuel Tank
+advancedrocketry:fuelingstation, Fueling station
+advancedrocketry:monitoringstation, Rocket Monitoring Station
+advancedrocketry:satellitebuilder, Satellite Builder
+advancedrocketry:moonturf, Moon Turf
+advancedrocketry:moonturf_dark, Dark Moon Turf
+advancedrocketry:hotturf, Oxidized Ferric Sand
+advancedrocketry:loader:0, Data Bus
+advancedrocketry:loader:1, Satellite Bay
+advancedrocketry:loader:2, Rocket Unloader
+advancedrocketry:loader:3, Rocket Loader
+advancedrocketry:loader:4, Rocket Fluid Unloader
+advancedrocketry:loader:5, Rocket Fluid Loader
+advancedrocketry:loader:6, Guidance Computer Access Hatch
+advancedrocketry:precisionassemblingmachine, Precision Assembler
+advancedrocketry:blastbrick, HeatProof Brick
+advancedrocketry:quartzcrucible, Quartz Crucible
+advancedrocketry:crystallizer, Crystallizer
+advancedrocketry:cuttingmachine, Cutting Machine
+advancedrocketry:alienwood, Wood
+advancedrocketry:alienleaves, Lightwood Leaves
+advancedrocketry:aliensapling, Lightwood Sapling
+advancedrocketry:observatory, Observatory
+advancedrocketry:blackholegenerator, Black Hole Generator
+advancedrocketry:concrete, Concrete
+advancedrocketry:planetselector, Planet Selector
+advancedrocketry:satellitecontrolcenter, Satellite Terminal
+advancedrocketry:planetanalyser, Astrobody Data Processor
+advancedrocketry:guidancecomputer, Guidance Computer
+advancedrocketry:arcfurnace, Electric Arc Furnace
+advancedrocketry:sawblade, Saw Blade Assembly
+advancedrocketry:lathe, Lathe
+advancedrocketry:rollingmachine, Rolling Machine
+advancedrocketry:platepress, Small Plate Presser
+advancedrocketry:stationbuilder, Space Station Assembler
+advancedrocketry:electrolyser, Electrolyser
+advancedrocketry:chemicalreactor, Chemical Reactor
+advancedrocketry:oxygenscrubber, CO2 Scrubber
+advancedrocketry:oxygenvent, Oxygen Vent
+advancedrocketry:oxygencharger, Gas Charge Pad
+advancedrocketry:airlock_door, tile.smallAirlockDoor.name
+advancedrocketry:landingpad, Docking Pad
+advancedrocketry:warpcore, Warp Core
+advancedrocketry:warpmonitor, Warp Controller
+advancedrocketry:oxygendetection, Atmosphere Detector
+advancedrocketry:unlittorch, Extinguished Torch
+advancedrocketry:geode, Geode Block
+advancedrocketry:oxygenfluid, Oxygen
+advancedrocketry:hydrogenfluid, Hydrogen
+advancedrocketry:rocketfuel, Rocket Fuel
+advancedrocketry:nitrogenfluid, Nitrogen
+advancedrocketry:enrichedlavafluid, Enriched Lava Block
+advancedrocketry:vitrifiedsand, Vitrified Sand
+advancedrocketry:charcoallog, Charcoal Log
+advancedrocketry:electricmushroom, Electric Mushroom
+advancedrocketry:crystal:0, Violet Crystal Block
+advancedrocketry:crystal:1, Blue Crystal Block
+advancedrocketry:crystal:2, Green Crystal Block
+advancedrocketry:crystal:3, Red Crystal Block
+advancedrocketry:crystal:4, Yellow Crystal Block
+advancedrocketry:crystal:5, Orange Crystal Block
+advancedrocketry:orientationcontroller, Orientation Controller
+advancedrocketry:gravitycontroller, Station Gravity Controller
+advancedrocketry:drill, Drill
+advancedrocketry:microwavereciever, Microwave Receiver
+advancedrocketry:lightsource, tile.lightSource.name
+advancedrocketry:solarpanel, Solar Panel
+advancedrocketry:suitworkstation, Suit Workstation
+advancedrocketry:biomescanner, Biome Scanner
+advancedrocketry:terraformer, Atmosphere Terraformer
+advancedrocketry:deployablerocketbuilder, Unmanned Vehicle Assembler
+advancedrocketry:liquidtank, Pressurized Tank
+advancedrocketry:intake, Gas Intake
+advancedrocketry:circlelight, Station Light
+advancedrocketry:solargenerator, Solar Generator
+advancedrocketry:stationmarker, Station Docking Port
+advancedrocketry:altitudecontroller, Altitude Controller
+advancedrocketry:railgun, Railgun
+advancedrocketry:astrobed, tile.astroBed.name
+advancedrocketry:planetholoselector, Holographic Planet Selector
+advancedrocketry:blocklens, Lens
+advancedrocketry:forcefield, Force Field
+advancedrocketry:forcefieldprojector, Force Field Projector
+advancedrocketry:pipesealer, Pipe Seal
+advancedrocketry:spaceelevatorcontroller, Space Elevator
+advancedrocketry:beacon, Beacon
+advancedrocketry:planks, Lightwood planks
+advancedrocketry:thermitetorch, Thermite Torch
+advancedrocketry:wirelesstransciever, Wireless Transciever
+advancedrocketry:blockpump, Fluid Pump
+advancedrocketry:centrifuge, Essentia Centrifuge
+advancedrocketry:basalt, Basalt
+advancedrocketry:landingfloat, Landing Float
+advancedrocketry:gravitymachine, Area Gravity Controller
+advancedrocketry:spacelaser, Orbital Laser Drill
+advancedrocketry:productdust:0, Titanium Aluminide Dust
+advancedrocketry:productdust:1, Titanium Iridium Alloy Dust
+advancedrocketry:productingot:0, Titanium Aluminide Ingot
+advancedrocketry:productingot:1, Titanium Iridium Alloy Ingot
+advancedrocketry:productnugget:0, Titanium Aluminide Nugget
+advancedrocketry:productnugget:1, Titanium Iridium Alloy Nugget
+advancedrocketry:productplate:0, Titanium Aluminide Plate
+advancedrocketry:productplate:1, Titanium Iridium Alloy Plate
+advancedrocketry:productrod:0, Titanium Aluminide Rod
+advancedrocketry:productrod:1, Titanium Iridium Alloy Rod
+advancedrocketry:productsheet:0, Titanium Aluminide Sheet
+advancedrocketry:productsheet:1, Titanium Iridium Alloy Sheet
+advancedrocketry:productgear:0, Titanium Aluminide Gear
+advancedrocketry:productgear:1, Titanium Iridium Alloy Gear
+advancedrocketry:metal0:0, Titanium Aluminide Block
+advancedrocketry:metal0:1, Titanium Iridium Alloy Block
 thaumcraft:ore_amber, Amber Bearing Stone
 thaumcraft:ore_cinnabar, Cinnabar Ore
 thaumcraft:ore_quartz, Quartz Ore
@@ -1646,7 +1845,104 @@ thaumcraft:placeholder_cauldron, Golem Press
 thaumcraft:placeholder_table, Golem Press
 thaumcraft:empty, Empty Space
 thaumcraft:barrier, Warding Aura
+libvulpes:linker, Linker
+libvulpes:battery:0, Small Battery
+libvulpes:battery:1, 2x Small Battery
+libvulpes:holoprojector, Holo-Projector
+advancedrocketry:iquartzcrucible, Quartz Crucible
+advancedrocketry:orescanner, Ore Scanner
+advancedrocketry:satellitepowersource:0, Basic Solar Panel
+advancedrocketry:satellitepowersource:1, Large Solar Panel
+advancedrocketry:satelliteprimaryfunction:0, Optical Sensor
+advancedrocketry:satelliteprimaryfunction:1, Composition Sensor
+advancedrocketry:satelliteprimaryfunction:2, Mass Detector
+advancedrocketry:satelliteprimaryfunction:3, Microwave Transmitter
+advancedrocketry:satelliteprimaryfunction:4, Ore Mapper
+advancedrocketry:satelliteprimaryfunction:5, Biome Changer
+advancedrocketry:itemcircuitplate:0, Basic Circuit Plate
+advancedrocketry:itemcircuitplate:1, Advanced Circuit Plate
+advancedrocketry:ic:0, Basic Circuit
+advancedrocketry:ic:1, Tracking Circuit
+advancedrocketry:ic:2, Advanced Circuit
+advancedrocketry:ic:3, Control Circuit Board
+advancedrocketry:ic:4, Item IO Circuit Board
+advancedrocketry:ic:5, Liquid IO Circuit Board
+advancedrocketry:wafer:0, Silicon Wafer
+advancedrocketry:dataunit:0, Data Storage Unit
+advancedrocketry:satellite, Satellite
+advancedrocketry:satelliteidchip, Satellite Id Chip
+advancedrocketry:planetidchip, Planet Id Chip
+advancedrocketry:misc:0, User Interface
+advancedrocketry:misc:1, Carbon Brick
+advancedrocketry:sawbladeiron:0, Iron Saw Blade
+advancedrocketry:spacestationchip:0, Space Station Id Chip
+advancedrocketry:spacestation:0, Space Station Container
+advancedrocketry:spacehelmet, Space Helmet
+advancedrocketry:spaceboots, Space Boots
+advancedrocketry:spacechestplate, Space Suit Chest-Piece
+advancedrocketry:spaceleggings, Space Suit Legging
+advancedrocketry:bucketrocketfuel, Tank of Rocket Fuel
+advancedrocketry:bucketnitrogen, Tank of Nitrogen
+advancedrocketry:buckethydrogen, Tank of Hydrogen
+advancedrocketry:bucketoxygen, Tank of Oxygen
+advancedrocketry:bucketenrichedlava, Tank of Enriched Lava
+advancedrocketry:smallairlockdoor, Small Airlock Door
+advancedrocketry:carbonscrubbercartridge, Carbon Collection Cartridge
+advancedrocketry:sealdetector, Seal Detector
+advancedrocketry:jackhammer, Jack Hammer
+advancedrocketry:asteroidchip, Asteroid Chip
+advancedrocketry:elevatorchip, Space Elevator Chip
+advancedrocketry:lens:0, Basic Lens
+advancedrocketry:jetpack, Jet Pack
+advancedrocketry:pressuretank:0, Low Pressure Tank
+advancedrocketry:pressuretank:1, Pressure Tank
+advancedrocketry:pressuretank:2, High Pressure Tank
+advancedrocketry:pressuretank:3, Super High Pressure Tank
+advancedrocketry:itemupgrade:0, Hover Upgrade
+advancedrocketry:itemupgrade:1, Flight Speed Control Upgrade
+advancedrocketry:itemupgrade:2, Bionic Leg Upgrade
+advancedrocketry:itemupgrade:3, Padded Landing Boots
+advancedrocketry:itemupgrade:4, Anti-Fog Visor
+advancedrocketry:atmanalyser, Atmosphere Analyzer
+advancedrocketry:basiclasergun, Basic Laser Gun
+advancedrocketry:beaconfinder, Beacon Finder
+advancedrocketry:thermite, Thermite
+advancedrocketry:hovercraft, HoverCraft
+advancedrocketry:biomechanger, Biome Changer Remote
 forge:bucketfilled, %s Bucket
+aim:aimwrench, Network Wrench
+aim:aimupgrade:0, Security Upgrade
+aim:aimupgrade:1, Redstone Control Upgrade
+aim:aimupgrade:2, Energy Upgrade
+aim:infoprovider, Network Information Provider
+aim:inventorymanagementmanual, Inventory Management Manual
+aim:craftingcomponent:0, Conductor Dust
+aim:craftingcomponent:1, Player Crystal
+aim:craftingcomponent:2, Reinforced Metal Plate
+aim:aimpositioncard, Position Card
+aim:aimcore, Inventory Management Core
+aim:networkcable, Network Cable
+aim:inventoryrelay, Inventory Relay
+aim:enderchestrelay, Ender Chest Relay
+aim:armorrelay, Armor Relay
+aim:slotselectionrelay, Slot Selection Relay
+aim:hungerrelay, Hunger Relay
+aim:potionrelay, Potion Relay
+aim:xprelay, Experience Relay
+aim:xprelay_liquid, Experience Relay (Liquids)
+aim:scanner, Player Scanner
+aim:energyrelay, Energy Relay
+aim:scannerbase, Scanner Base
+aim:playermonitor, Player Monitor
+aim:generator, Solid Fuel Generator
+aim:solargenerator, Solar Generator
+aim:togglecable, Toggle Cable
+aim:motioneditor, Motion Editor
+aim:hotbarselectioneditor, Hotbar Selection Editor
+aim:positioneditor, Position Editor
+aim:fluid_moltenxp, Molten XP
+aim:networksignalbridge, Network Signal Bridge
+aim:shulkerboxrelay, Shulker Box Relay
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:matrix_frame, Matrix Frame
@@ -1993,6 +2289,60 @@ appliedenergistics2:facade:0, Cable Facade - Beryllium-Carbon Neutron Reflector
 appliedenergistics2:facade:0, Cable Facade - Lead-Steel Neutron Reflector
 appliedenergistics2:facade:0, Cable Facade - Wasteland Earth
 appliedenergistics2:facade:0, Cable Facade - Tritium Lamp
+appliedenergistics2:facade:0, Cable Facade - Machine Structure
+appliedenergistics2:facade:0, Cable Facade - Motor
+appliedenergistics2:facade:0, Cable Facade - Advanced Motor
+appliedenergistics2:facade:0, Cable Facade - Enhanced Motor
+appliedenergistics2:facade:0, Cable Facade - Elite Motor
+appliedenergistics2:facade:0, Cable Facade - Advanced Machine Structure
+appliedenergistics2:facade:0, Cable Facade - Dilithium Ore
+appliedenergistics2:facade:0, Cable Facade - Copper Ore
+appliedenergistics2:facade:0, Cable Facade - Tin Ore
+appliedenergistics2:facade:0, Cable Facade - Rutile Ore
+appliedenergistics2:facade:0, Cable Facade - Aluminum Ore
+appliedenergistics2:facade:0, Cable Facade - Iridium Ore
+appliedenergistics2:facade:0, Cable Facade - Copper Block
+appliedenergistics2:facade:0, Cable Facade - Tin Block
+appliedenergistics2:facade:0, Cable Facade - Steel Block
+appliedenergistics2:facade:0, Cable Facade - Titanium Block
+appliedenergistics2:facade:0, Cable Facade - Aluminum Block
+appliedenergistics2:facade:0, Cable Facade - Iridium Block
+appliedenergistics2:facade:0, Cable Facade - Gold Coil
+appliedenergistics2:facade:0, Cable Facade - Copper Coil
+appliedenergistics2:facade:0, Cable Facade - Titanium Coil
+appliedenergistics2:facade:0, Cable Facade - Aluminum Coil
+appliedenergistics2:facade:0, Cable Facade - Iridium Coil
+appliedenergistics2:facade:0, Cable Facade - Launch Pad
+appliedenergistics2:facade:0, Cable Facade - Structure Tower
+appliedenergistics2:facade:0, Cable Facade - Liquid Fueled Engine
+appliedenergistics2:facade:0, Cable Facade - Advanced Rocket Engine
+appliedenergistics2:facade:0, Cable Facade - Liquid Fuel Tank
+appliedenergistics2:facade:0, Cable Facade - Moon Turf
+appliedenergistics2:facade:0, Cable Facade - Dark Moon Turf
+appliedenergistics2:facade:0, Cable Facade - Oxidized Ferric Sand
+appliedenergistics2:facade:0, Cable Facade - HeatProof Brick
+appliedenergistics2:facade:0, Cable Facade - Wood
+appliedenergistics2:facade:0, Cable Facade - Lightwood Leaves
+appliedenergistics2:facade:0, Cable Facade - Concrete
+appliedenergistics2:facade:0, Cable Facade - Saw Blade Assembly
+appliedenergistics2:facade:0, Cable Facade - Geode Block
+appliedenergistics2:facade:0, Cable Facade - Vitrified Sand
+appliedenergistics2:facade:0, Cable Facade - Charcoal Log
+appliedenergistics2:facade:0, Cable Facade - Violet Crystal Block
+appliedenergistics2:facade:0, Cable Facade - Blue Crystal Block
+appliedenergistics2:facade:0, Cable Facade - Green Crystal Block
+appliedenergistics2:facade:0, Cable Facade - Red Crystal Block
+appliedenergistics2:facade:0, Cable Facade - Yellow Crystal Block
+appliedenergistics2:facade:0, Cable Facade - Orange Crystal Block
+appliedenergistics2:facade:0, Cable Facade - Drill
+appliedenergistics2:facade:0, Cable Facade - Solar Panel
+appliedenergistics2:facade:0, Cable Facade - Gas Intake
+appliedenergistics2:facade:0, Cable Facade - Station Light
+appliedenergistics2:facade:0, Cable Facade - Lightwood planks
+appliedenergistics2:facade:0, Cable Facade - Basalt
+appliedenergistics2:facade:0, Cable Facade - Landing Float
+appliedenergistics2:facade:0, Cable Facade - Titanium Aluminide Block
+appliedenergistics2:facade:0, Cable Facade - Titanium Iridium Alloy Block
 appliedenergistics2:facade:0, Cable Facade - Certus Quartz Ore
 appliedenergistics2:facade:0, Cable Facade - Charged Certus Quartz Ore
 appliedenergistics2:facade:0, Cable Facade - Certus Quartz Block
@@ -2366,54 +2716,6 @@ appliedenergistics2:facade:0, Cable Facade - Mossy Dark Concrete Bricks
 appliedenergistics2:facade:0, Cable Facade - Chiseled Dark Concrete Bricks
 appliedenergistics2:facade:0, Cable Facade - Rubber Wood
 appliedenergistics2:facade:0, Cable Facade - Rubber Tree Leaves
-appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Neodymium
-appliedenergistics2:facade:0, Cable Facade - Block of Tungstencarbide
-appliedenergistics2:facade:0, Cable Facade - Block of Vanadiumsteel
-appliedenergistics2:facade:0, Cable Facade - Block of HSS-G
-appliedenergistics2:facade:0, Cable Facade - Block of HSS-E
-appliedenergistics2:facade:0, Cable Facade - Block of HSS-S
-appliedenergistics2:facade:0, Cable Facade - Block of Naquadah
-appliedenergistics2:facade:0, Cable Facade - Block of Naquadah Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Enriched Naquadah
-appliedenergistics2:facade:0, Cable Facade - Block of Naquadria
-appliedenergistics2:facade:0, Cable Facade - Block of Tritanium
-appliedenergistics2:facade:0, Cable Facade - Block of Duranium
-appliedenergistics2:facade:0, Cable Facade - Block of Borax
-appliedenergistics2:facade:0, Cable Facade - Block of Gunpowder
-appliedenergistics2:facade:0, Cable Facade - Block of Paper
-appliedenergistics2:facade:0, Cable Facade - Block of Rare Earth
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Block of Chromite
-appliedenergistics2:facade:0, Cable Facade - Block of Cinnabar
-appliedenergistics2:facade:0, Cable Facade - Block of Cobaltite
-appliedenergistics2:facade:0, Cable Facade - Block of Sheldonite
-appliedenergistics2:facade:0, Cable Facade - Block of Cupronickel
-appliedenergistics2:facade:0, Cable Facade - Block of Dark Ashes
-appliedenergistics2:facade:0, Cable Facade - Block of Electrum
-appliedenergistics2:facade:0, Cable Facade - Block of Galena
-appliedenergistics2:facade:0, Cable Facade - Block of Garnierite
-appliedenergistics2:facade:0, Cable Facade - Block of Green Sapphire
-appliedenergistics2:facade:0, Cable Facade - Block of Grossular
-appliedenergistics2:facade:0, Cable Facade - Block of Ilmenite
-appliedenergistics2:facade:0, Cable Facade - Block of Rutile
-appliedenergistics2:facade:0, Cable Facade - Block of Bauxite
-appliedenergistics2:facade:0, Cable Facade - Block of Magnesium Chloride
-appliedenergistics2:facade:0, Cable Facade - Block of Cobalt Brass
-appliedenergistics2:facade:0, Cable Facade - Block of Phosphor
-appliedenergistics2:facade:0, Cable Facade - Block of Basalt
-appliedenergistics2:facade:0, Cable Facade - Block of Andesite
-appliedenergistics2:facade:0, Cable Facade - Block of Diorite
-appliedenergistics2:facade:0, Cable Facade - Block of Red Garnet
-appliedenergistics2:facade:0, Cable Facade - Block of Yellow Garnet
-appliedenergistics2:facade:0, Cable Facade - Block of Sugar
-appliedenergistics2:facade:0, Cable Facade - Block of Vinteum
-appliedenergistics2:facade:0, Cable Facade - Block of Redrock
-appliedenergistics2:facade:0, Cable Facade - Block of Potassium Feldspar
-appliedenergistics2:facade:0, Cable Facade - Block of Biotite
-appliedenergistics2:facade:0, Cable Facade - Block of Black Granite
-appliedenergistics2:facade:0, Cable Facade - Block of Chrysotile
-appliedenergistics2:facade:0, Cable Facade - Block of Realgar
-appliedenergistics2:facade:0, Cable Facade - Block of Vanadium Magnetite
 appliedenergistics2:facade:0, Cable Facade - Block of Flint
 appliedenergistics2:facade:0, Cable Facade - Block of Diatomite
 appliedenergistics2:facade:0, Cable Facade - Block of Niter
@@ -2430,6 +2732,73 @@ appliedenergistics2:facade:0, Cable Facade - Block of Blue Steel
 appliedenergistics2:facade:0, Cable Facade - Block of Damascus Steel
 appliedenergistics2:facade:0, Cable Facade - Block of Tungstensteel
 appliedenergistics2:facade:0, Cable Facade - Block of Red Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Meat
+appliedenergistics2:facade:0, Cable Facade - Block of Polyvinyl Chloride
+appliedenergistics2:facade:0, Cable Facade - Block of Neutronium
+appliedenergistics2:facade:0, Cable Facade - Block of Cobalt Brass
+appliedenergistics2:facade:0, Cable Facade - Block of Phosphor
+appliedenergistics2:facade:0, Cable Facade - Block of Basalt
+appliedenergistics2:facade:0, Cable Facade - Block of Andesite
+appliedenergistics2:facade:0, Cable Facade - Block of Diorite
+appliedenergistics2:facade:0, Cable Facade - Block of Red Garnet
+appliedenergistics2:facade:0, Cable Facade - Block of Yellow Garnet
+appliedenergistics2:facade:0, Cable Facade - Block of Sugar
+appliedenergistics2:facade:0, Cable Facade - Block of Vinteum
+appliedenergistics2:facade:0, Cable Facade - Block of Redrock
+appliedenergistics2:facade:0, Cable Facade - Block of Potassium Feldspar
+appliedenergistics2:facade:0, Cable Facade - Block of Biotite
+appliedenergistics2:facade:0, Cable Facade - Block of Black Granite
+appliedenergistics2:facade:0, Cable Facade - Block of Chrysotile
+appliedenergistics2:facade:0, Cable Facade - Block of Realgar
+appliedenergistics2:facade:0, Cable Facade - Block of Vanadium Magnetite
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
+appliedenergistics2:facade:0, Cable Facade - Block of Chromite
+appliedenergistics2:facade:0, Cable Facade - Block of Cinnabar
+appliedenergistics2:facade:0, Cable Facade - Block of Cobaltite
+appliedenergistics2:facade:0, Cable Facade - Block of Sheldonite
+appliedenergistics2:facade:0, Cable Facade - Block of Cupronickel
+appliedenergistics2:facade:0, Cable Facade - Block of Dark Ashes
+appliedenergistics2:facade:0, Cable Facade - Block of Electrum
+appliedenergistics2:facade:0, Cable Facade - Block of Galena
+appliedenergistics2:facade:0, Cable Facade - Block of Garnierite
+appliedenergistics2:facade:0, Cable Facade - Block of Green Sapphire
+appliedenergistics2:facade:0, Cable Facade - Block of Grossular
+appliedenergistics2:facade:0, Cable Facade - Block of Ilmenite
+appliedenergistics2:facade:0, Cable Facade - Block of Rutile
+appliedenergistics2:facade:0, Cable Facade - Block of Bauxite
+appliedenergistics2:facade:0, Cable Facade - Block of Magnesium Chloride
+appliedenergistics2:facade:0, Cable Facade - Block of Darmstadtium
+appliedenergistics2:facade:0, Cable Facade - Block of Nickel
+appliedenergistics2:facade:0, Cable Facade - Block of Niobium
+appliedenergistics2:facade:0, Cable Facade - Block of Osmium
+appliedenergistics2:facade:0, Cable Facade - Block of Palladium
+appliedenergistics2:facade:0, Cable Facade - Block of Phosphorus
+appliedenergistics2:facade:0, Cable Facade - Block of Platinum
+appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 244
+appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 241
+appliedenergistics2:facade:0, Cable Facade - Block of Potassium
+appliedenergistics2:facade:0, Cable Facade - Block of Praseodymium
+appliedenergistics2:facade:0, Cable Facade - Block of Promethium
+appliedenergistics2:facade:0, Cable Facade - Block of Rubidium
+appliedenergistics2:facade:0, Cable Facade - Block of Samarium
+appliedenergistics2:facade:0, Cable Facade - Block of Scandium
+appliedenergistics2:facade:0, Cable Facade - Block of Silicon
+appliedenergistics2:facade:0, Cable Facade - Block of Polydimethylsiloxane
+appliedenergistics2:facade:0, Cable Facade - Block of Polystyrene
+appliedenergistics2:facade:0, Cable Facade - Block of Raw Styrene-Butadiene Rubber
+appliedenergistics2:facade:0, Cable Facade - Block of Styrene-Butadiene Rubber
+appliedenergistics2:facade:0, Cable Facade - Block of Potash
+appliedenergistics2:facade:0, Cable Facade - Block of Soda Ash
+appliedenergistics2:facade:0, Cable Facade - Block of Gallium Arsenide
+appliedenergistics2:facade:0, Cable Facade - Block of Polyphenylene Sulfide
+appliedenergistics2:facade:0, Cable Facade - Block of Indium Gallium Phosphide
+appliedenergistics2:facade:0, Cable Facade - Block of Platinum Group Sludge
+appliedenergistics2:facade:0, Cable Facade - Block of Ferrite Mixture
+appliedenergistics2:facade:0, Cable Facade - Block of Nickel Zinc Ferrite
+appliedenergistics2:facade:0, Cable Facade - Block of Magnesia
+appliedenergistics2:facade:0, Cable Facade - Block of Phosphorous Pentoxide
+appliedenergistics2:facade:0, Cable Facade - Block of Fiber-Reinforced Epoxy Resin
+appliedenergistics2:facade:0, Cable Facade - Block of Lignite Coke
 appliedenergistics2:facade:0, Cable Facade - Block of Nether Star
 appliedenergistics2:facade:0, Cable Facade - Block of Cocoa
 appliedenergistics2:facade:0, Cable Facade - Block of Ytterbium
@@ -2462,6 +2831,86 @@ appliedenergistics2:facade:0, Cable Facade - Block of Scheelite
 appliedenergistics2:facade:0, Cable Facade - Block of Silicon Dioxide
 appliedenergistics2:facade:0, Cable Facade - Block of Sodalite
 appliedenergistics2:facade:0, Cable Facade - Block of Sodium Sulfide
+appliedenergistics2:facade:0, Cable Facade - Block of Zinc
+appliedenergistics2:facade:0, Cable Facade - Block of Almandine
+appliedenergistics2:facade:0, Cable Facade - Block of Andradite
+appliedenergistics2:facade:0, Cable Facade - Block of Annealed Copper
+appliedenergistics2:facade:0, Cable Facade - Block of Asbestos
+appliedenergistics2:facade:0, Cable Facade - Block of Ashes
+appliedenergistics2:facade:0, Cable Facade - Block of Banded Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Battery Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Blue Topaz
+appliedenergistics2:facade:0, Cable Facade - Block of Brass
+appliedenergistics2:facade:0, Cable Facade - Block of Bronze
+appliedenergistics2:facade:0, Cable Facade - Block of Brown Limonite
+appliedenergistics2:facade:0, Cable Facade - Block of Calcite
+appliedenergistics2:facade:0, Cable Facade - Block of Cassiterite
+appliedenergistics2:facade:0, Cable Facade - Block of Cassiterite Sand
+appliedenergistics2:facade:0, Cable Facade - Block of Chalcopyrite
+appliedenergistics2:facade:0, Cable Facade - Block of Dysprosium
+appliedenergistics2:facade:0, Cable Facade - Block of Erbium
+appliedenergistics2:facade:0, Cable Facade - Block of Europium
+appliedenergistics2:facade:0, Cable Facade - Block of Gadolinium
+appliedenergistics2:facade:0, Cable Facade - Block of Gallium
+appliedenergistics2:facade:0, Cable Facade - Block of Holmium
+appliedenergistics2:facade:0, Cable Facade - Block of Indium
+appliedenergistics2:facade:0, Cable Facade - Block of Iridium
+appliedenergistics2:facade:0, Cable Facade - Block of Lanthanum
+appliedenergistics2:facade:0, Cable Facade - Block of Lead
+appliedenergistics2:facade:0, Cable Facade - Block of Lithium
+appliedenergistics2:facade:0, Cable Facade - Block of Lutetium
+appliedenergistics2:facade:0, Cable Facade - Block of Magnesium
+appliedenergistics2:facade:0, Cable Facade - Block of Manganese
+appliedenergistics2:facade:0, Cable Facade - Block of Molybdenum
+appliedenergistics2:facade:0, Cable Facade - Block of Neodymium
+appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Neodymium
+appliedenergistics2:facade:0, Cable Facade - Block of Tungstencarbide
+appliedenergistics2:facade:0, Cable Facade - Block of Vanadiumsteel
+appliedenergistics2:facade:0, Cable Facade - Block of HSS-G
+appliedenergistics2:facade:0, Cable Facade - Block of HSS-E
+appliedenergistics2:facade:0, Cable Facade - Block of HSS-S
+appliedenergistics2:facade:0, Cable Facade - Block of Naquadah
+appliedenergistics2:facade:0, Cable Facade - Block of Naquadah Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Enriched Naquadah
+appliedenergistics2:facade:0, Cable Facade - Block of Naquadria
+appliedenergistics2:facade:0, Cable Facade - Block of Tritanium
+appliedenergistics2:facade:0, Cable Facade - Block of Duranium
+appliedenergistics2:facade:0, Cable Facade - Block of Borax
+appliedenergistics2:facade:0, Cable Facade - Block of Gunpowder
+appliedenergistics2:facade:0, Cable Facade - Block of Paper
+appliedenergistics2:facade:0, Cable Facade - Block of Rare Earth
+appliedenergistics2:facade:0, Cable Facade - Block of Basaltic Mineral Sand
+appliedenergistics2:facade:0, Cable Facade - Block of Granitic Mineral Sand
+appliedenergistics2:facade:0, Cable Facade - Block of Garnet Sand
+appliedenergistics2:facade:0, Cable Facade - Block of Quartz Sand
+appliedenergistics2:facade:0, Cable Facade - Block of Bastnasite
+appliedenergistics2:facade:0, Cable Facade - Block of Pentlandite
+appliedenergistics2:facade:0, Cable Facade - Block of Spodumene
+appliedenergistics2:facade:0, Cable Facade - Block of Pollucite
+appliedenergistics2:facade:0, Cable Facade - Block of Lepidolite
+appliedenergistics2:facade:0, Cable Facade - Block of Glauconite
+appliedenergistics2:facade:0, Cable Facade - Block of Glauconite Sand
+appliedenergistics2:facade:0, Cable Facade - Block of Vermiculite
+appliedenergistics2:facade:0, Cable Facade - Block of Bentonite
+appliedenergistics2:facade:0, Cable Facade - Block of Fullers Earth
+appliedenergistics2:facade:0, Cable Facade - Block of Pitchblende
+appliedenergistics2:facade:0, Cable Facade - Block of Monazite
+appliedenergistics2:facade:0, Cable Facade - Block of Silver
+appliedenergistics2:facade:0, Cable Facade - Block of Sodium
+appliedenergistics2:facade:0, Cable Facade - Block of Strontium
+appliedenergistics2:facade:0, Cable Facade - Block of Sulfur
+appliedenergistics2:facade:0, Cable Facade - Block of Tantalum
+appliedenergistics2:facade:0, Cable Facade - Block of Tellurium
+appliedenergistics2:facade:0, Cable Facade - Block of Terbium
+appliedenergistics2:facade:0, Cable Facade - Block of Thorium
+appliedenergistics2:facade:0, Cable Facade - Block of Thulium
+appliedenergistics2:facade:0, Cable Facade - Block of Tin
+appliedenergistics2:facade:0, Cable Facade - Block of Titanium
+appliedenergistics2:facade:0, Cable Facade - Block of Tungsten
+appliedenergistics2:facade:0, Cable Facade - Block of Uranium 238
+appliedenergistics2:facade:0, Cable Facade - Block of Uranium 235
+appliedenergistics2:facade:0, Cable Facade - Block of Vanadium
+appliedenergistics2:facade:0, Cable Facade - Block of Yttrium
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminium
 appliedenergistics2:facade:0, Cable Facade - Block of Americium
 appliedenergistics2:facade:0, Cable Facade - Block of Antimony
@@ -2494,102 +2943,6 @@ appliedenergistics2:facade:0, Cable Facade - Block of Pig Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Polyethylene
 appliedenergistics2:facade:0, Cable Facade - Block of Epoxy Resin
 appliedenergistics2:facade:0, Cable Facade - Block of Polysiloxane
-appliedenergistics2:facade:0, Cable Facade - Block of Basaltic Mineral Sand
-appliedenergistics2:facade:0, Cable Facade - Block of Granitic Mineral Sand
-appliedenergistics2:facade:0, Cable Facade - Block of Garnet Sand
-appliedenergistics2:facade:0, Cable Facade - Block of Quartz Sand
-appliedenergistics2:facade:0, Cable Facade - Block of Bastnasite
-appliedenergistics2:facade:0, Cable Facade - Block of Pentlandite
-appliedenergistics2:facade:0, Cable Facade - Block of Spodumene
-appliedenergistics2:facade:0, Cable Facade - Block of Pollucite
-appliedenergistics2:facade:0, Cable Facade - Block of Lepidolite
-appliedenergistics2:facade:0, Cable Facade - Block of Glauconite
-appliedenergistics2:facade:0, Cable Facade - Block of Glauconite Sand
-appliedenergistics2:facade:0, Cable Facade - Block of Vermiculite
-appliedenergistics2:facade:0, Cable Facade - Block of Bentonite
-appliedenergistics2:facade:0, Cable Facade - Block of Fullers Earth
-appliedenergistics2:facade:0, Cable Facade - Block of Pitchblende
-appliedenergistics2:facade:0, Cable Facade - Block of Monazite
-appliedenergistics2:facade:0, Cable Facade - Block of Dysprosium
-appliedenergistics2:facade:0, Cable Facade - Block of Erbium
-appliedenergistics2:facade:0, Cable Facade - Block of Europium
-appliedenergistics2:facade:0, Cable Facade - Block of Gadolinium
-appliedenergistics2:facade:0, Cable Facade - Block of Gallium
-appliedenergistics2:facade:0, Cable Facade - Block of Holmium
-appliedenergistics2:facade:0, Cable Facade - Block of Indium
-appliedenergistics2:facade:0, Cable Facade - Block of Iridium
-appliedenergistics2:facade:0, Cable Facade - Block of Lanthanum
-appliedenergistics2:facade:0, Cable Facade - Block of Lead
-appliedenergistics2:facade:0, Cable Facade - Block of Lithium
-appliedenergistics2:facade:0, Cable Facade - Block of Lutetium
-appliedenergistics2:facade:0, Cable Facade - Block of Magnesium
-appliedenergistics2:facade:0, Cable Facade - Block of Manganese
-appliedenergistics2:facade:0, Cable Facade - Block of Molybdenum
-appliedenergistics2:facade:0, Cable Facade - Block of Neodymium
-appliedenergistics2:facade:0, Cable Facade - Block of Darmstadtium
-appliedenergistics2:facade:0, Cable Facade - Block of Nickel
-appliedenergistics2:facade:0, Cable Facade - Block of Niobium
-appliedenergistics2:facade:0, Cable Facade - Block of Osmium
-appliedenergistics2:facade:0, Cable Facade - Block of Palladium
-appliedenergistics2:facade:0, Cable Facade - Block of Phosphorus
-appliedenergistics2:facade:0, Cable Facade - Block of Platinum
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 244
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 241
-appliedenergistics2:facade:0, Cable Facade - Block of Potassium
-appliedenergistics2:facade:0, Cable Facade - Block of Praseodymium
-appliedenergistics2:facade:0, Cable Facade - Block of Promethium
-appliedenergistics2:facade:0, Cable Facade - Block of Rubidium
-appliedenergistics2:facade:0, Cable Facade - Block of Samarium
-appliedenergistics2:facade:0, Cable Facade - Block of Scandium
-appliedenergistics2:facade:0, Cable Facade - Block of Silicon
-appliedenergistics2:facade:0, Cable Facade - Block of Silver
-appliedenergistics2:facade:0, Cable Facade - Block of Sodium
-appliedenergistics2:facade:0, Cable Facade - Block of Strontium
-appliedenergistics2:facade:0, Cable Facade - Block of Sulfur
-appliedenergistics2:facade:0, Cable Facade - Block of Tantalum
-appliedenergistics2:facade:0, Cable Facade - Block of Tellurium
-appliedenergistics2:facade:0, Cable Facade - Block of Terbium
-appliedenergistics2:facade:0, Cable Facade - Block of Thorium
-appliedenergistics2:facade:0, Cable Facade - Block of Thulium
-appliedenergistics2:facade:0, Cable Facade - Block of Tin
-appliedenergistics2:facade:0, Cable Facade - Block of Titanium
-appliedenergistics2:facade:0, Cable Facade - Block of Tungsten
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium 238
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium 235
-appliedenergistics2:facade:0, Cable Facade - Block of Vanadium
-appliedenergistics2:facade:0, Cable Facade - Block of Yttrium
-appliedenergistics2:facade:0, Cable Facade - Block of Soldering Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Spessartine
-appliedenergistics2:facade:0, Cable Facade - Block of Sphalerite
-appliedenergistics2:facade:0, Cable Facade - Block of Stainless Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Stibnite
-appliedenergistics2:facade:0, Cable Facade - Block of Tanzanite
-appliedenergistics2:facade:0, Cable Facade - Block of Tetrahedrite
-appliedenergistics2:facade:0, Cable Facade - Block of Tin Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Topaz
-appliedenergistics2:facade:0, Cable Facade - Block of Tungstate
-appliedenergistics2:facade:0, Cable Facade - Block of Ultimet
-appliedenergistics2:facade:0, Cable Facade - Block of Uraninite
-appliedenergistics2:facade:0, Cable Facade - Block of Uvarovite
-appliedenergistics2:facade:0, Cable Facade - Block of Vanadium-Gallium
-appliedenergistics2:facade:0, Cable Facade - Block of Wrought Iron
-appliedenergistics2:facade:0, Cable Facade - Block of Polydimethylsiloxane
-appliedenergistics2:facade:0, Cable Facade - Block of Polystyrene
-appliedenergistics2:facade:0, Cable Facade - Block of Raw Styrene-Butadiene Rubber
-appliedenergistics2:facade:0, Cable Facade - Block of Styrene-Butadiene Rubber
-appliedenergistics2:facade:0, Cable Facade - Block of Potash
-appliedenergistics2:facade:0, Cable Facade - Block of Soda Ash
-appliedenergistics2:facade:0, Cable Facade - Block of Gallium Arsenide
-appliedenergistics2:facade:0, Cable Facade - Block of Polyphenylene Sulfide
-appliedenergistics2:facade:0, Cable Facade - Block of Indium Gallium Phosphide
-appliedenergistics2:facade:0, Cable Facade - Block of Platinum Group Sludge
-appliedenergistics2:facade:0, Cable Facade - Block of Ferrite Mixture
-appliedenergistics2:facade:0, Cable Facade - Block of Nickel Zinc Ferrite
-appliedenergistics2:facade:0, Cable Facade - Block of Magnesia
-appliedenergistics2:facade:0, Cable Facade - Block of Phosphorous Pentoxide
-appliedenergistics2:facade:0, Cable Facade - Block of Fiber-Reinforced Epoxy Resin
-appliedenergistics2:facade:0, Cable Facade - Block of Lignite Coke
 appliedenergistics2:facade:0, Cable Facade - Block of Malachite
 appliedenergistics2:facade:0, Cable Facade - Block of Mirabilite
 appliedenergistics2:facade:0, Cable Facade - Block of Mica
@@ -2606,6 +2959,22 @@ appliedenergistics2:facade:0, Cable Facade - Block of Talc
 appliedenergistics2:facade:0, Cable Facade - Block of Soapstone
 appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Soldering Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Spessartine
+appliedenergistics2:facade:0, Cable Facade - Block of Sphalerite
+appliedenergistics2:facade:0, Cable Facade - Block of Stainless Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Stibnite
+appliedenergistics2:facade:0, Cable Facade - Block of Tanzanite
+appliedenergistics2:facade:0, Cable Facade - Block of Tetrahedrite
+appliedenergistics2:facade:0, Cable Facade - Block of Tin Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Topaz
+appliedenergistics2:facade:0, Cable Facade - Block of Tungstate
+appliedenergistics2:facade:0, Cable Facade - Block of Ultimet
+appliedenergistics2:facade:0, Cable Facade - Block of Uraninite
+appliedenergistics2:facade:0, Cable Facade - Block of Uvarovite
+appliedenergistics2:facade:0, Cable Facade - Block of Vanadium-Gallium
+appliedenergistics2:facade:0, Cable Facade - Block of Wrought Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Wulfenite
 appliedenergistics2:facade:0, Cable Facade - Block of Yellow Limonite
 appliedenergistics2:facade:0, Cable Facade - Block of Yttrium Barium Cuprate
@@ -2622,105 +2991,6 @@ appliedenergistics2:facade:0, Cable Facade - Block of Opal
 appliedenergistics2:facade:0, Cable Facade - Block of Amethyst
 appliedenergistics2:facade:0, Cable Facade - Block of Enderpearl
 appliedenergistics2:facade:0, Cable Facade - Block of Endereye
-appliedenergistics2:facade:0, Cable Facade - Block of Zinc
-appliedenergistics2:facade:0, Cable Facade - Block of Almandine
-appliedenergistics2:facade:0, Cable Facade - Block of Andradite
-appliedenergistics2:facade:0, Cable Facade - Block of Annealed Copper
-appliedenergistics2:facade:0, Cable Facade - Block of Asbestos
-appliedenergistics2:facade:0, Cable Facade - Block of Ashes
-appliedenergistics2:facade:0, Cable Facade - Block of Banded Iron
-appliedenergistics2:facade:0, Cable Facade - Block of Battery Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Blue Topaz
-appliedenergistics2:facade:0, Cable Facade - Block of Brass
-appliedenergistics2:facade:0, Cable Facade - Block of Bronze
-appliedenergistics2:facade:0, Cable Facade - Block of Brown Limonite
-appliedenergistics2:facade:0, Cable Facade - Block of Calcite
-appliedenergistics2:facade:0, Cable Facade - Block of Cassiterite
-appliedenergistics2:facade:0, Cable Facade - Block of Cassiterite Sand
-appliedenergistics2:facade:0, Cable Facade - Block of Chalcopyrite
-appliedenergistics2:facade:0, Cable Facade - Block of Meat
-appliedenergistics2:facade:0, Cable Facade - Block of Polyvinyl Chloride
-appliedenergistics2:facade:0, Cable Facade - Block of Neutronium
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
 appliedenergistics2:facade:0, Cable Facade - HSS-E Frame
 appliedenergistics2:facade:0, Cable Facade - HSS-E Frame
 appliedenergistics2:facade:0, Cable Facade - HSS-E Frame
@@ -2737,22 +3007,70 @@ appliedenergistics2:facade:0, Cable Facade - HSS-E Frame
 appliedenergistics2:facade:0, Cable Facade - HSS-E Frame
 appliedenergistics2:facade:0, Cable Facade - HSS-E Frame
 appliedenergistics2:facade:0, Cable Facade - HSS-E Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
-appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Wood Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
 appliedenergistics2:facade:0, Cable Facade - Aluminium Frame
 appliedenergistics2:facade:0, Cable Facade - Aluminium Frame
 appliedenergistics2:facade:0, Cable Facade - Aluminium Frame
@@ -2785,54 +3103,6 @@ appliedenergistics2:facade:0, Cable Facade - Steel Frame
 appliedenergistics2:facade:0, Cable Facade - Steel Frame
 appliedenergistics2:facade:0, Cable Facade - Steel Frame
 appliedenergistics2:facade:0, Cable Facade - Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Iron Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame
 appliedenergistics2:facade:0, Cable Facade - Titanium Frame
 appliedenergistics2:facade:0, Cable Facade - Titanium Frame
 appliedenergistics2:facade:0, Cable Facade - Titanium Frame
@@ -2849,22 +3119,6 @@ appliedenergistics2:facade:0, Cable Facade - Titanium Frame
 appliedenergistics2:facade:0, Cable Facade - Titanium Frame
 appliedenergistics2:facade:0, Cable Facade - Titanium Frame
 appliedenergistics2:facade:0, Cable Facade - Titanium Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
-appliedenergistics2:facade:0, Cable Facade - Wood Frame
 appliedenergistics2:facade:0, Cable Facade - Bronze Frame
 appliedenergistics2:facade:0, Cable Facade - Bronze Frame
 appliedenergistics2:facade:0, Cable Facade - Bronze Frame
@@ -2881,6 +3135,102 @@ appliedenergistics2:facade:0, Cable Facade - Bronze Frame
 appliedenergistics2:facade:0, Cable Facade - Bronze Frame
 appliedenergistics2:facade:0, Cable Facade - Bronze Frame
 appliedenergistics2:facade:0, Cable Facade - Bronze Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Invar Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Iron Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
+appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Bauxite Ore
 appliedenergistics2:facade:0, Cable Facade - Lead Ore
@@ -3731,331 +4081,6 @@ thaumcraft:seal:13, Control Seal: Use
 thaumcraft:seal:14, Control Seal: Provide
 thaumcraft:seal:15, Control Seal: Stock
 thaumcraft:seal:16, Control Seal: Advanced Block Breaker
-botania:flower:0, Mystical White Flower
-botania:flower:1, Mystical Orange Flower
-botania:flower:2, Mystical Magenta Flower
-botania:flower:3, Mystical Light Blue Flower
-botania:flower:4, Mystical Yellow Flower
-botania:flower:5, Mystical Lime Flower
-botania:flower:6, Mystical Pink Flower
-botania:flower:7, Mystical Gray Flower
-botania:flower:8, Mystical Light Gray Flower
-botania:flower:9, Mystical Cyan Flower
-botania:flower:10, Mystical Purple Flower
-botania:flower:11, Mystical Blue Flower
-botania:flower:12, Mystical Brown Flower
-botania:flower:13, Mystical Green Flower
-botania:flower:14, Mystical Red Flower
-botania:flower:15, Mystical Black Flower
-botania:altar:0, Petal Apothecary
-botania:altar:1, Forest Petal Apothecary
-botania:altar:2, Plains Petal Apothecary
-botania:altar:3, Mountain Petal Apothecary
-botania:altar:4, Fungal Petal Apothecary
-botania:altar:5, Swamp Petal Apothecary
-botania:altar:6, Desert Petal Apothecary
-botania:altar:7, Taiga Petal Apothecary
-botania:altar:8, Mesa Petal Apothecary
-botania:livingrock:0, Livingrock
-botania:livingrock:1, Livingrock Brick
-botania:livingrock:2, Mossy Livingrock Brick
-botania:livingrock:3, Cracked Livingrock Brick
-botania:livingrock:4, Chiseled Livingrock Brick
-botania:livingwood:0, Livingwood
-botania:livingwood:1, Livingwood Planks
-botania:livingwood:2, Mossy Livingwood Planks
-botania:livingwood:3, Framed Livingwood
-botania:livingwood:4, Pattern Framed Livingwood
-botania:livingwood:5, Glimmering Livingwood
-botania:specialflower:0, Pure Daisy
-botania:specialflower:0, Manastar
-botania:specialflower:0, Endoflame
-botania:specialflower:0, Hydroangeas
-botania:specialflower:0, Thermalily
-botania:specialflower:0, Rosa Arcana
-botania:specialflower:0, Munchdew
-botania:specialflower:0, Entropinnyum
-botania:specialflower:0, Kekimurus
-botania:specialflower:0, Gourmaryllis
-botania:specialflower:0, Narslimmus
-botania:specialflower:0, Spectrolus
-botania:specialflower:0, Rafflowsia
-botania:specialflower:0, Shulk Me Not
-botania:specialflower:0, Dandelifeon
-botania:specialflower:0, Jaded Amaranthus
-botania:specialflower:0, Bellethorne
-botania:specialflower:0, Bellethorne Petite
-botania:specialflower:0, Dreadthorne
-botania:specialflower:0, Heisei Dream
-botania:specialflower:0, Tigerseye
-botania:specialflower:0, Marimorphosis
-botania:specialflower:0, Marimorphosis Petite
-botania:specialflower:0, Orechid
-botania:specialflower:0, Orechid Ignem
-botania:specialflower:0, Fallen Kanade
-botania:specialflower:0, Exoflame
-botania:specialflower:0, Agricarnation
-botania:specialflower:0, Agricarnation Petite
-botania:specialflower:0, Hopperhock
-botania:specialflower:0, Hopperhock Petite
-botania:specialflower:0, Rannuncarpus
-botania:specialflower:0, Rannuncarpus Petite
-botania:specialflower:0, Tangleberrie
-botania:specialflower:0, Jiyuulia
-botania:specialflower:0, Hyacidus
-botania:specialflower:0, Medumone
-botania:specialflower:0, Pollidisiac
-botania:specialflower:0, Clayconia
-botania:specialflower:0, Clayconia Petite
-botania:specialflower:0, Loonium
-botania:specialflower:0, Daffomill
-botania:specialflower:0, Vinculotus
-botania:specialflower:0, Spectranthemum
-botania:specialflower:0, Bubbell
-botania:specialflower:0, Bubbell Petite
-botania:specialflower:0, Solegnolia
-botania:specialflower:0, Solegnolia Petite
-botania:specialflower:0, Bergamute
-botania:spreader:0, Mana Spreader
-botania:spreader:1, Pulse Mana Spreader
-botania:spreader:2, Elven Mana Spreader
-botania:spreader:3, Gaia Mana Spreader
-botania:pool:0, Mana Pool
-botania:pool:2, Diluted Mana Pool
-botania:pool:3, Fabulous Mana Pool
-botania:pool:1, The Everlasting Guilty Pool
-botania:runealtar, tile.runeAltar.name
-botania:pylon:0, Mana Pylon
-botania:pylon:1, Natura Pylon
-botania:pylon:2, Gaia Pylon
-botania:pistonrelay, tile.pistonRelay.name
-botania:distributor, tile.distributor.name
-botania:manavoid, tile.manaVoid.name
-botania:manadetector, tile.manaDetector.name
-botania:enchanter, tile.enchanter.name
-botania:turntable, tile.turntable.name
-botania:tinyplanetblock, tile.tinyPlanetBlock.name
-botania:alchemycatalyst, tile.alchemyCatalyst.name
-botania:opencrate:0, Open Crate
-botania:opencrate:1, Crafty Crate
-botania:foresteye, tile.forestEye.name
-botania:storage:0, Block of Manasteel
-botania:storage:1, Block of Terrasteel
-botania:storage:2, Block of Elementium
-botania:storage:3, Block of Mana Diamond
-botania:storage:4, Block of Dragonstone
-botania:forestdrum:0, Drum of the Wild
-botania:forestdrum:1, Drum of the Gathering
-botania:forestdrum:2, Drum of the Canopy
-botania:shinyflower:0, Glimmering White Flower
-botania:shinyflower:1, Glimmering Orange Flower
-botania:shinyflower:2, Glimmering Magenta Flower
-botania:shinyflower:3, Glimmering Light Blue Flower
-botania:shinyflower:4, Glimmering Yellow Flower
-botania:shinyflower:5, Glimmering Lime Flower
-botania:shinyflower:6, Glimmering Pink Flower
-botania:shinyflower:7, Glimmering Gray Flower
-botania:shinyflower:8, Glimmering Light Gray Flower
-botania:shinyflower:9, Glimmering Cyan Flower
-botania:shinyflower:10, Glimmering Purple Flower
-botania:shinyflower:11, Glimmering Blue Flower
-botania:shinyflower:12, Glimmering Brown Flower
-botania:shinyflower:13, Glimmering Green Flower
-botania:shinyflower:14, Glimmering Red Flower
-botania:shinyflower:15, Glimmering Black Flower
-botania:platform:0, Abstruse Platform
-botania:platform:1, Spectral Platform
-botania:platform:2, Infrangible Platform
-botania:alfheimportal, tile.alfheimPortal.name
-botania:dreamwood:0, Dreamwood
-botania:dreamwood:1, Dreamwood Planks
-botania:dreamwood:2, Mossy Dreamwood Planks
-botania:dreamwood:3, Framed Dreamwood
-botania:dreamwood:4, Pattern Framed Dreamwood
-botania:dreamwood:5, Glimmering Dreamwood
-botania:conjurationcatalyst, tile.conjurationCatalyst.name
-botania:bifrost, tile.bifrost.name
-botania:miniisland:0, Floating White Flower
-botania:miniisland:1, Floating Orange Flower
-botania:miniisland:2, Floating Magenta Flower
-botania:miniisland:3, Floating Light Blue Flower
-botania:miniisland:4, Floating Yellow Flower
-botania:miniisland:5, Floating Lime Flower
-botania:miniisland:6, Floating Pink Flower
-botania:miniisland:7, Floating Gray Flower
-botania:miniisland:8, Floating Light Gray Flower
-botania:miniisland:9, Floating Cyan Flower
-botania:miniisland:10, Floating Purple Flower
-botania:miniisland:11, Floating Blue Flower
-botania:miniisland:12, Floating Brown Flower
-botania:miniisland:13, Floating Green Flower
-botania:miniisland:14, Floating Red Flower
-botania:miniisland:15, Floating Black Flower
-botania:tinypotato, tile.tinyPotato.name
-botania:spawnerclaw, tile.spawnerClaw.name
-botania:custombrick:0, Azulejo
-botania:custombrick:1, Azulejo
-botania:custombrick:2, Azulejo
-botania:custombrick:3, Azulejo
-botania:custombrick:4, Azulejo
-botania:custombrick:5, Azulejo
-botania:custombrick:6, Azulejo
-botania:custombrick:7, Azulejo
-botania:custombrick:8, Azulejo
-botania:custombrick:9, Azulejo
-botania:custombrick:10, Azulejo
-botania:custombrick:11, Azulejo
-botania:custombrick:12, Azulejo
-botania:custombrick:13, Azulejo
-botania:custombrick:14, Azulejo
-botania:custombrick:15, Azulejo
-botania:endereyeblock, tile.enderEyeBlock.name
-botania:starfield, tile.starfield.name
-botania:rfgenerator, tile.rfGenerator.name
-botania:elfglass, tile.elfGlass.name
-botania:brewery, tile.brewery.name
-botania:managlass, tile.manaGlass.name
-botania:terraplate, tile.terraPlate.name
-botania:redstringcontainer, tile.redStringContainer.name
-botania:redstringdispenser, tile.redStringDispenser.name
-botania:redstringfertilizer, tile.redStringFertilizer.name
-botania:redstringcomparator, tile.redStringComparator.name
-botania:redstringrelay, tile.redStringRelay.name
-botania:floatingspecialflower:0, Floating Pure Daisy
-botania:floatingspecialflower:0, Floating Manastar
-botania:floatingspecialflower:0, Floating Endoflame
-botania:floatingspecialflower:0, Floating Hydroangeas
-botania:floatingspecialflower:0, Floating Thermalily
-botania:floatingspecialflower:0, Floating Rosa Arcana
-botania:floatingspecialflower:0, Floating Munchdew
-botania:floatingspecialflower:0, Floating Entropinnyum
-botania:floatingspecialflower:0, Floating Kekimurus
-botania:floatingspecialflower:0, Floating Gourmaryllis
-botania:floatingspecialflower:0, Floating Narslimmus
-botania:floatingspecialflower:0, Floating Spectrolus
-botania:floatingspecialflower:0, Floating Rafflowsia
-botania:floatingspecialflower:0, Floating Shulk Me Not
-botania:floatingspecialflower:0, Floating Dandelifeon
-botania:floatingspecialflower:0, Floating Jaded Amaranthus
-botania:floatingspecialflower:0, Floating Bellethorne
-botania:floatingspecialflower:0, Floating Bellethorne Petite
-botania:floatingspecialflower:0, Floating Dreadthorne
-botania:floatingspecialflower:0, Floating Heisei Dream
-botania:floatingspecialflower:0, Floating Tigerseye
-botania:floatingspecialflower:0, Floating Marimorphosis
-botania:floatingspecialflower:0, Floating Marimorphosis Petite
-botania:floatingspecialflower:0, Floating Orechid
-botania:floatingspecialflower:0, Floating Orechid Ignem
-botania:floatingspecialflower:0, Floating Fallen Kanade
-botania:floatingspecialflower:0, Floating Exoflame
-botania:floatingspecialflower:0, Floating Agricarnation
-botania:floatingspecialflower:0, Floating Agricarnation Petite
-botania:floatingspecialflower:0, Floating Hopperhock
-botania:floatingspecialflower:0, Floating Hopperhock Petite
-botania:floatingspecialflower:0, Floating Rannuncarpus
-botania:floatingspecialflower:0, Floating Rannuncarpus Petite
-botania:floatingspecialflower:0, Floating Tangleberrie
-botania:floatingspecialflower:0, Floating Jiyuulia
-botania:floatingspecialflower:0, Floating Hyacidus
-botania:floatingspecialflower:0, Floating Medumone
-botania:floatingspecialflower:0, Floating Pollidisiac
-botania:floatingspecialflower:0, Floating Clayconia
-botania:floatingspecialflower:0, Floating Clayconia Petite
-botania:floatingspecialflower:0, Floating Loonium
-botania:floatingspecialflower:0, Floating Daffomill
-botania:floatingspecialflower:0, Floating Vinculotus
-botania:floatingspecialflower:0, Floating Spectranthemum
-botania:floatingspecialflower:0, Floating Bubbell
-botania:floatingspecialflower:0, Floating Bubbell Petite
-botania:floatingspecialflower:0, Floating Solegnolia
-botania:floatingspecialflower:0, Floating Solegnolia Petite
-botania:floatingspecialflower:0, Floating Bergamute
-botania:prism, tile.prism.name
-botania:enchantedsoil, tile.enchantedSoil.name
-botania:petalblock:0, White Petal Block
-botania:petalblock:1, Orange Petal Block
-botania:petalblock:2, Magenta Petal Block
-botania:petalblock:3, Light Blue Petal Block
-botania:petalblock:4, Yellow Petal Block
-botania:petalblock:5, Lime Petal Block
-botania:petalblock:6, Pink Petal Block
-botania:petalblock:7, Gray Petal Block
-botania:petalblock:8, Light Gray Petal Block
-botania:petalblock:9, Cyan Petal Block
-botania:petalblock:10, Purple Petal Block
-botania:petalblock:11, Blue Petal Block
-botania:petalblock:12, Brown Petal Block
-botania:petalblock:13, Green Petal Block
-botania:petalblock:14, Red Petal Block
-botania:petalblock:15, Black Petal Block
-botania:corporeaindex, tile.corporeaIndex.name
-botania:corporeafunnel, tile.corporeaFunnel.name
-botania:mushroom:0, White Shimmering Mushroom
-botania:mushroom:1, Orange Shimmering Mushroom
-botania:mushroom:2, Magenta Shimmering Mushroom
-botania:mushroom:3, Light Blue Shimmering Mushroom
-botania:mushroom:4, Yellow Shimmering Mushroom
-botania:mushroom:5, Lime Shimmering Mushroom
-botania:mushroom:6, Pink Shimmering Mushroom
-botania:mushroom:7, Gray Shimmering Mushroom
-botania:mushroom:8, Light Gray Shimmering Mushroom
-botania:mushroom:9, Cyan Shimmering Mushroom
-botania:mushroom:10, Purple Shimmering Mushroom
-botania:mushroom:11, Blue Shimmering Mushroom
-botania:mushroom:12, Brown Shimmering Mushroom
-botania:mushroom:13, Green Shimmering Mushroom
-botania:mushroom:14, Red Shimmering Mushroom
-botania:mushroom:15, Black Shimmering Mushroom
-botania:pump, tile.pump.name
-botania:doubleflower1:0, Tall Mystical White Flower
-botania:doubleflower1:1, Tall Mystical Orange Flower
-botania:doubleflower1:2, Tall Mystical Magenta Flower
-botania:doubleflower1:3, Tall Mystical Light Blue Flower
-botania:doubleflower1:4, Tall Mystical Yellow Flower
-botania:doubleflower1:5, Tall Mystical Lime Flower
-botania:doubleflower1:6, Tall Mystical Pink Flower
-botania:doubleflower1:7, Tall Mystical Gray Flower
-botania:doubleflower2:0, Tall Mystical Light Gray Flower
-botania:doubleflower2:1, Tall Mystical Cyan Flower
-botania:doubleflower2:2, Tall Mystical Purple Flower
-botania:doubleflower2:3, Tall Mystical Blue Flower
-botania:doubleflower2:4, Tall Mystical Brown Flower
-botania:doubleflower2:5, Tall Mystical Green Flower
-botania:doubleflower2:6, Tall Mystical Red Flower
-botania:doubleflower2:7, Tall Mystical Black Flower
-botania:blazeblock, tile.blazeBlock.name
-botania:corporeainterceptor, tile.corporeaInterceptor.name
-botania:corporeacrystalcube, tile.corporeaCrystalCube.name
-botania:incenseplate, tile.incensePlate.name
-botania:hourglass, tile.hourglass.name
-botania:ghostrail, tile.ghostRail.name
-botania:sparkchanger, tile.sparkChanger.name
-botania:root, tile.root.name
-botania:felpumpkin, tile.felPumpkin.name
-botania:cocoon, tile.cocoon.name
-botania:lightrelay:0, Luminizer
-botania:lightrelay:1, Detector Luminizer
-botania:lightrelay:2, Fork Luminizer
-botania:lightrelay:3, Toggle Luminizer
-botania:lightlauncher, tile.lightLauncher.name
-botania:manabomb, tile.manaBomb.name
-botania:cacophoniumblock, tile.cacophoniumBlock.name
-botania:bellows, Arcane Bellows
-botania:bifrostperm, tile.bifrostPerm.name
-botania:cellblock, tile.cellBlock.name
-botania:redstringinterceptor, tile.redStringInterceptor.name
-botania:corporearetainer, tile.corporeaRetainer.name
-botania:teruterubozu, tile.teruTeruBozu.name
-botania:shimmerrock, tile.shimmerrock.name
-botania:shimmerwoodplanks, tile.shimmerwoodPlanks.name
-botania:avatar, tile.avatar.name
-botania:altgrass:0, Dry Grass
-botania:altgrass:1, Golden Grass
-botania:altgrass:2, Vivid Grass
-botania:altgrass:3, Scorched Grass
-botania:altgrass:4, Infused Grass
-botania:altgrass:5, Mutated Grass
-botania:animatedtorch, tile.animatedTorch.name
 botania:lexicon, item.lexicon.name
 botania:petal:0, Mystical White Petal
 botania:petal:1, Mystical Orange Petal
@@ -4391,6 +4416,331 @@ botania:supercloudpendant, item.superCloudPendant.name
 botania:thirdeye, item.thirdEye.name
 botania:astrolabe, item.astrolabe.name
 botania:goddesscharm, item.goddessCharm.name
+botania:flower:0, Mystical White Flower
+botania:flower:1, Mystical Orange Flower
+botania:flower:2, Mystical Magenta Flower
+botania:flower:3, Mystical Light Blue Flower
+botania:flower:4, Mystical Yellow Flower
+botania:flower:5, Mystical Lime Flower
+botania:flower:6, Mystical Pink Flower
+botania:flower:7, Mystical Gray Flower
+botania:flower:8, Mystical Light Gray Flower
+botania:flower:9, Mystical Cyan Flower
+botania:flower:10, Mystical Purple Flower
+botania:flower:11, Mystical Blue Flower
+botania:flower:12, Mystical Brown Flower
+botania:flower:13, Mystical Green Flower
+botania:flower:14, Mystical Red Flower
+botania:flower:15, Mystical Black Flower
+botania:altar:0, Petal Apothecary
+botania:altar:1, Forest Petal Apothecary
+botania:altar:2, Plains Petal Apothecary
+botania:altar:3, Mountain Petal Apothecary
+botania:altar:4, Fungal Petal Apothecary
+botania:altar:5, Swamp Petal Apothecary
+botania:altar:6, Desert Petal Apothecary
+botania:altar:7, Taiga Petal Apothecary
+botania:altar:8, Mesa Petal Apothecary
+botania:livingrock:0, Livingrock
+botania:livingrock:1, Livingrock Brick
+botania:livingrock:2, Mossy Livingrock Brick
+botania:livingrock:3, Cracked Livingrock Brick
+botania:livingrock:4, Chiseled Livingrock Brick
+botania:livingwood:0, Livingwood
+botania:livingwood:1, Livingwood Planks
+botania:livingwood:2, Mossy Livingwood Planks
+botania:livingwood:3, Framed Livingwood
+botania:livingwood:4, Pattern Framed Livingwood
+botania:livingwood:5, Glimmering Livingwood
+botania:specialflower:0, Pure Daisy
+botania:specialflower:0, Manastar
+botania:specialflower:0, Endoflame
+botania:specialflower:0, Hydroangeas
+botania:specialflower:0, Thermalily
+botania:specialflower:0, Rosa Arcana
+botania:specialflower:0, Munchdew
+botania:specialflower:0, Entropinnyum
+botania:specialflower:0, Kekimurus
+botania:specialflower:0, Gourmaryllis
+botania:specialflower:0, Narslimmus
+botania:specialflower:0, Spectrolus
+botania:specialflower:0, Rafflowsia
+botania:specialflower:0, Shulk Me Not
+botania:specialflower:0, Dandelifeon
+botania:specialflower:0, Jaded Amaranthus
+botania:specialflower:0, Bellethorne
+botania:specialflower:0, Bellethorne Petite
+botania:specialflower:0, Dreadthorne
+botania:specialflower:0, Heisei Dream
+botania:specialflower:0, Tigerseye
+botania:specialflower:0, Marimorphosis
+botania:specialflower:0, Marimorphosis Petite
+botania:specialflower:0, Orechid
+botania:specialflower:0, Orechid Ignem
+botania:specialflower:0, Fallen Kanade
+botania:specialflower:0, Exoflame
+botania:specialflower:0, Agricarnation
+botania:specialflower:0, Agricarnation Petite
+botania:specialflower:0, Hopperhock
+botania:specialflower:0, Hopperhock Petite
+botania:specialflower:0, Rannuncarpus
+botania:specialflower:0, Rannuncarpus Petite
+botania:specialflower:0, Tangleberrie
+botania:specialflower:0, Jiyuulia
+botania:specialflower:0, Hyacidus
+botania:specialflower:0, Medumone
+botania:specialflower:0, Pollidisiac
+botania:specialflower:0, Clayconia
+botania:specialflower:0, Clayconia Petite
+botania:specialflower:0, Loonium
+botania:specialflower:0, Daffomill
+botania:specialflower:0, Vinculotus
+botania:specialflower:0, Spectranthemum
+botania:specialflower:0, Bubbell
+botania:specialflower:0, Bubbell Petite
+botania:specialflower:0, Solegnolia
+botania:specialflower:0, Solegnolia Petite
+botania:specialflower:0, Bergamute
+botania:spreader:0, Mana Spreader
+botania:spreader:1, Pulse Mana Spreader
+botania:spreader:2, Elven Mana Spreader
+botania:spreader:3, Gaia Mana Spreader
+botania:pool:0, Mana Pool
+botania:pool:2, Diluted Mana Pool
+botania:pool:3, Fabulous Mana Pool
+botania:pool:1, The Everlasting Guilty Pool
+botania:runealtar, tile.runeAltar.name
+botania:pylon:0, Mana Pylon
+botania:pylon:1, Natura Pylon
+botania:pylon:2, Gaia Pylon
+botania:pistonrelay, tile.pistonRelay.name
+botania:distributor, tile.distributor.name
+botania:manavoid, tile.manaVoid.name
+botania:manadetector, tile.manaDetector.name
+botania:enchanter, tile.enchanter.name
+botania:turntable, tile.turntable.name
+botania:tinyplanetblock, tile.tinyPlanetBlock.name
+botania:alchemycatalyst, tile.alchemyCatalyst.name
+botania:opencrate:0, Open Crate
+botania:opencrate:1, Crafty Crate
+botania:foresteye, tile.forestEye.name
+botania:storage:0, Block of Manasteel
+botania:storage:1, Block of Terrasteel
+botania:storage:2, Block of Elementium
+botania:storage:3, Block of Mana Diamond
+botania:storage:4, Block of Dragonstone
+botania:forestdrum:0, Drum of the Wild
+botania:forestdrum:1, Drum of the Gathering
+botania:forestdrum:2, Drum of the Canopy
+botania:shinyflower:0, Glimmering White Flower
+botania:shinyflower:1, Glimmering Orange Flower
+botania:shinyflower:2, Glimmering Magenta Flower
+botania:shinyflower:3, Glimmering Light Blue Flower
+botania:shinyflower:4, Glimmering Yellow Flower
+botania:shinyflower:5, Glimmering Lime Flower
+botania:shinyflower:6, Glimmering Pink Flower
+botania:shinyflower:7, Glimmering Gray Flower
+botania:shinyflower:8, Glimmering Light Gray Flower
+botania:shinyflower:9, Glimmering Cyan Flower
+botania:shinyflower:10, Glimmering Purple Flower
+botania:shinyflower:11, Glimmering Blue Flower
+botania:shinyflower:12, Glimmering Brown Flower
+botania:shinyflower:13, Glimmering Green Flower
+botania:shinyflower:14, Glimmering Red Flower
+botania:shinyflower:15, Glimmering Black Flower
+botania:platform:0, Abstruse Platform
+botania:platform:1, Spectral Platform
+botania:platform:2, Infrangible Platform
+botania:alfheimportal, tile.alfheimPortal.name
+botania:dreamwood:0, Dreamwood
+botania:dreamwood:1, Dreamwood Planks
+botania:dreamwood:2, Mossy Dreamwood Planks
+botania:dreamwood:3, Framed Dreamwood
+botania:dreamwood:4, Pattern Framed Dreamwood
+botania:dreamwood:5, Glimmering Dreamwood
+botania:conjurationcatalyst, tile.conjurationCatalyst.name
+botania:bifrost, tile.bifrost.name
+botania:miniisland:0, Floating White Flower
+botania:miniisland:1, Floating Orange Flower
+botania:miniisland:2, Floating Magenta Flower
+botania:miniisland:3, Floating Light Blue Flower
+botania:miniisland:4, Floating Yellow Flower
+botania:miniisland:5, Floating Lime Flower
+botania:miniisland:6, Floating Pink Flower
+botania:miniisland:7, Floating Gray Flower
+botania:miniisland:8, Floating Light Gray Flower
+botania:miniisland:9, Floating Cyan Flower
+botania:miniisland:10, Floating Purple Flower
+botania:miniisland:11, Floating Blue Flower
+botania:miniisland:12, Floating Brown Flower
+botania:miniisland:13, Floating Green Flower
+botania:miniisland:14, Floating Red Flower
+botania:miniisland:15, Floating Black Flower
+botania:tinypotato, tile.tinyPotato.name
+botania:spawnerclaw, tile.spawnerClaw.name
+botania:custombrick:0, Azulejo
+botania:custombrick:1, Azulejo
+botania:custombrick:2, Azulejo
+botania:custombrick:3, Azulejo
+botania:custombrick:4, Azulejo
+botania:custombrick:5, Azulejo
+botania:custombrick:6, Azulejo
+botania:custombrick:7, Azulejo
+botania:custombrick:8, Azulejo
+botania:custombrick:9, Azulejo
+botania:custombrick:10, Azulejo
+botania:custombrick:11, Azulejo
+botania:custombrick:12, Azulejo
+botania:custombrick:13, Azulejo
+botania:custombrick:14, Azulejo
+botania:custombrick:15, Azulejo
+botania:endereyeblock, tile.enderEyeBlock.name
+botania:starfield, tile.starfield.name
+botania:rfgenerator, tile.rfGenerator.name
+botania:elfglass, tile.elfGlass.name
+botania:brewery, tile.brewery.name
+botania:managlass, tile.manaGlass.name
+botania:terraplate, tile.terraPlate.name
+botania:redstringcontainer, tile.redStringContainer.name
+botania:redstringdispenser, tile.redStringDispenser.name
+botania:redstringfertilizer, tile.redStringFertilizer.name
+botania:redstringcomparator, tile.redStringComparator.name
+botania:redstringrelay, tile.redStringRelay.name
+botania:floatingspecialflower:0, Floating Pure Daisy
+botania:floatingspecialflower:0, Floating Manastar
+botania:floatingspecialflower:0, Floating Endoflame
+botania:floatingspecialflower:0, Floating Hydroangeas
+botania:floatingspecialflower:0, Floating Thermalily
+botania:floatingspecialflower:0, Floating Rosa Arcana
+botania:floatingspecialflower:0, Floating Munchdew
+botania:floatingspecialflower:0, Floating Entropinnyum
+botania:floatingspecialflower:0, Floating Kekimurus
+botania:floatingspecialflower:0, Floating Gourmaryllis
+botania:floatingspecialflower:0, Floating Narslimmus
+botania:floatingspecialflower:0, Floating Spectrolus
+botania:floatingspecialflower:0, Floating Rafflowsia
+botania:floatingspecialflower:0, Floating Shulk Me Not
+botania:floatingspecialflower:0, Floating Dandelifeon
+botania:floatingspecialflower:0, Floating Jaded Amaranthus
+botania:floatingspecialflower:0, Floating Bellethorne
+botania:floatingspecialflower:0, Floating Bellethorne Petite
+botania:floatingspecialflower:0, Floating Dreadthorne
+botania:floatingspecialflower:0, Floating Heisei Dream
+botania:floatingspecialflower:0, Floating Tigerseye
+botania:floatingspecialflower:0, Floating Marimorphosis
+botania:floatingspecialflower:0, Floating Marimorphosis Petite
+botania:floatingspecialflower:0, Floating Orechid
+botania:floatingspecialflower:0, Floating Orechid Ignem
+botania:floatingspecialflower:0, Floating Fallen Kanade
+botania:floatingspecialflower:0, Floating Exoflame
+botania:floatingspecialflower:0, Floating Agricarnation
+botania:floatingspecialflower:0, Floating Agricarnation Petite
+botania:floatingspecialflower:0, Floating Hopperhock
+botania:floatingspecialflower:0, Floating Hopperhock Petite
+botania:floatingspecialflower:0, Floating Rannuncarpus
+botania:floatingspecialflower:0, Floating Rannuncarpus Petite
+botania:floatingspecialflower:0, Floating Tangleberrie
+botania:floatingspecialflower:0, Floating Jiyuulia
+botania:floatingspecialflower:0, Floating Hyacidus
+botania:floatingspecialflower:0, Floating Medumone
+botania:floatingspecialflower:0, Floating Pollidisiac
+botania:floatingspecialflower:0, Floating Clayconia
+botania:floatingspecialflower:0, Floating Clayconia Petite
+botania:floatingspecialflower:0, Floating Loonium
+botania:floatingspecialflower:0, Floating Daffomill
+botania:floatingspecialflower:0, Floating Vinculotus
+botania:floatingspecialflower:0, Floating Spectranthemum
+botania:floatingspecialflower:0, Floating Bubbell
+botania:floatingspecialflower:0, Floating Bubbell Petite
+botania:floatingspecialflower:0, Floating Solegnolia
+botania:floatingspecialflower:0, Floating Solegnolia Petite
+botania:floatingspecialflower:0, Floating Bergamute
+botania:prism, tile.prism.name
+botania:enchantedsoil, tile.enchantedSoil.name
+botania:petalblock:0, White Petal Block
+botania:petalblock:1, Orange Petal Block
+botania:petalblock:2, Magenta Petal Block
+botania:petalblock:3, Light Blue Petal Block
+botania:petalblock:4, Yellow Petal Block
+botania:petalblock:5, Lime Petal Block
+botania:petalblock:6, Pink Petal Block
+botania:petalblock:7, Gray Petal Block
+botania:petalblock:8, Light Gray Petal Block
+botania:petalblock:9, Cyan Petal Block
+botania:petalblock:10, Purple Petal Block
+botania:petalblock:11, Blue Petal Block
+botania:petalblock:12, Brown Petal Block
+botania:petalblock:13, Green Petal Block
+botania:petalblock:14, Red Petal Block
+botania:petalblock:15, Black Petal Block
+botania:corporeaindex, tile.corporeaIndex.name
+botania:corporeafunnel, tile.corporeaFunnel.name
+botania:mushroom:0, White Shimmering Mushroom
+botania:mushroom:1, Orange Shimmering Mushroom
+botania:mushroom:2, Magenta Shimmering Mushroom
+botania:mushroom:3, Light Blue Shimmering Mushroom
+botania:mushroom:4, Yellow Shimmering Mushroom
+botania:mushroom:5, Lime Shimmering Mushroom
+botania:mushroom:6, Pink Shimmering Mushroom
+botania:mushroom:7, Gray Shimmering Mushroom
+botania:mushroom:8, Light Gray Shimmering Mushroom
+botania:mushroom:9, Cyan Shimmering Mushroom
+botania:mushroom:10, Purple Shimmering Mushroom
+botania:mushroom:11, Blue Shimmering Mushroom
+botania:mushroom:12, Brown Shimmering Mushroom
+botania:mushroom:13, Green Shimmering Mushroom
+botania:mushroom:14, Red Shimmering Mushroom
+botania:mushroom:15, Black Shimmering Mushroom
+botania:pump, Fluid Pump
+botania:doubleflower1:0, Tall Mystical White Flower
+botania:doubleflower1:1, Tall Mystical Orange Flower
+botania:doubleflower1:2, Tall Mystical Magenta Flower
+botania:doubleflower1:3, Tall Mystical Light Blue Flower
+botania:doubleflower1:4, Tall Mystical Yellow Flower
+botania:doubleflower1:5, Tall Mystical Lime Flower
+botania:doubleflower1:6, Tall Mystical Pink Flower
+botania:doubleflower1:7, Tall Mystical Gray Flower
+botania:doubleflower2:0, Tall Mystical Light Gray Flower
+botania:doubleflower2:1, Tall Mystical Cyan Flower
+botania:doubleflower2:2, Tall Mystical Purple Flower
+botania:doubleflower2:3, Tall Mystical Blue Flower
+botania:doubleflower2:4, Tall Mystical Brown Flower
+botania:doubleflower2:5, Tall Mystical Green Flower
+botania:doubleflower2:6, Tall Mystical Red Flower
+botania:doubleflower2:7, Tall Mystical Black Flower
+botania:blazeblock, tile.blazeBlock.name
+botania:corporeainterceptor, tile.corporeaInterceptor.name
+botania:corporeacrystalcube, tile.corporeaCrystalCube.name
+botania:incenseplate, tile.incensePlate.name
+botania:hourglass, tile.hourglass.name
+botania:ghostrail, tile.ghostRail.name
+botania:sparkchanger, tile.sparkChanger.name
+botania:root, tile.root.name
+botania:felpumpkin, tile.felPumpkin.name
+botania:cocoon, tile.cocoon.name
+botania:lightrelay:0, Luminizer
+botania:lightrelay:1, Detector Luminizer
+botania:lightrelay:2, Fork Luminizer
+botania:lightrelay:3, Toggle Luminizer
+botania:lightlauncher, tile.lightLauncher.name
+botania:manabomb, tile.manaBomb.name
+botania:cacophoniumblock, tile.cacophoniumBlock.name
+botania:bellows, Arcane Bellows
+botania:bifrostperm, tile.bifrostPerm.name
+botania:cellblock, tile.cellBlock.name
+botania:redstringinterceptor, tile.redStringInterceptor.name
+botania:corporearetainer, tile.corporeaRetainer.name
+botania:teruterubozu, tile.teruTeruBozu.name
+botania:shimmerrock, tile.shimmerrock.name
+botania:shimmerwoodplanks, tile.shimmerwoodPlanks.name
+botania:avatar, tile.avatar.name
+botania:altgrass:0, Dry Grass
+botania:altgrass:1, Golden Grass
+botania:altgrass:2, Vivid Grass
+botania:altgrass:3, Scorched Grass
+botania:altgrass:4, Infused Grass
+botania:altgrass:5, Mutated Grass
+botania:animatedtorch, tile.animatedTorch.name
 botania:livingwood0stairs, tile.livingwood0Stairs.name
 botania:livingwood0slab:0, Livingwood Slab
 botania:livingwood0wall, tile.livingwood0Wall.name
@@ -5642,54 +5992,6 @@ gregtech:log:0, Rubber Wood
 gregtech:leaves:0, Rubber Tree Leaves
 gregtech:sapling:0, Rubber Tree Sapling
 gregtech:crusher_blade, Crusher Blade
-gregtech:compressed_14:0, Block of Magnetic Neodymium
-gregtech:compressed_14:1, Block of Tungstencarbide
-gregtech:compressed_14:2, Block of Vanadiumsteel
-gregtech:compressed_14:3, Block of HSS-G
-gregtech:compressed_14:4, Block of HSS-E
-gregtech:compressed_14:5, Block of HSS-S
-gregtech:compressed_14:6, Block of Naquadah
-gregtech:compressed_14:7, Block of Naquadah Alloy
-gregtech:compressed_14:8, Block of Enriched Naquadah
-gregtech:compressed_14:9, Block of Naquadria
-gregtech:compressed_14:10, Block of Tritanium
-gregtech:compressed_14:11, Block of Duranium
-gregtech:compressed_14:12, Block of Borax
-gregtech:compressed_14:13, Block of Gunpowder
-gregtech:compressed_14:14, Block of Paper
-gregtech:compressed_14:15, Block of Rare Earth
-gregtech:compressed_5:0, Block of Charcoal
-gregtech:compressed_5:1, Block of Chromite
-gregtech:compressed_5:2, Block of Cinnabar
-gregtech:compressed_5:3, Block of Cobaltite
-gregtech:compressed_5:4, Block of Sheldonite
-gregtech:compressed_5:5, Block of Cupronickel
-gregtech:compressed_5:6, Block of Dark Ashes
-gregtech:compressed_5:7, Block of Electrum
-gregtech:compressed_5:8, Block of Galena
-gregtech:compressed_5:9, Block of Garnierite
-gregtech:compressed_5:10, Block of Green Sapphire
-gregtech:compressed_5:11, Block of Grossular
-gregtech:compressed_5:12, Block of Ilmenite
-gregtech:compressed_5:13, Block of Rutile
-gregtech:compressed_5:14, Block of Bauxite
-gregtech:compressed_5:15, Block of Magnesium Chloride
-gregtech:compressed_11:0, Block of Cobalt Brass
-gregtech:compressed_11:1, Block of Phosphor
-gregtech:compressed_11:2, Block of Basalt
-gregtech:compressed_11:3, Block of Andesite
-gregtech:compressed_11:4, Block of Diorite
-gregtech:compressed_11:5, Block of Red Garnet
-gregtech:compressed_11:6, Block of Yellow Garnet
-gregtech:compressed_11:7, Block of Sugar
-gregtech:compressed_11:8, Block of Vinteum
-gregtech:compressed_11:9, Block of Redrock
-gregtech:compressed_11:10, Block of Potassium Feldspar
-gregtech:compressed_11:11, Block of Biotite
-gregtech:compressed_11:12, Block of Black Granite
-gregtech:compressed_11:13, Block of Chrysotile
-gregtech:compressed_11:14, Block of Realgar
-gregtech:compressed_11:15, Block of Vanadium Magnetite
 gregtech:compressed_10:0, Block of Flint
 gregtech:compressed_10:1, Block of Diatomite
 gregtech:compressed_10:2, Block of Niter
@@ -5706,6 +6008,73 @@ gregtech:compressed_10:12, Block of Blue Steel
 gregtech:compressed_10:13, Block of Damascus Steel
 gregtech:compressed_10:14, Block of Tungstensteel
 gregtech:compressed_10:15, Block of Red Alloy
+gregtech:compressed_17:0, Block of Meat
+gregtech:compressed_17:1, Block of Polyvinyl Chloride
+gregtech:compressed_17:2, Block of Neutronium
+gregtech:compressed_11:0, Block of Cobalt Brass
+gregtech:compressed_11:1, Block of Phosphor
+gregtech:compressed_11:2, Block of Basalt
+gregtech:compressed_11:3, Block of Andesite
+gregtech:compressed_11:4, Block of Diorite
+gregtech:compressed_11:5, Block of Red Garnet
+gregtech:compressed_11:6, Block of Yellow Garnet
+gregtech:compressed_11:7, Block of Sugar
+gregtech:compressed_11:8, Block of Vinteum
+gregtech:compressed_11:9, Block of Redrock
+gregtech:compressed_11:10, Block of Potassium Feldspar
+gregtech:compressed_11:11, Block of Biotite
+gregtech:compressed_11:12, Block of Black Granite
+gregtech:compressed_11:13, Block of Chrysotile
+gregtech:compressed_11:14, Block of Realgar
+gregtech:compressed_11:15, Block of Vanadium Magnetite
+gregtech:compressed_5:0, Block of Charcoal
+gregtech:compressed_5:1, Block of Chromite
+gregtech:compressed_5:2, Block of Cinnabar
+gregtech:compressed_5:3, Block of Cobaltite
+gregtech:compressed_5:4, Block of Sheldonite
+gregtech:compressed_5:5, Block of Cupronickel
+gregtech:compressed_5:6, Block of Dark Ashes
+gregtech:compressed_5:7, Block of Electrum
+gregtech:compressed_5:8, Block of Galena
+gregtech:compressed_5:9, Block of Garnierite
+gregtech:compressed_5:10, Block of Green Sapphire
+gregtech:compressed_5:11, Block of Grossular
+gregtech:compressed_5:12, Block of Ilmenite
+gregtech:compressed_5:13, Block of Rutile
+gregtech:compressed_5:14, Block of Bauxite
+gregtech:compressed_5:15, Block of Magnesium Chloride
+gregtech:compressed_2:0, Block of Darmstadtium
+gregtech:compressed_2:1, Block of Nickel
+gregtech:compressed_2:2, Block of Niobium
+gregtech:compressed_2:3, Block of Osmium
+gregtech:compressed_2:4, Block of Palladium
+gregtech:compressed_2:5, Block of Phosphorus
+gregtech:compressed_2:6, Block of Platinum
+gregtech:compressed_2:7, Block of Plutonium 244
+gregtech:compressed_2:8, Block of Plutonium 241
+gregtech:compressed_2:9, Block of Potassium
+gregtech:compressed_2:10, Block of Praseodymium
+gregtech:compressed_2:11, Block of Promethium
+gregtech:compressed_2:12, Block of Rubidium
+gregtech:compressed_2:13, Block of Samarium
+gregtech:compressed_2:14, Block of Scandium
+gregtech:compressed_2:15, Block of Silicon
+gregtech:compressed_16:0, Block of Polydimethylsiloxane
+gregtech:compressed_16:1, Block of Polystyrene
+gregtech:compressed_16:2, Block of Raw Styrene-Butadiene Rubber
+gregtech:compressed_16:3, Block of Styrene-Butadiene Rubber
+gregtech:compressed_16:4, Block of Potash
+gregtech:compressed_16:5, Block of Soda Ash
+gregtech:compressed_16:6, Block of Gallium Arsenide
+gregtech:compressed_16:7, Block of Polyphenylene Sulfide
+gregtech:compressed_16:8, Block of Indium Gallium Phosphide
+gregtech:compressed_16:9, Block of Platinum Group Sludge
+gregtech:compressed_16:10, Block of Ferrite Mixture
+gregtech:compressed_16:11, Block of Nickel Zinc Ferrite
+gregtech:compressed_16:12, Block of Magnesia
+gregtech:compressed_16:13, Block of Phosphorous Pentoxide
+gregtech:compressed_16:14, Block of Fiber-Reinforced Epoxy Resin
+gregtech:compressed_16:15, Block of Lignite Coke
 gregtech:compressed_15:0, Block of Nether Star
 gregtech:compressed_15:1, Block of Cocoa
 gregtech:compressed_15:2, Block of Ytterbium
@@ -5738,6 +6107,86 @@ gregtech:compressed_7:12, Block of Scheelite
 gregtech:compressed_7:13, Block of Silicon Dioxide
 gregtech:compressed_7:14, Block of Sodalite
 gregtech:compressed_7:15, Block of Sodium Sulfide
+gregtech:compressed_4:0, Block of Zinc
+gregtech:compressed_4:1, Block of Almandine
+gregtech:compressed_4:2, Block of Andradite
+gregtech:compressed_4:3, Block of Annealed Copper
+gregtech:compressed_4:4, Block of Asbestos
+gregtech:compressed_4:5, Block of Ashes
+gregtech:compressed_4:6, Block of Banded Iron
+gregtech:compressed_4:7, Block of Battery Alloy
+gregtech:compressed_4:8, Block of Blue Topaz
+gregtech:compressed_4:9, Block of Brass
+gregtech:compressed_4:10, Block of Bronze
+gregtech:compressed_4:11, Block of Brown Limonite
+gregtech:compressed_4:12, Block of Calcite
+gregtech:compressed_4:13, Block of Cassiterite
+gregtech:compressed_4:14, Block of Cassiterite Sand
+gregtech:compressed_4:15, Block of Chalcopyrite
+gregtech:compressed_1:0, Block of Dysprosium
+gregtech:compressed_1:1, Block of Erbium
+gregtech:compressed_1:2, Block of Europium
+gregtech:compressed_1:3, Block of Gadolinium
+gregtech:compressed_1:4, Block of Gallium
+gregtech:compressed_1:5, Block of Holmium
+gregtech:compressed_1:6, Block of Indium
+gregtech:compressed_1:7, Block of Iridium
+gregtech:compressed_1:8, Block of Lanthanum
+gregtech:compressed_1:9, Block of Lead
+gregtech:compressed_1:10, Block of Lithium
+gregtech:compressed_1:11, Block of Lutetium
+gregtech:compressed_1:12, Block of Magnesium
+gregtech:compressed_1:13, Block of Manganese
+gregtech:compressed_1:14, Block of Molybdenum
+gregtech:compressed_1:15, Block of Neodymium
+gregtech:compressed_14:0, Block of Magnetic Neodymium
+gregtech:compressed_14:1, Block of Tungstencarbide
+gregtech:compressed_14:2, Block of Vanadiumsteel
+gregtech:compressed_14:3, Block of HSS-G
+gregtech:compressed_14:4, Block of HSS-E
+gregtech:compressed_14:5, Block of HSS-S
+gregtech:compressed_14:6, Block of Naquadah
+gregtech:compressed_14:7, Block of Naquadah Alloy
+gregtech:compressed_14:8, Block of Enriched Naquadah
+gregtech:compressed_14:9, Block of Naquadria
+gregtech:compressed_14:10, Block of Tritanium
+gregtech:compressed_14:11, Block of Duranium
+gregtech:compressed_14:12, Block of Borax
+gregtech:compressed_14:13, Block of Gunpowder
+gregtech:compressed_14:14, Block of Paper
+gregtech:compressed_14:15, Block of Rare Earth
+gregtech:compressed_12:0, Block of Basaltic Mineral Sand
+gregtech:compressed_12:1, Block of Granitic Mineral Sand
+gregtech:compressed_12:2, Block of Garnet Sand
+gregtech:compressed_12:3, Block of Quartz Sand
+gregtech:compressed_12:4, Block of Bastnasite
+gregtech:compressed_12:5, Block of Pentlandite
+gregtech:compressed_12:6, Block of Spodumene
+gregtech:compressed_12:7, Block of Pollucite
+gregtech:compressed_12:8, Block of Lepidolite
+gregtech:compressed_12:9, Block of Glauconite
+gregtech:compressed_12:10, Block of Glauconite Sand
+gregtech:compressed_12:11, Block of Vermiculite
+gregtech:compressed_12:12, Block of Bentonite
+gregtech:compressed_12:13, Block of Fullers Earth
+gregtech:compressed_12:14, Block of Pitchblende
+gregtech:compressed_12:15, Block of Monazite
+gregtech:compressed_3:0, Block of Silver
+gregtech:compressed_3:1, Block of Sodium
+gregtech:compressed_3:2, Block of Strontium
+gregtech:compressed_3:3, Block of Sulfur
+gregtech:compressed_3:4, Block of Tantalum
+gregtech:compressed_3:5, Block of Tellurium
+gregtech:compressed_3:6, Block of Terbium
+gregtech:compressed_3:7, Block of Thorium
+gregtech:compressed_3:8, Block of Thulium
+gregtech:compressed_3:9, Block of Tin
+gregtech:compressed_3:10, Block of Titanium
+gregtech:compressed_3:11, Block of Tungsten
+gregtech:compressed_3:12, Block of Uranium 238
+gregtech:compressed_3:13, Block of Uranium 235
+gregtech:compressed_3:14, Block of Vanadium
+gregtech:compressed_3:15, Block of Yttrium
 gregtech:compressed_0:0, Block of Aluminium
 gregtech:compressed_0:1, Block of Americium
 gregtech:compressed_0:2, Block of Antimony
@@ -5770,102 +6219,6 @@ gregtech:compressed_6:12, Block of Pig Iron
 gregtech:compressed_6:13, Block of Polyethylene
 gregtech:compressed_6:14, Block of Epoxy Resin
 gregtech:compressed_6:15, Block of Polysiloxane
-gregtech:compressed_12:0, Block of Basaltic Mineral Sand
-gregtech:compressed_12:1, Block of Granitic Mineral Sand
-gregtech:compressed_12:2, Block of Garnet Sand
-gregtech:compressed_12:3, Block of Quartz Sand
-gregtech:compressed_12:4, Block of Bastnasite
-gregtech:compressed_12:5, Block of Pentlandite
-gregtech:compressed_12:6, Block of Spodumene
-gregtech:compressed_12:7, Block of Pollucite
-gregtech:compressed_12:8, Block of Lepidolite
-gregtech:compressed_12:9, Block of Glauconite
-gregtech:compressed_12:10, Block of Glauconite Sand
-gregtech:compressed_12:11, Block of Vermiculite
-gregtech:compressed_12:12, Block of Bentonite
-gregtech:compressed_12:13, Block of Fullers Earth
-gregtech:compressed_12:14, Block of Pitchblende
-gregtech:compressed_12:15, Block of Monazite
-gregtech:compressed_1:0, Block of Dysprosium
-gregtech:compressed_1:1, Block of Erbium
-gregtech:compressed_1:2, Block of Europium
-gregtech:compressed_1:3, Block of Gadolinium
-gregtech:compressed_1:4, Block of Gallium
-gregtech:compressed_1:5, Block of Holmium
-gregtech:compressed_1:6, Block of Indium
-gregtech:compressed_1:7, Block of Iridium
-gregtech:compressed_1:8, Block of Lanthanum
-gregtech:compressed_1:9, Block of Lead
-gregtech:compressed_1:10, Block of Lithium
-gregtech:compressed_1:11, Block of Lutetium
-gregtech:compressed_1:12, Block of Magnesium
-gregtech:compressed_1:13, Block of Manganese
-gregtech:compressed_1:14, Block of Molybdenum
-gregtech:compressed_1:15, Block of Neodymium
-gregtech:compressed_2:0, Block of Darmstadtium
-gregtech:compressed_2:1, Block of Nickel
-gregtech:compressed_2:2, Block of Niobium
-gregtech:compressed_2:3, Block of Osmium
-gregtech:compressed_2:4, Block of Palladium
-gregtech:compressed_2:5, Block of Phosphorus
-gregtech:compressed_2:6, Block of Platinum
-gregtech:compressed_2:7, Block of Plutonium 244
-gregtech:compressed_2:8, Block of Plutonium 241
-gregtech:compressed_2:9, Block of Potassium
-gregtech:compressed_2:10, Block of Praseodymium
-gregtech:compressed_2:11, Block of Promethium
-gregtech:compressed_2:12, Block of Rubidium
-gregtech:compressed_2:13, Block of Samarium
-gregtech:compressed_2:14, Block of Scandium
-gregtech:compressed_2:15, Block of Silicon
-gregtech:compressed_3:0, Block of Silver
-gregtech:compressed_3:1, Block of Sodium
-gregtech:compressed_3:2, Block of Strontium
-gregtech:compressed_3:3, Block of Sulfur
-gregtech:compressed_3:4, Block of Tantalum
-gregtech:compressed_3:5, Block of Tellurium
-gregtech:compressed_3:6, Block of Terbium
-gregtech:compressed_3:7, Block of Thorium
-gregtech:compressed_3:8, Block of Thulium
-gregtech:compressed_3:9, Block of Tin
-gregtech:compressed_3:10, Block of Titanium
-gregtech:compressed_3:11, Block of Tungsten
-gregtech:compressed_3:12, Block of Uranium 238
-gregtech:compressed_3:13, Block of Uranium 235
-gregtech:compressed_3:14, Block of Vanadium
-gregtech:compressed_3:15, Block of Yttrium
-gregtech:compressed_8:0, Block of Soldering Alloy
-gregtech:compressed_8:1, Block of Spessartine
-gregtech:compressed_8:2, Block of Sphalerite
-gregtech:compressed_8:3, Block of Stainless Steel
-gregtech:compressed_8:4, Block of Steel
-gregtech:compressed_8:5, Block of Stibnite
-gregtech:compressed_8:6, Block of Tanzanite
-gregtech:compressed_8:7, Block of Tetrahedrite
-gregtech:compressed_8:8, Block of Tin Alloy
-gregtech:compressed_8:9, Block of Topaz
-gregtech:compressed_8:10, Block of Tungstate
-gregtech:compressed_8:11, Block of Ultimet
-gregtech:compressed_8:12, Block of Uraninite
-gregtech:compressed_8:13, Block of Uvarovite
-gregtech:compressed_8:14, Block of Vanadium-Gallium
-gregtech:compressed_8:15, Block of Wrought Iron
-gregtech:compressed_16:0, Block of Polydimethylsiloxane
-gregtech:compressed_16:1, Block of Polystyrene
-gregtech:compressed_16:2, Block of Raw Styrene-Butadiene Rubber
-gregtech:compressed_16:3, Block of Styrene-Butadiene Rubber
-gregtech:compressed_16:4, Block of Potash
-gregtech:compressed_16:5, Block of Soda Ash
-gregtech:compressed_16:6, Block of Gallium Arsenide
-gregtech:compressed_16:7, Block of Polyphenylene Sulfide
-gregtech:compressed_16:8, Block of Indium Gallium Phosphide
-gregtech:compressed_16:9, Block of Platinum Group Sludge
-gregtech:compressed_16:10, Block of Ferrite Mixture
-gregtech:compressed_16:11, Block of Nickel Zinc Ferrite
-gregtech:compressed_16:12, Block of Magnesia
-gregtech:compressed_16:13, Block of Phosphorous Pentoxide
-gregtech:compressed_16:14, Block of Fiber-Reinforced Epoxy Resin
-gregtech:compressed_16:15, Block of Lignite Coke
 gregtech:compressed_13:0, Block of Malachite
 gregtech:compressed_13:1, Block of Mirabilite
 gregtech:compressed_13:2, Block of Mica
@@ -5882,6 +6235,22 @@ gregtech:compressed_13:12, Block of Talc
 gregtech:compressed_13:13, Block of Soapstone
 gregtech:compressed_13:14, Block of Magnetic Iron
 gregtech:compressed_13:15, Block of Magnetic Steel
+gregtech:compressed_8:0, Block of Soldering Alloy
+gregtech:compressed_8:1, Block of Spessartine
+gregtech:compressed_8:2, Block of Sphalerite
+gregtech:compressed_8:3, Block of Stainless Steel
+gregtech:compressed_8:4, Block of Steel
+gregtech:compressed_8:5, Block of Stibnite
+gregtech:compressed_8:6, Block of Tanzanite
+gregtech:compressed_8:7, Block of Tetrahedrite
+gregtech:compressed_8:8, Block of Tin Alloy
+gregtech:compressed_8:9, Block of Topaz
+gregtech:compressed_8:10, Block of Tungstate
+gregtech:compressed_8:11, Block of Ultimet
+gregtech:compressed_8:12, Block of Uraninite
+gregtech:compressed_8:13, Block of Uvarovite
+gregtech:compressed_8:14, Block of Vanadium-Gallium
+gregtech:compressed_8:15, Block of Wrought Iron
 gregtech:compressed_9:0, Block of Wulfenite
 gregtech:compressed_9:1, Block of Yellow Limonite
 gregtech:compressed_9:2, Block of Yttrium Barium Cuprate
@@ -5898,105 +6267,6 @@ gregtech:compressed_9:12, Block of Opal
 gregtech:compressed_9:13, Block of Amethyst
 gregtech:compressed_9:14, Block of Enderpearl
 gregtech:compressed_9:15, Block of Endereye
-gregtech:compressed_4:0, Block of Zinc
-gregtech:compressed_4:1, Block of Almandine
-gregtech:compressed_4:2, Block of Andradite
-gregtech:compressed_4:3, Block of Annealed Copper
-gregtech:compressed_4:4, Block of Asbestos
-gregtech:compressed_4:5, Block of Ashes
-gregtech:compressed_4:6, Block of Banded Iron
-gregtech:compressed_4:7, Block of Battery Alloy
-gregtech:compressed_4:8, Block of Blue Topaz
-gregtech:compressed_4:9, Block of Brass
-gregtech:compressed_4:10, Block of Bronze
-gregtech:compressed_4:11, Block of Brown Limonite
-gregtech:compressed_4:12, Block of Calcite
-gregtech:compressed_4:13, Block of Cassiterite
-gregtech:compressed_4:14, Block of Cassiterite Sand
-gregtech:compressed_4:15, Block of Chalcopyrite
-gregtech:compressed_17:0, Block of Meat
-gregtech:compressed_17:1, Block of Polyvinyl Chloride
-gregtech:compressed_17:2, Block of Neutronium
-gregtech:frame_tritanium:0, Tritanium Frame
-gregtech:frame_tritanium:1, Tritanium Frame
-gregtech:frame_tritanium:2, Tritanium Frame
-gregtech:frame_tritanium:3, Tritanium Frame
-gregtech:frame_tritanium:4, Tritanium Frame
-gregtech:frame_tritanium:5, Tritanium Frame
-gregtech:frame_tritanium:6, Tritanium Frame
-gregtech:frame_tritanium:7, Tritanium Frame
-gregtech:frame_tritanium:8, Tritanium Frame
-gregtech:frame_tritanium:9, Tritanium Frame
-gregtech:frame_tritanium:10, Tritanium Frame
-gregtech:frame_tritanium:11, Tritanium Frame
-gregtech:frame_tritanium:12, Tritanium Frame
-gregtech:frame_tritanium:13, Tritanium Frame
-gregtech:frame_tritanium:14, Tritanium Frame
-gregtech:frame_tritanium:15, Tritanium Frame
-gregtech:frame_neutronium:0, Neutronium Frame
-gregtech:frame_neutronium:1, Neutronium Frame
-gregtech:frame_neutronium:2, Neutronium Frame
-gregtech:frame_neutronium:3, Neutronium Frame
-gregtech:frame_neutronium:4, Neutronium Frame
-gregtech:frame_neutronium:5, Neutronium Frame
-gregtech:frame_neutronium:6, Neutronium Frame
-gregtech:frame_neutronium:7, Neutronium Frame
-gregtech:frame_neutronium:8, Neutronium Frame
-gregtech:frame_neutronium:9, Neutronium Frame
-gregtech:frame_neutronium:10, Neutronium Frame
-gregtech:frame_neutronium:11, Neutronium Frame
-gregtech:frame_neutronium:12, Neutronium Frame
-gregtech:frame_neutronium:13, Neutronium Frame
-gregtech:frame_neutronium:14, Neutronium Frame
-gregtech:frame_neutronium:15, Neutronium Frame
-gregtech:frame_tungsten_steel:0, Tungstensteel Frame
-gregtech:frame_tungsten_steel:1, Tungstensteel Frame
-gregtech:frame_tungsten_steel:2, Tungstensteel Frame
-gregtech:frame_tungsten_steel:3, Tungstensteel Frame
-gregtech:frame_tungsten_steel:4, Tungstensteel Frame
-gregtech:frame_tungsten_steel:5, Tungstensteel Frame
-gregtech:frame_tungsten_steel:6, Tungstensteel Frame
-gregtech:frame_tungsten_steel:7, Tungstensteel Frame
-gregtech:frame_tungsten_steel:8, Tungstensteel Frame
-gregtech:frame_tungsten_steel:9, Tungstensteel Frame
-gregtech:frame_tungsten_steel:10, Tungstensteel Frame
-gregtech:frame_tungsten_steel:11, Tungstensteel Frame
-gregtech:frame_tungsten_steel:12, Tungstensteel Frame
-gregtech:frame_tungsten_steel:13, Tungstensteel Frame
-gregtech:frame_tungsten_steel:14, Tungstensteel Frame
-gregtech:frame_tungsten_steel:15, Tungstensteel Frame
-gregtech:frame_hssg:0, HSS-G Frame
-gregtech:frame_hssg:1, HSS-G Frame
-gregtech:frame_hssg:2, HSS-G Frame
-gregtech:frame_hssg:3, HSS-G Frame
-gregtech:frame_hssg:4, HSS-G Frame
-gregtech:frame_hssg:5, HSS-G Frame
-gregtech:frame_hssg:6, HSS-G Frame
-gregtech:frame_hssg:7, HSS-G Frame
-gregtech:frame_hssg:8, HSS-G Frame
-gregtech:frame_hssg:9, HSS-G Frame
-gregtech:frame_hssg:10, HSS-G Frame
-gregtech:frame_hssg:11, HSS-G Frame
-gregtech:frame_hssg:12, HSS-G Frame
-gregtech:frame_hssg:13, HSS-G Frame
-gregtech:frame_hssg:14, HSS-G Frame
-gregtech:frame_hssg:15, HSS-G Frame
-gregtech:frame_stainless_steel:0, Stainless Steel Frame
-gregtech:frame_stainless_steel:1, Stainless Steel Frame
-gregtech:frame_stainless_steel:2, Stainless Steel Frame
-gregtech:frame_stainless_steel:3, Stainless Steel Frame
-gregtech:frame_stainless_steel:4, Stainless Steel Frame
-gregtech:frame_stainless_steel:5, Stainless Steel Frame
-gregtech:frame_stainless_steel:6, Stainless Steel Frame
-gregtech:frame_stainless_steel:7, Stainless Steel Frame
-gregtech:frame_stainless_steel:8, Stainless Steel Frame
-gregtech:frame_stainless_steel:9, Stainless Steel Frame
-gregtech:frame_stainless_steel:10, Stainless Steel Frame
-gregtech:frame_stainless_steel:11, Stainless Steel Frame
-gregtech:frame_stainless_steel:12, Stainless Steel Frame
-gregtech:frame_stainless_steel:13, Stainless Steel Frame
-gregtech:frame_stainless_steel:14, Stainless Steel Frame
-gregtech:frame_stainless_steel:15, Stainless Steel Frame
 gregtech:frame_hsse:0, HSS-E Frame
 gregtech:frame_hsse:1, HSS-E Frame
 gregtech:frame_hsse:2, HSS-E Frame
@@ -6013,22 +6283,70 @@ gregtech:frame_hsse:12, HSS-E Frame
 gregtech:frame_hsse:13, HSS-E Frame
 gregtech:frame_hsse:14, HSS-E Frame
 gregtech:frame_hsse:15, HSS-E Frame
-gregtech:frame_invar:0, Invar Frame
-gregtech:frame_invar:1, Invar Frame
-gregtech:frame_invar:2, Invar Frame
-gregtech:frame_invar:3, Invar Frame
-gregtech:frame_invar:4, Invar Frame
-gregtech:frame_invar:5, Invar Frame
-gregtech:frame_invar:6, Invar Frame
-gregtech:frame_invar:7, Invar Frame
-gregtech:frame_invar:8, Invar Frame
-gregtech:frame_invar:9, Invar Frame
-gregtech:frame_invar:10, Invar Frame
-gregtech:frame_invar:11, Invar Frame
-gregtech:frame_invar:12, Invar Frame
-gregtech:frame_invar:13, Invar Frame
-gregtech:frame_invar:14, Invar Frame
-gregtech:frame_invar:15, Invar Frame
+gregtech:frame_wood:0, Wood Frame
+gregtech:frame_wood:1, Wood Frame
+gregtech:frame_wood:2, Wood Frame
+gregtech:frame_wood:3, Wood Frame
+gregtech:frame_wood:4, Wood Frame
+gregtech:frame_wood:5, Wood Frame
+gregtech:frame_wood:6, Wood Frame
+gregtech:frame_wood:7, Wood Frame
+gregtech:frame_wood:8, Wood Frame
+gregtech:frame_wood:9, Wood Frame
+gregtech:frame_wood:10, Wood Frame
+gregtech:frame_wood:11, Wood Frame
+gregtech:frame_wood:12, Wood Frame
+gregtech:frame_wood:13, Wood Frame
+gregtech:frame_wood:14, Wood Frame
+gregtech:frame_wood:15, Wood Frame
+gregtech:frame_stainless_steel:0, Stainless Steel Frame
+gregtech:frame_stainless_steel:1, Stainless Steel Frame
+gregtech:frame_stainless_steel:2, Stainless Steel Frame
+gregtech:frame_stainless_steel:3, Stainless Steel Frame
+gregtech:frame_stainless_steel:4, Stainless Steel Frame
+gregtech:frame_stainless_steel:5, Stainless Steel Frame
+gregtech:frame_stainless_steel:6, Stainless Steel Frame
+gregtech:frame_stainless_steel:7, Stainless Steel Frame
+gregtech:frame_stainless_steel:8, Stainless Steel Frame
+gregtech:frame_stainless_steel:9, Stainless Steel Frame
+gregtech:frame_stainless_steel:10, Stainless Steel Frame
+gregtech:frame_stainless_steel:11, Stainless Steel Frame
+gregtech:frame_stainless_steel:12, Stainless Steel Frame
+gregtech:frame_stainless_steel:13, Stainless Steel Frame
+gregtech:frame_stainless_steel:14, Stainless Steel Frame
+gregtech:frame_stainless_steel:15, Stainless Steel Frame
+gregtech:frame_tritanium:0, Tritanium Frame
+gregtech:frame_tritanium:1, Tritanium Frame
+gregtech:frame_tritanium:2, Tritanium Frame
+gregtech:frame_tritanium:3, Tritanium Frame
+gregtech:frame_tritanium:4, Tritanium Frame
+gregtech:frame_tritanium:5, Tritanium Frame
+gregtech:frame_tritanium:6, Tritanium Frame
+gregtech:frame_tritanium:7, Tritanium Frame
+gregtech:frame_tritanium:8, Tritanium Frame
+gregtech:frame_tritanium:9, Tritanium Frame
+gregtech:frame_tritanium:10, Tritanium Frame
+gregtech:frame_tritanium:11, Tritanium Frame
+gregtech:frame_tritanium:12, Tritanium Frame
+gregtech:frame_tritanium:13, Tritanium Frame
+gregtech:frame_tritanium:14, Tritanium Frame
+gregtech:frame_tritanium:15, Tritanium Frame
+gregtech:frame_blue_steel:0, Blue Steel Frame
+gregtech:frame_blue_steel:1, Blue Steel Frame
+gregtech:frame_blue_steel:2, Blue Steel Frame
+gregtech:frame_blue_steel:3, Blue Steel Frame
+gregtech:frame_blue_steel:4, Blue Steel Frame
+gregtech:frame_blue_steel:5, Blue Steel Frame
+gregtech:frame_blue_steel:6, Blue Steel Frame
+gregtech:frame_blue_steel:7, Blue Steel Frame
+gregtech:frame_blue_steel:8, Blue Steel Frame
+gregtech:frame_blue_steel:9, Blue Steel Frame
+gregtech:frame_blue_steel:10, Blue Steel Frame
+gregtech:frame_blue_steel:11, Blue Steel Frame
+gregtech:frame_blue_steel:12, Blue Steel Frame
+gregtech:frame_blue_steel:13, Blue Steel Frame
+gregtech:frame_blue_steel:14, Blue Steel Frame
+gregtech:frame_blue_steel:15, Blue Steel Frame
 gregtech:frame_aluminium:0, Aluminium Frame
 gregtech:frame_aluminium:1, Aluminium Frame
 gregtech:frame_aluminium:2, Aluminium Frame
@@ -6061,54 +6379,6 @@ gregtech:frame_steel:12, Steel Frame
 gregtech:frame_steel:13, Steel Frame
 gregtech:frame_steel:14, Steel Frame
 gregtech:frame_steel:15, Steel Frame
-gregtech:frame_iron:0, Iron Frame
-gregtech:frame_iron:1, Iron Frame
-gregtech:frame_iron:2, Iron Frame
-gregtech:frame_iron:3, Iron Frame
-gregtech:frame_iron:4, Iron Frame
-gregtech:frame_iron:5, Iron Frame
-gregtech:frame_iron:6, Iron Frame
-gregtech:frame_iron:7, Iron Frame
-gregtech:frame_iron:8, Iron Frame
-gregtech:frame_iron:9, Iron Frame
-gregtech:frame_iron:10, Iron Frame
-gregtech:frame_iron:11, Iron Frame
-gregtech:frame_iron:12, Iron Frame
-gregtech:frame_iron:13, Iron Frame
-gregtech:frame_iron:14, Iron Frame
-gregtech:frame_iron:15, Iron Frame
-gregtech:frame_darmstadtium:0, Darmstadtium Frame
-gregtech:frame_darmstadtium:1, Darmstadtium Frame
-gregtech:frame_darmstadtium:2, Darmstadtium Frame
-gregtech:frame_darmstadtium:3, Darmstadtium Frame
-gregtech:frame_darmstadtium:4, Darmstadtium Frame
-gregtech:frame_darmstadtium:5, Darmstadtium Frame
-gregtech:frame_darmstadtium:6, Darmstadtium Frame
-gregtech:frame_darmstadtium:7, Darmstadtium Frame
-gregtech:frame_darmstadtium:8, Darmstadtium Frame
-gregtech:frame_darmstadtium:9, Darmstadtium Frame
-gregtech:frame_darmstadtium:10, Darmstadtium Frame
-gregtech:frame_darmstadtium:11, Darmstadtium Frame
-gregtech:frame_darmstadtium:12, Darmstadtium Frame
-gregtech:frame_darmstadtium:13, Darmstadtium Frame
-gregtech:frame_darmstadtium:14, Darmstadtium Frame
-gregtech:frame_darmstadtium:15, Darmstadtium Frame
-gregtech:frame_blue_steel:0, Blue Steel Frame
-gregtech:frame_blue_steel:1, Blue Steel Frame
-gregtech:frame_blue_steel:2, Blue Steel Frame
-gregtech:frame_blue_steel:3, Blue Steel Frame
-gregtech:frame_blue_steel:4, Blue Steel Frame
-gregtech:frame_blue_steel:5, Blue Steel Frame
-gregtech:frame_blue_steel:6, Blue Steel Frame
-gregtech:frame_blue_steel:7, Blue Steel Frame
-gregtech:frame_blue_steel:8, Blue Steel Frame
-gregtech:frame_blue_steel:9, Blue Steel Frame
-gregtech:frame_blue_steel:10, Blue Steel Frame
-gregtech:frame_blue_steel:11, Blue Steel Frame
-gregtech:frame_blue_steel:12, Blue Steel Frame
-gregtech:frame_blue_steel:13, Blue Steel Frame
-gregtech:frame_blue_steel:14, Blue Steel Frame
-gregtech:frame_blue_steel:15, Blue Steel Frame
 gregtech:frame_titanium:0, Titanium Frame
 gregtech:frame_titanium:1, Titanium Frame
 gregtech:frame_titanium:2, Titanium Frame
@@ -6125,22 +6395,6 @@ gregtech:frame_titanium:12, Titanium Frame
 gregtech:frame_titanium:13, Titanium Frame
 gregtech:frame_titanium:14, Titanium Frame
 gregtech:frame_titanium:15, Titanium Frame
-gregtech:frame_wood:0, Wood Frame
-gregtech:frame_wood:1, Wood Frame
-gregtech:frame_wood:2, Wood Frame
-gregtech:frame_wood:3, Wood Frame
-gregtech:frame_wood:4, Wood Frame
-gregtech:frame_wood:5, Wood Frame
-gregtech:frame_wood:6, Wood Frame
-gregtech:frame_wood:7, Wood Frame
-gregtech:frame_wood:8, Wood Frame
-gregtech:frame_wood:9, Wood Frame
-gregtech:frame_wood:10, Wood Frame
-gregtech:frame_wood:11, Wood Frame
-gregtech:frame_wood:12, Wood Frame
-gregtech:frame_wood:13, Wood Frame
-gregtech:frame_wood:14, Wood Frame
-gregtech:frame_wood:15, Wood Frame
 gregtech:frame_bronze:0, Bronze Frame
 gregtech:frame_bronze:1, Bronze Frame
 gregtech:frame_bronze:2, Bronze Frame
@@ -6157,6 +6411,102 @@ gregtech:frame_bronze:12, Bronze Frame
 gregtech:frame_bronze:13, Bronze Frame
 gregtech:frame_bronze:14, Bronze Frame
 gregtech:frame_bronze:15, Bronze Frame
+gregtech:frame_tungsten_steel:0, Tungstensteel Frame
+gregtech:frame_tungsten_steel:1, Tungstensteel Frame
+gregtech:frame_tungsten_steel:2, Tungstensteel Frame
+gregtech:frame_tungsten_steel:3, Tungstensteel Frame
+gregtech:frame_tungsten_steel:4, Tungstensteel Frame
+gregtech:frame_tungsten_steel:5, Tungstensteel Frame
+gregtech:frame_tungsten_steel:6, Tungstensteel Frame
+gregtech:frame_tungsten_steel:7, Tungstensteel Frame
+gregtech:frame_tungsten_steel:8, Tungstensteel Frame
+gregtech:frame_tungsten_steel:9, Tungstensteel Frame
+gregtech:frame_tungsten_steel:10, Tungstensteel Frame
+gregtech:frame_tungsten_steel:11, Tungstensteel Frame
+gregtech:frame_tungsten_steel:12, Tungstensteel Frame
+gregtech:frame_tungsten_steel:13, Tungstensteel Frame
+gregtech:frame_tungsten_steel:14, Tungstensteel Frame
+gregtech:frame_tungsten_steel:15, Tungstensteel Frame
+gregtech:frame_invar:0, Invar Frame
+gregtech:frame_invar:1, Invar Frame
+gregtech:frame_invar:2, Invar Frame
+gregtech:frame_invar:3, Invar Frame
+gregtech:frame_invar:4, Invar Frame
+gregtech:frame_invar:5, Invar Frame
+gregtech:frame_invar:6, Invar Frame
+gregtech:frame_invar:7, Invar Frame
+gregtech:frame_invar:8, Invar Frame
+gregtech:frame_invar:9, Invar Frame
+gregtech:frame_invar:10, Invar Frame
+gregtech:frame_invar:11, Invar Frame
+gregtech:frame_invar:12, Invar Frame
+gregtech:frame_invar:13, Invar Frame
+gregtech:frame_invar:14, Invar Frame
+gregtech:frame_invar:15, Invar Frame
+gregtech:frame_neutronium:0, Neutronium Frame
+gregtech:frame_neutronium:1, Neutronium Frame
+gregtech:frame_neutronium:2, Neutronium Frame
+gregtech:frame_neutronium:3, Neutronium Frame
+gregtech:frame_neutronium:4, Neutronium Frame
+gregtech:frame_neutronium:5, Neutronium Frame
+gregtech:frame_neutronium:6, Neutronium Frame
+gregtech:frame_neutronium:7, Neutronium Frame
+gregtech:frame_neutronium:8, Neutronium Frame
+gregtech:frame_neutronium:9, Neutronium Frame
+gregtech:frame_neutronium:10, Neutronium Frame
+gregtech:frame_neutronium:11, Neutronium Frame
+gregtech:frame_neutronium:12, Neutronium Frame
+gregtech:frame_neutronium:13, Neutronium Frame
+gregtech:frame_neutronium:14, Neutronium Frame
+gregtech:frame_neutronium:15, Neutronium Frame
+gregtech:frame_iron:0, Iron Frame
+gregtech:frame_iron:1, Iron Frame
+gregtech:frame_iron:2, Iron Frame
+gregtech:frame_iron:3, Iron Frame
+gregtech:frame_iron:4, Iron Frame
+gregtech:frame_iron:5, Iron Frame
+gregtech:frame_iron:6, Iron Frame
+gregtech:frame_iron:7, Iron Frame
+gregtech:frame_iron:8, Iron Frame
+gregtech:frame_iron:9, Iron Frame
+gregtech:frame_iron:10, Iron Frame
+gregtech:frame_iron:11, Iron Frame
+gregtech:frame_iron:12, Iron Frame
+gregtech:frame_iron:13, Iron Frame
+gregtech:frame_iron:14, Iron Frame
+gregtech:frame_iron:15, Iron Frame
+gregtech:frame_hssg:0, HSS-G Frame
+gregtech:frame_hssg:1, HSS-G Frame
+gregtech:frame_hssg:2, HSS-G Frame
+gregtech:frame_hssg:3, HSS-G Frame
+gregtech:frame_hssg:4, HSS-G Frame
+gregtech:frame_hssg:5, HSS-G Frame
+gregtech:frame_hssg:6, HSS-G Frame
+gregtech:frame_hssg:7, HSS-G Frame
+gregtech:frame_hssg:8, HSS-G Frame
+gregtech:frame_hssg:9, HSS-G Frame
+gregtech:frame_hssg:10, HSS-G Frame
+gregtech:frame_hssg:11, HSS-G Frame
+gregtech:frame_hssg:12, HSS-G Frame
+gregtech:frame_hssg:13, HSS-G Frame
+gregtech:frame_hssg:14, HSS-G Frame
+gregtech:frame_hssg:15, HSS-G Frame
+gregtech:frame_darmstadtium:0, Darmstadtium Frame
+gregtech:frame_darmstadtium:1, Darmstadtium Frame
+gregtech:frame_darmstadtium:2, Darmstadtium Frame
+gregtech:frame_darmstadtium:3, Darmstadtium Frame
+gregtech:frame_darmstadtium:4, Darmstadtium Frame
+gregtech:frame_darmstadtium:5, Darmstadtium Frame
+gregtech:frame_darmstadtium:6, Darmstadtium Frame
+gregtech:frame_darmstadtium:7, Darmstadtium Frame
+gregtech:frame_darmstadtium:8, Darmstadtium Frame
+gregtech:frame_darmstadtium:9, Darmstadtium Frame
+gregtech:frame_darmstadtium:10, Darmstadtium Frame
+gregtech:frame_darmstadtium:11, Darmstadtium Frame
+gregtech:frame_darmstadtium:12, Darmstadtium Frame
+gregtech:frame_darmstadtium:13, Darmstadtium Frame
+gregtech:frame_darmstadtium:14, Darmstadtium Frame
+gregtech:frame_darmstadtium:15, Darmstadtium Frame
 immersiveengineering:ore:0, Copper Ore
 immersiveengineering:ore:1, Bauxite Ore
 immersiveengineering:ore:2, Lead Ore

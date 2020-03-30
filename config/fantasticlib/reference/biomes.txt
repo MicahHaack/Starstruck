@@ -65,3 +65,15 @@ thaumcraft:magical_forest
 thaumcraft:eerie
 thaumcraft:eldritch
 nuclearcraft:nuclear_wasteland
+advancedrocketry:moon
+advancedrocketry:alien forest
+advancedrocketry:hotdryrock
+advancedrocketry:space
+advancedrocketry:stormland
+advancedrocketry:crystalchasms
+advancedrocketry:deepswamp
+advancedrocketry:marsh
+advancedrocketry:oceanspires
+advancedrocketry:moondark
+advancedrocketry:volcanic
+advancedrocketry:volcanicbarren
