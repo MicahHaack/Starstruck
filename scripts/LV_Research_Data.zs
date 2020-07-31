@@ -27,10 +27,10 @@ val machine = "basic_research_computer";
 var i = 0;
 for name in names {
 
-    val temp = mods.modularmachinery.RecipeBuilder.newBuilder(name, machine, 30, 1);
+    val temp = mods.modularmachinery.RecipeBuilder.newBuilder(name, machine, 30);
     temp.addEnergyPerTickInput(128);
     temp.addItemInput(<gregtech:meta_item_1:32708>);
-    //temp.addItemInput(parts[i]); write function?
+    //temp.addItemInput(temp, parts[i]); write function?
     temp.addItemOutput(LVResearch["LV" + "MOTOR" + quals[i]]);
     temp.build();
     i += 1;

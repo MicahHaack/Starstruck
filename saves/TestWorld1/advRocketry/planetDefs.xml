@@ -7,7 +7,9 @@
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>287</avgTemperature>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>100</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -20,7 +22,9 @@
                 <skyColor>1.0,1.0,1.0</skyColor>
                 <gravitationalMultiplier>16</gravitationalMultiplier>
                 <orbitalDistance>150</orbitalDistance>
-                <orbitalPhi>0</orbitalPhi>
+                <orbitalTheta>0</orbitalTheta>
+                <orbitalPhi>10</orbitalPhi>
+                <avgTemperature>255</avgTemperature>
                 <rotationalPeriod>128000</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -37,7 +41,9 @@
             <skyColor>0.0,0.9466175,1.0</skyColor>
             <gravitationalMultiplier>108</gravitationalMultiplier>
             <orbitalDistance>140</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>1</orbitalPhi>
+            <avgTemperature>216</avgTemperature>
             <rotationalPeriod>19051</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -53,7 +59,9 @@
                 <skyColor>0.349504,0.57200336,1.0</skyColor>
                 <gravitationalMultiplier>39</gravitationalMultiplier>
                 <orbitalDistance>112</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>241</avgTemperature>
                 <rotationalPeriod>404592</rotationalPeriod>
                 <atmosphereDensity>18</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -77,7 +85,9 @@
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>189</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>209</avgTemperature>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>194</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -90,7 +100,9 @@
                 <skyColor>0.19884509,0.87425804,1.0</skyColor>
                 <gravitationalMultiplier>56</gravitationalMultiplier>
                 <orbitalDistance>148</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>3</orbitalPhi>
+                <avgTemperature>210</avgTemperature>
                 <rotationalPeriod>136661</rotationalPeriod>
                 <atmosphereDensity>32</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -106,7 +118,9 @@
                 <skyColor>0.48749065,0.8297446,1.0</skyColor>
                 <gravitationalMultiplier>64</gravitationalMultiplier>
                 <orbitalDistance>101</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-1</orbitalPhi>
+                <avgTemperature>254</avgTemperature>
                 <rotationalPeriod>91552</rotationalPeriod>
                 <atmosphereDensity>19</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -123,7 +137,9 @@
             <skyColor>0.8,0.9868184,0.9404206</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>167</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>2</orbitalPhi>
+            <avgTemperature>222</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>131</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -138,7 +154,9 @@
                 <skyColor>0.012522817,0.92583704,1.0</skyColor>
                 <gravitationalMultiplier>57</gravitationalMultiplier>
                 <orbitalDistance>155</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-3</orbitalPhi>
+                <avgTemperature>205</avgTemperature>
                 <rotationalPeriod>129594</rotationalPeriod>
                 <atmosphereDensity>15</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -155,7 +173,9 @@
                 <skyColor>0.0,0.9472375,1.0</skyColor>
                 <gravitationalMultiplier>48</gravitationalMultiplier>
                 <orbitalDistance>175</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>193</avgTemperature>
                 <rotationalPeriod>217013</rotationalPeriod>
                 <atmosphereDensity>19</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -171,7 +191,9 @@
                 <skyColor>0.21573001,0.71233606,1.0</skyColor>
                 <gravitationalMultiplier>44</gravitationalMultiplier>
                 <orbitalDistance>159</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-3</orbitalPhi>
+                <avgTemperature>202</avgTemperature>
                 <rotationalPeriod>281743</rotationalPeriod>
                 <atmosphereDensity>36</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -188,7 +210,9 @@
             <skyColor>0.8,0.78985083,0.21570122</skyColor>
             <gravitationalMultiplier>94</gravitationalMultiplier>
             <orbitalDistance>74</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>334</avgTemperature>
             <rotationalPeriod>28895</rotationalPeriod>
             <atmosphereDensity>138</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -205,7 +229,9 @@
             <skyColor>0.8,0.83066833,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>155</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-6</orbitalPhi>
+            <avgTemperature>205</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>98</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -219,7 +245,9 @@
                 <skyColor>0.0,0.74377924,1.0</skyColor>
                 <gravitationalMultiplier>80</gravitationalMultiplier>
                 <orbitalDistance>181</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-2</orbitalPhi>
+                <avgTemperature>190</avgTemperature>
                 <rotationalPeriod>46875</rotationalPeriod>
                 <atmosphereDensity>17</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -237,7 +265,9 @@
                 <skyColor>0.0,0.61542845,1.0</skyColor>
                 <gravitationalMultiplier>69</gravitationalMultiplier>
                 <orbitalDistance>195</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-1</orbitalPhi>
+                <avgTemperature>183</avgTemperature>
                 <rotationalPeriod>73057</rotationalPeriod>
                 <atmosphereDensity>36</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -253,7 +283,9 @@
                 <skyColor>0.14888549,0.86982733,1.0</skyColor>
                 <gravitationalMultiplier>54</gravitationalMultiplier>
                 <orbitalDistance>150</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-9</orbitalPhi>
+                <avgTemperature>208</avgTemperature>
                 <rotationalPeriod>152415</rotationalPeriod>
                 <atmosphereDensity>19</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -272,7 +304,9 @@
             <skyColor>0.8,0.7103909,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>133</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-1</orbitalPhi>
+            <avgTemperature>221</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>82</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -287,7 +321,9 @@
             <skyColor>0.8,0.6066737,0.9336778</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>28</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-4</orbitalPhi>
+            <avgTemperature>483</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>15</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -303,7 +339,9 @@
                 <skyColor>0.0,0.7399206,1.0</skyColor>
                 <gravitationalMultiplier>85</gravitationalMultiplier>
                 <orbitalDistance>177</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>2</orbitalPhi>
+                <avgTemperature>192</avgTemperature>
                 <rotationalPeriod>39079</rotationalPeriod>
                 <atmosphereDensity>26</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -319,7 +357,9 @@
                 <skyColor>0.24231404,0.9197626,1.0</skyColor>
                 <gravitationalMultiplier>52</gravitationalMultiplier>
                 <orbitalDistance>137</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>3</orbitalPhi>
+                <avgTemperature>218</avgTemperature>
                 <rotationalPeriod>161206</rotationalPeriod>
                 <atmosphereDensity>30</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -337,7 +377,9 @@
             <skyColor>0.4889226,0.72470546,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>131</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-4</orbitalPhi>
+            <avgTemperature>223</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>45</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -352,7 +394,9 @@
                 <skyColor>0.09809703,0.7567121,1.0</skyColor>
                 <gravitationalMultiplier>64</gravitationalMultiplier>
                 <orbitalDistance>175</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>3</orbitalPhi>
+                <avgTemperature>193</avgTemperature>
                 <rotationalPeriod>91552</rotationalPeriod>
                 <atmosphereDensity>34</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -369,7 +413,9 @@
             <skyColor>0.8,0.8611899,0.76488173</skyColor>
             <gravitationalMultiplier>88</gravitationalMultiplier>
             <orbitalDistance>146</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>2</orbitalPhi>
+            <avgTemperature>238</avgTemperature>
             <rotationalPeriod>35217</rotationalPeriod>
             <atmosphereDensity>135</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -385,7 +431,9 @@
             <skyColor>0.8,0.6491385,0.2688353</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>20</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-3</orbitalPhi>
+            <avgTemperature>572</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>83</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -399,7 +447,9 @@
                 <skyColor>0.08528447,0.978763,1.0</skyColor>
                 <gravitationalMultiplier>85</gravitationalMultiplier>
                 <orbitalDistance>150</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-4</orbitalPhi>
+                <avgTemperature>208</avgTemperature>
                 <rotationalPeriod>39079</rotationalPeriod>
                 <atmosphereDensity>20</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -415,7 +465,9 @@
                 <skyColor>0.14924222,0.7636346,1.0</skyColor>
                 <gravitationalMultiplier>50</gravitationalMultiplier>
                 <orbitalDistance>141</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-6</orbitalPhi>
+                <avgTemperature>215</avgTemperature>
                 <rotationalPeriod>192000</rotationalPeriod>
                 <atmosphereDensity>20</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -436,7 +488,9 @@
             <skyColor>0.8,0.8122807,0.0</skyColor>
             <gravitationalMultiplier>93</gravitationalMultiplier>
             <orbitalDistance>83</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>37</avgTemperature>
             <rotationalPeriod>29837</rotationalPeriod>
             <atmosphereDensity>200</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -454,7 +508,9 @@
             <skyColor>0.7052023,0.842215,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>98</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-3</orbitalPhi>
+            <avgTemperature>25</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>53</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -470,7 +526,9 @@
             <skyColor>0.8,0.6867038,0.0</skyColor>
             <gravitationalMultiplier>123</gravitationalMultiplier>
             <orbitalDistance>28</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>5</orbitalPhi>
+            <avgTemperature>64</avgTemperature>
             <rotationalPeriod>12897</rotationalPeriod>
             <atmosphereDensity>200</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -486,7 +544,9 @@
                 <skyColor>0.19866079,0.9533548,1.0</skyColor>
                 <gravitationalMultiplier>57</gravitationalMultiplier>
                 <orbitalDistance>126</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>22</avgTemperature>
                 <rotationalPeriod>129594</rotationalPeriod>
                 <atmosphereDensity>16</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -504,7 +564,9 @@
             <skyColor>0.8,0.55952317,0.8597108</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>121</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-4</orbitalPhi>
+            <avgTemperature>26</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>109</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -519,7 +581,9 @@
             <skyColor>0.0,0.5411214,1.0</skyColor>
             <gravitationalMultiplier>112</gravitationalMultiplier>
             <orbitalDistance>194</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>1</orbitalPhi>
+            <avgTemperature>18</avgTemperature>
             <rotationalPeriod>17082</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -534,7 +598,9 @@
                 <skyColor>0.0,0.87846476,1.0</skyColor>
                 <gravitationalMultiplier>77</gravitationalMultiplier>
                 <orbitalDistance>184</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>1</orbitalPhi>
+                <avgTemperature>18</avgTemperature>
                 <rotationalPeriod>52570</rotationalPeriod>
                 <atmosphereDensity>13</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -555,7 +621,9 @@
             <skyColor>0.8,0.73883677,0.0</skyColor>
             <gravitationalMultiplier>120</gravitationalMultiplier>
             <orbitalDistance>9</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>2</orbitalPhi>
+            <avgTemperature>1630</avgTemperature>
             <rotationalPeriod>13888</rotationalPeriod>
             <atmosphereDensity>175</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -572,7 +640,9 @@
                 <skyColor>0.10790342,0.60716367,1.0</skyColor>
                 <gravitationalMultiplier>57</gravitationalMultiplier>
                 <orbitalDistance>170</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-3</orbitalPhi>
+                <avgTemperature>333</avgTemperature>
                 <rotationalPeriod>129594</rotationalPeriod>
                 <atmosphereDensity>28</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -591,7 +661,9 @@
             <skyColor>0.8,0.89235556,0.57343185</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>79</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-2</orbitalPhi>
+            <avgTemperature>489</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>96</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -605,7 +677,9 @@
                 <skyColor>0.118109584,0.9814654,1.0</skyColor>
                 <gravitationalMultiplier>55</gravitationalMultiplier>
                 <orbitalDistance>172</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>331</avgTemperature>
                 <rotationalPeriod>144252</rotationalPeriod>
                 <atmosphereDensity>31</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -621,7 +695,9 @@
                 <skyColor>0.6182653,0.997064,1.0</skyColor>
                 <gravitationalMultiplier>86</gravitationalMultiplier>
                 <orbitalDistance>104</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>426</avgTemperature>
                 <rotationalPeriod>37732</rotationalPeriod>
                 <atmosphereDensity>30</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -639,7 +715,9 @@
             <skyColor>0.12895423,0.6477553,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>127</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-1</orbitalPhi>
+            <avgTemperature>385</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -655,7 +733,9 @@
             <skyColor>0.8,0.82707775,0.42289364</skyColor>
             <gravitationalMultiplier>92</gravitationalMultiplier>
             <orbitalDistance>139</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>3</orbitalPhi>
+            <avgTemperature>415</avgTemperature>
             <rotationalPeriod>30821</rotationalPeriod>
             <atmosphereDensity>159</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -674,7 +754,9 @@
             <skyColor>0.8,0.9075136,0.44616997</skyColor>
             <gravitationalMultiplier>96</gravitationalMultiplier>
             <orbitalDistance>41</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>2</orbitalPhi>
+            <avgTemperature>679</avgTemperature>
             <rotationalPeriod>27126</rotationalPeriod>
             <atmosphereDensity>71</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -691,7 +773,9 @@
             <skyColor>0.52731115,0.9594329,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>106</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-2</orbitalPhi>
+            <avgTemperature>422</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>25</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -707,7 +791,9 @@
             <skyColor>0.8,0.8607938,0.47646725</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>94</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>1</orbitalPhi>
+            <avgTemperature>504</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>122</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -721,7 +807,9 @@
                 <skyColor>0.4502555,0.7980442,1.0</skyColor>
                 <gravitationalMultiplier>72</gravitationalMultiplier>
                 <orbitalDistance>115</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-1</orbitalPhi>
+                <avgTemperature>405</avgTemperature>
                 <rotationalPeriod>64300</rotationalPeriod>
                 <atmosphereDensity>21</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -743,7 +831,9 @@
             <skyColor>0.8,0.81597733,0.74463266</skyColor>
             <gravitationalMultiplier>122</gravitationalMultiplier>
             <orbitalDistance>96</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-10</orbitalPhi>
+            <avgTemperature>522</avgTemperature>
             <rotationalPeriod>13216</rotationalPeriod>
             <atmosphereDensity>82</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -758,7 +848,9 @@
                 <skyColor>0.35485935,0.5170579,1.0</skyColor>
                 <gravitationalMultiplier>52</gravitationalMultiplier>
                 <orbitalDistance>118</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>471</avgTemperature>
                 <rotationalPeriod>161206</rotationalPeriod>
                 <atmosphereDensity>14</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -774,7 +866,9 @@
                 <skyColor>0.24437213,0.72836715,1.0</skyColor>
                 <gravitationalMultiplier>39</gravitationalMultiplier>
                 <orbitalDistance>139</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-4</orbitalPhi>
+                <avgTemperature>434</avgTemperature>
                 <rotationalPeriod>404592</rotationalPeriod>
                 <atmosphereDensity>22</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -790,7 +884,9 @@
                 <skyColor>0.0,0.6458813,1.0</skyColor>
                 <gravitationalMultiplier>57</gravitationalMultiplier>
                 <orbitalDistance>175</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-1</orbitalPhi>
+                <avgTemperature>386</avgTemperature>
                 <rotationalPeriod>129594</rotationalPeriod>
                 <atmosphereDensity>13</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -807,7 +903,9 @@
             <skyColor>0.0,0.99514866,1.0</skyColor>
             <gravitationalMultiplier>94</gravitationalMultiplier>
             <orbitalDistance>154</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-1</orbitalPhi>
+            <avgTemperature>412</avgTemperature>
             <rotationalPeriod>28895</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -823,7 +921,9 @@
             <skyColor>0.8,0.87267613,0.30717224</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>81</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>1</orbitalPhi>
+            <avgTemperature>639</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>128</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -838,7 +938,9 @@
                 <skyColor>0.0,0.7086024,1.0</skyColor>
                 <gravitationalMultiplier>82</gravitationalMultiplier>
                 <orbitalDistance>182</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-3</orbitalPhi>
+                <avgTemperature>379</avgTemperature>
                 <rotationalPeriod>43528</rotationalPeriod>
                 <atmosphereDensity>16</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -858,7 +960,9 @@
             <skyColor>0.8,0.625553,0.28335857</skyColor>
             <gravitationalMultiplier>112</gravitationalMultiplier>
             <orbitalDistance>80</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-5</orbitalPhi>
+            <avgTemperature>225</avgTemperature>
             <rotationalPeriod>17082</rotationalPeriod>
             <atmosphereDensity>135</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -873,7 +977,9 @@
                 <skyColor>0.14193618,0.54063666,1.0</skyColor>
                 <gravitationalMultiplier>78</gravitationalMultiplier>
                 <orbitalDistance>139</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-5</orbitalPhi>
+                <avgTemperature>151</avgTemperature>
                 <rotationalPeriod>50574</rotationalPeriod>
                 <atmosphereDensity>17</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -891,7 +997,9 @@
             <skyColor>0.4855675,0.9869214,1.0</skyColor>
             <gravitationalMultiplier>95</gravitationalMultiplier>
             <orbitalDistance>159</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>142</avgTemperature>
             <rotationalPeriod>27992</rotationalPeriod>
             <atmosphereDensity>70</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -909,7 +1017,9 @@
             <skyColor>0.8,0.8351146,0.0</skyColor>
             <gravitationalMultiplier>97</gravitationalMultiplier>
             <orbitalDistance>93</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-3</orbitalPhi>
+            <avgTemperature>709</avgTemperature>
             <rotationalPeriod>26296</rotationalPeriod>
             <atmosphereDensity>200</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -927,7 +1037,9 @@
             <skyColor>0.8,0.8237785,0.0</skyColor>
             <gravitationalMultiplier>97</gravitationalMultiplier>
             <orbitalDistance>48</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-6</orbitalPhi>
+            <avgTemperature>830</avgTemperature>
             <rotationalPeriod>26296</rotationalPeriod>
             <atmosphereDensity>134</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -945,7 +1057,9 @@
             <skyColor>0.47929782,0.77011997,1.0</skyColor>
             <gravitationalMultiplier>102</gravitationalMultiplier>
             <orbitalDistance>143</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>1</orbitalPhi>
+            <avgTemperature>427</avgTemperature>
             <rotationalPeriod>22615</rotationalPeriod>
             <atmosphereDensity>50</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -960,7 +1074,9 @@
                 <skyColor>0.15210938,0.98999786,1.0</skyColor>
                 <gravitationalMultiplier>40</gravitationalMultiplier>
                 <orbitalDistance>147</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>2</orbitalPhi>
+                <avgTemperature>422</avgTemperature>
                 <rotationalPeriod>375000</rotationalPeriod>
                 <atmosphereDensity>17</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -977,7 +1093,9 @@
             <skyColor>0.8,0.6805729,0.07245743</skyColor>
             <gravitationalMultiplier>101</gravitationalMultiplier>
             <orbitalDistance>66</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>2</orbitalPhi>
+            <avgTemperature>708</avgTemperature>
             <rotationalPeriod>23294</rotationalPeriod>
             <atmosphereDensity>132</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -993,7 +1111,9 @@
                 <skyColor>0.061738968,0.9723356,1.0</skyColor>
                 <gravitationalMultiplier>34</gravitationalMultiplier>
                 <orbitalDistance>166</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-3</orbitalPhi>
+                <avgTemperature>397</avgTemperature>
                 <rotationalPeriod>610624</rotationalPeriod>
                 <atmosphereDensity>27</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1011,7 +1131,9 @@
             <skyColor>0.61076003,0.52316827,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>153</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-1</orbitalPhi>
+            <avgTemperature>413</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>75</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -1027,7 +1149,9 @@
                 <skyColor>0.0,0.7876289,1.0</skyColor>
                 <gravitationalMultiplier>50</gravitationalMultiplier>
                 <orbitalDistance>199</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-7</orbitalPhi>
+                <avgTemperature>362</avgTemperature>
                 <rotationalPeriod>192000</rotationalPeriod>
                 <atmosphereDensity>15</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1043,7 +1167,9 @@
                 <skyColor>0.0041701794,0.5082815,1.0</skyColor>
                 <gravitationalMultiplier>87</gravitationalMultiplier>
                 <orbitalDistance>179</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>382</avgTemperature>
                 <rotationalPeriod>36446</rotationalPeriod>
                 <atmosphereDensity>31</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1059,7 +1185,9 @@
                 <skyColor>0.24550062,0.5335342,1.0</skyColor>
                 <gravitationalMultiplier>83</gravitationalMultiplier>
                 <orbitalDistance>143</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>2</orbitalPhi>
+                <avgTemperature>427</avgTemperature>
                 <rotationalPeriod>41973</rotationalPeriod>
                 <atmosphereDensity>19</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1078,7 +1206,9 @@
             <skyColor>0.08164936,0.82538044,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>143</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-1</orbitalPhi>
+            <avgTemperature>427</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>2</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -1093,7 +1223,9 @@
                 <skyColor>0.14541888,0.76811606,1.0</skyColor>
                 <gravitationalMultiplier>40</gravitationalMultiplier>
                 <orbitalDistance>161</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>4</orbitalPhi>
+                <avgTemperature>403</avgTemperature>
                 <rotationalPeriod>375000</rotationalPeriod>
                 <atmosphereDensity>30</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1109,7 +1241,9 @@
                 <skyColor>0.0,0.6403615,1.0</skyColor>
                 <gravitationalMultiplier>88</gravitationalMultiplier>
                 <orbitalDistance>184</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>377</avgTemperature>
                 <rotationalPeriod>35217</rotationalPeriod>
                 <atmosphereDensity>25</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1125,7 +1259,9 @@
                 <skyColor>0.05161929,0.7123146,1.0</skyColor>
                 <gravitationalMultiplier>71</gravitationalMultiplier>
                 <orbitalDistance>162</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>402</avgTemperature>
                 <rotationalPeriod>67055</rotationalPeriod>
                 <atmosphereDensity>13</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1144,7 +1280,9 @@
             <skyColor>0.41858804,0.63909376,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>126</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>-6</orbitalPhi>
+            <avgTemperature>273</avgTemperature>
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>34</atmosphereDensity>
             <generateCraters>true</generateCraters>
@@ -1159,7 +1297,9 @@
                 <skyColor>0.016015887,0.5100387,1.0</skyColor>
                 <gravitationalMultiplier>89</gravitationalMultiplier>
                 <orbitalDistance>179</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-3</orbitalPhi>
+                <avgTemperature>229</avgTemperature>
                 <rotationalPeriod>34044</rotationalPeriod>
                 <atmosphereDensity>31</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1180,7 +1320,9 @@
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
             <orbitalDistance>199</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>244</avgTemperature>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>161</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -1193,7 +1335,9 @@
                 <skyColor>0.040922403,0.6475078,1.0</skyColor>
                 <gravitationalMultiplier>56</gravitationalMultiplier>
                 <orbitalDistance>166</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-2</orbitalPhi>
+                <avgTemperature>238</avgTemperature>
                 <rotationalPeriod>136661</rotationalPeriod>
                 <atmosphereDensity>24</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1209,7 +1353,9 @@
                 <skyColor>0.51322913,0.7676695,1.0</skyColor>
                 <gravitationalMultiplier>84</gravitationalMultiplier>
                 <orbitalDistance>108</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-2</orbitalPhi>
+                <avgTemperature>295</avgTemperature>
                 <rotationalPeriod>40492</rotationalPeriod>
                 <atmosphereDensity>35</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1226,7 +1372,9 @@
             <skyColor>0.8,0.75764084,0.0</skyColor>
             <gravitationalMultiplier>104</gravitationalMultiplier>
             <orbitalDistance>13</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>1139</avgTemperature>
             <rotationalPeriod>21335</rotationalPeriod>
             <atmosphereDensity>200</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -1242,7 +1390,9 @@
                 <skyColor>0.0,0.8043684,1.0</skyColor>
                 <gravitationalMultiplier>34</gravitationalMultiplier>
                 <orbitalDistance>193</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>220</avgTemperature>
                 <rotationalPeriod>610624</rotationalPeriod>
                 <atmosphereDensity>34</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1258,7 +1408,9 @@
                 <skyColor>0.18179893,0.9741899,1.0</skyColor>
                 <gravitationalMultiplier>30</gravitationalMultiplier>
                 <orbitalDistance>155</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>4</orbitalPhi>
+                <avgTemperature>246</avgTemperature>
                 <rotationalPeriod>888888</rotationalPeriod>
                 <atmosphereDensity>32</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1278,7 +1430,9 @@
             <skyColor>0.8,0.6181699,0.6978637</skyColor>
             <gravitationalMultiplier>111</gravitationalMultiplier>
             <orbitalDistance>122</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
             <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>312</avgTemperature>
             <rotationalPeriod>17548</rotationalPeriod>
             <atmosphereDensity>123</atmosphereDensity>
             <generateCraters>false</generateCraters>
@@ -1292,7 +1446,9 @@
                 <skyColor>0.077757716,0.5353576,1.0</skyColor>
                 <gravitationalMultiplier>45</gravitationalMultiplier>
                 <orbitalDistance>157</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>0</orbitalPhi>
+                <avgTemperature>245</avgTemperature>
                 <rotationalPeriod>263374</rotationalPeriod>
                 <atmosphereDensity>18</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1308,7 +1464,9 @@
                 <skyColor>0.31218243,0.56891966,1.0</skyColor>
                 <gravitationalMultiplier>58</gravitationalMultiplier>
                 <orbitalDistance>133</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-3</orbitalPhi>
+                <avgTemperature>266</avgTemperature>
                 <rotationalPeriod>116857</rotationalPeriod>
                 <atmosphereDensity>29</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -1324,7 +1482,9 @@
                 <skyColor>0.28607333,0.50040853,1.0</skyColor>
                 <gravitationalMultiplier>35</gravitationalMultiplier>
                 <orbitalDistance>134</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>-6</orbitalPhi>
+                <avgTemperature>265</avgTemperature>
                 <rotationalPeriod>559766</rotationalPeriod>
                 <atmosphereDensity>27</atmosphereDensity>
                 <generateCraters>true</generateCraters>

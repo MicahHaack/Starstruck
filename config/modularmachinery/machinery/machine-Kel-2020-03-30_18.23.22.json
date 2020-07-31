@@ -1,0 +1,12 @@
+{
+    "parts": [
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"slopePosition":"0","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"facing":"5","id":"immersiveengineering:structuralarm","totalLength":"1","onCeiling":"1b"},
+            "elements": [
+                "immersiveengineering:metal_decoration2@8"
+            ]
+        }
+    ]}
