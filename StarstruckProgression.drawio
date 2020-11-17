@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T17:46:30.423Z" agent="5.0 (Windows)" etag="6s-EPS-igF-KSc86fH53" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T04:27:13.322Z" agent="5.0 (Windows)" etag="xfqABipJMIglRw6Tr3Cv" version="13.9.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="981" dy="546" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,17 +26,17 @@
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9jG_yCGPaiIPfnbP8sXY-2" target="9jG_yCGPaiIPfnbP8sXY-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="764" y="528" as="targetPoint" />
+            <mxPoint x="756" y="528" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9jG_yCGPaiIPfnbP8sXY-2" target="9jG_yCGPaiIPfnbP8sXY-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-2" value="LV Voltage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="704" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="696" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-4" value="MV Voltage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="704" y="448" width="120" height="60" as="geometry" />
+          <mxGeometry x="696" y="448" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-5" value="Next Planet (2 options, varying resource availability&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="32" y="472" width="120" height="60" as="geometry" />
