@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T00:22:55.957Z" agent="5.0 (Windows)" etag="BEKDOO-zA1zoi_B8Hehn" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T15:30:27.675Z" agent="5.0 (Windows)" etag="j9q9MSVV1hV8PZ8dnO4g" version="13.10.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="483" dy="545" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="92" y="440" />
-              <mxPoint x="492" y="440" />
+              <mxPoint x="556" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -21,24 +21,24 @@
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-1" value="" style="endArrow=none;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="416" as="sourcePoint" />
-            <mxPoint x="824" y="416" as="targetPoint" />
+            <mxPoint x="1256" y="416" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9jG_yCGPaiIPfnbP8sXY-2" target="9jG_yCGPaiIPfnbP8sXY-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="756" y="528" as="targetPoint" />
+            <mxPoint x="900" y="522" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9jG_yCGPaiIPfnbP8sXY-2" target="9jG_yCGPaiIPfnbP8sXY-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-2" value="LV Voltage" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="696" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="314" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-4" value="MV Voltage" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="696" y="448" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="442" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9jG_yCGPaiIPfnbP8sXY-5" target="PfsHNtGs94x8KEguIsHO-7">
+        <mxCell id="PfsHNtGs94x8KEguIsHO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9jG_yCGPaiIPfnbP8sXY-5" target="PfsHNtGs94x8KEguIsHO-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-5" value="Next Planet (2 options, varying resource availability&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -46,45 +46,99 @@
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-7" value="" style="endArrow=none;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413" y="712" as="sourcePoint" />
-            <mxPoint x="413" y="416" as="targetPoint" />
+            <mxPoint x="480" y="1098" as="sourcePoint" />
+            <mxPoint x="480" y="418" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9jG_yCGPaiIPfnbP8sXY-9" target="PfsHNtGs94x8KEguIsHO-9">
+        <mxCell id="PfsHNtGs94x8KEguIsHO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9jG_yCGPaiIPfnbP8sXY-9" target="PfsHNtGs94x8KEguIsHO-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-9" value="Next Planet (2 options, varying resource availability&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="432" y="472" width="120" height="60" as="geometry" />
+          <mxGeometry x="496" y="472" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9jG_yCGPaiIPfnbP8sXY-13" value="AE&lt;br&gt;&lt;div&gt;1k &amp;amp; 4k Storage&lt;/div&gt;&lt;div&gt;Autocrafting Interfaces&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="544" y="310" width="120" height="80" as="geometry" />
+          <mxGeometry x="688" y="304" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PfsHNtGs94x8KEguIsHO-0" target="PfsHNtGs94x8KEguIsHO-1">
+        <mxCell id="PfsHNtGs94x8KEguIsHO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PfsHNtGs94x8KEguIsHO-0" target="PfsHNtGs94x8KEguIsHO-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PfsHNtGs94x8KEguIsHO-0" target="PfsHNtGs94x8KEguIsHO-3">
+        <mxCell id="PfsHNtGs94x8KEguIsHO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PfsHNtGs94x8KEguIsHO-0" target="PfsHNtGs94x8KEguIsHO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PfsHNtGs94x8KEguIsHO-0" target="PfsHNtGs94x8KEguIsHO-5">
+        <mxCell id="PfsHNtGs94x8KEguIsHO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PfsHNtGs94x8KEguIsHO-0" target="PfsHNtGs94x8KEguIsHO-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-0" value="Power Options" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="24" width="120" height="60" as="geometry" />
+        <mxCell id="PfsHNtGs94x8KEguIsHO-0" value="Power Options" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="280" y="136" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-1" value="Oil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="224" y="128" width="120" height="60" as="geometry" />
+        <mxCell id="PfsHNtGs94x8KEguIsHO-1" value="Oil" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="144" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-3" value="Fission Reactors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="128" width="120" height="60" as="geometry" />
+        <mxCell id="PfsHNtGs94x8KEguIsHO-3" value="Fission Reactors" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="280" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-5" value="Molten Salt Reactors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="208" width="120" height="60" as="geometry" />
+        <mxCell id="PfsHNtGs94x8KEguIsHO-5" value="Molten Salt Reactors" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-7" value="Volcano World?" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PfsHNtGs94x8KEguIsHO-7" value="Volcano World" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="32" y="545" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PfsHNtGs94x8KEguIsHO-9" value="Ocean World?" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="432" y="545" width="120" height="80" as="geometry" />
+        <mxCell id="PfsHNtGs94x8KEguIsHO-9" value="Air Planet" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="496" y="545" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63BNSrlgMApztNrJTurx-0" target="63BNSrlgMApztNrJTurx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63BNSrlgMApztNrJTurx-0" target="63BNSrlgMApztNrJTurx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63BNSrlgMApztNrJTurx-0" target="63BNSrlgMApztNrJTurx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-0" value="Power Options" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="208" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-4" value="Oil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="72" y="676" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63BNSrlgMApztNrJTurx-5" target="63BNSrlgMApztNrJTurx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-5" value="Fission Reactors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="208" y="676" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-6" value="Molten Salt Reactors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="208" y="756" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-13" value="&lt;div&gt;Planet Specific:&lt;/div&gt;&lt;div&gt;Geothermal Gen&lt;/div&gt;&lt;div&gt;(Requires Non-Harvestable Worldgen Blocks)&lt;br&gt;Produces heat, steam if provided with water&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="342" y="676" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63BNSrlgMApztNrJTurx-19" target="63BNSrlgMApztNrJTurx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63BNSrlgMApztNrJTurx-19" target="63BNSrlgMApztNrJTurx-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63BNSrlgMApztNrJTurx-19" target="63BNSrlgMApztNrJTurx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="63BNSrlgMApztNrJTurx-19" target="63BNSrlgMApztNrJTurx-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-19" value="Power Options" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="648" y="568" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-20" value="Oil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="512" y="672" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-21" value="Fission Reactors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="648" y="672" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-22" value="Molten Salt Reactors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="648" y="752" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="63BNSrlgMApztNrJTurx-25" value="&lt;div&gt;Gas Flume Turbine&lt;/div&gt;&lt;div&gt;Require Non Harvestable Worldgen Blocks&lt;/div&gt;&lt;div&gt;Requires Turbines, Produces energy and various gases&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="784" y="672" width="120" height="144" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
