@@ -4,4 +4,6 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
+forestry:arborist
+forestry:apiarist
 immersiveengineering:engineer
