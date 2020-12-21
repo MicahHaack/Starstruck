@@ -6,6 +6,11 @@
     the game.  An example is magnetic black steel rods.
     These components usually are needed for crafting purposes.
 
+    Note localization for newly defined materials needs to be done
+    externally in the gregtech lang file.
+
+    This is found in resources\gregtech\lang\en_us.lang
+
 */
 
 // important to ensure script loads before registry is frozen
@@ -15,6 +20,12 @@
 import mods.gregtech.material.MaterialRegistry;
 
 
+/* print list of materials on startup */
+var materialList = MaterialRegistry.getAllMaterials();
+
+// Misc Missing Parts
+val blackSteel = MaterialRegistry.get("black_steel");
+blackSteel.addFlags(["GENERATE_GEAR", "GENERATE_SMALL_GEAR"]);
 
 
 // Magnetic Material Additions
