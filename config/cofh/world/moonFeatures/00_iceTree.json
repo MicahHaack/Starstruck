@@ -1,0 +1,17 @@
+{
+    "populate": {
+        "ice_tree": {
+            "distribution": "surface",
+            "cluster-count": 10,
+            "generator": {
+                "type": "small-tree",
+                "block": "minecraft:packed_ice",
+                "leaves": "minecraft:ice",
+                "min-height": 5,
+                "height-variance": 3,
+                "leaf-variance": "true",
+                "surface": "advancedrocketry:moonturf"
+            }
+        }
+    }
+}

@@ -41,7 +41,7 @@ BiomeSize: 5
 #   50 rarity mean 1/11 chance than other
 # For isle biomes see the BiomeRarityWhenIsle setting below.
 # Doesn`t work on Ocean and River (frozen versions too) biomes when not added as normal biome.
-BiomeRarity: 98
+BiomeRarity: 70
 
 # The hexadecimal color value of this biome. Used in the output of the /otg map command,
 # and used in the input of BiomeMode: FromImage.
@@ -50,7 +50,7 @@ BiomeColor: #364416
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.To replace to minecraft biomes use resourcelocation notation, for instance: minecraft:plains.
-ReplaceToBiomeName: minecraft:extreme_hills
+ReplaceToBiomeName:
 
 ####################
 # Isle biomes only #
@@ -216,7 +216,7 @@ GroundBlock: advancedrocketry:moonturf
 
 # Alternatively, you can use Mesa, MesaForest or MesaBryce to get blocks
 # like the blocks found in the Mesa biomes.
-SurfaceAndGroundControl: DIRT, STONE, -2.5, DIRT:2, DIRT, -1.8, GRASS, DIRT, 10.0 
+SurfaceAndGroundControl: 
 
 # Replace Variable: (blockFrom,blockTo[:blockDataTo][,minHeight,maxHeight])
 # Example :
@@ -235,7 +235,7 @@ ReplacedBlocks: None
 UseWorldWaterLevel: false
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
-WaterLevelMax: 52
+WaterLevelMax: 0
 
 WaterLevelMin: 0
 
@@ -269,7 +269,7 @@ BiomeTemperature: 0.2
 BiomeWetness: 0.25
 
 # Biome sky color.
-SkyColor: #7BA5FF
+SkyColor: #000000
 
 # Biome water color multiplier.
 WaterColor: #00F281
@@ -382,53 +382,7 @@ FogThunderWeight: 0.5
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-Vein(COAL_ORE,10,30,70.0,18,24,75,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(IRON_ORE,10,30,70.0,18,24,66,0,250,STONE:0,DIRT,HARD_CLAY)
-Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE:0,HARD_CLAY)
-Vein(REDSTONE_ORE,10,30,50.0,16,18,66,0,250,STONE:0,HARD_CLAY)
-Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE:0,HARD_CLAY)
-Vein(DIAMOND_ORE,10,20,33.0,4,12,66,0,35,STONE:0)
-Vein(EMERALD_ORE,10,20,15.0,4,12,66,0,35,STONE:0)
-Ore(DIRT,32,20,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(GRAVEL,32,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(CLAY,8,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(COAL_ORE,12,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(COAL_ORE,12,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,80.0,0,250,STONE:0,DIRT,HARD_CLAY)
-Ore(IRON_ORE,8,15,50.0,0,52,STONE:0,DIRT,HARD_CLAY)
-Ore(GOLD_ORE,8,6,40.0,0,250,STONE:0,HARD_CLAY)
-Ore(REDSTONE_ORE,12,8,50.0,0,250,STONE:0,HARD_CLAY)
-Ore(DIAMOND_ORE,8,4,50.0,0,250,STONE:0)
-Ore(LAPIS_ORE,8,8,30.0,0,250,STONE:0,HARD_CLAY)
-Ore(EMERALD_ORE,8,4,15.0,0,52,STONE:0)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
-SmallLake(LAVA,6,33.0,1,8)
-Ore(STONE:5,32,20,100.0,0,58,STONE:0)
-Ore(STONE:3,32,20,100.0,0,58,STONE:0)
-Ore(STONE:1,32,20,100.0,0,58,STONE:0)
-Dungeon(8,100.0,0,128)
-CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
-CustomObject(ShrubSpruce1,ShrubSpruce2,ShrubSpruce3,ShrubSpruce4,ShrubSpruce5,ShrubSpruce6,ShrubSpruce7)
-UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS,GRAVEL)
-UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY,GRAVEL)
-UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS,GRAVEL)
-Ore(STONE,10,100,75.0,64,128,GRAVEL)
-Tree(1,SpruceFirSmall1,2,SpruceFirSmall2,2,SpruceFirSmall3,2,SpruceFirSmall4,2,SpruceFirSmall5,2,SpruceFirSmall6,2,SpruceFirSmall7,2,SpruceFirSmall8,2)
-Liquid(WATER,40,100.0,8,150,STONE:0)
-Grass(Fern,NotGrouped,10,100.0,GRASS,DIRT)
-Grass(Tallgrass,NotGrouped,15,100.0,GRASS,DIRT)
-Plant(LargeFern,10,90.0,30,128,GRASS,DIRT)
-Plant(SNOW:0,80,60.0,70,250,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
-Plant(SNOW:0,80,60.0,100,250,GRASS,DIRT,LEAVES,STONE:0,GRAVEL)
-Plant(RED_ROSE,2,100.0,50,255,GRASS,DIRT,SOIL)
-Plant(YELLOW_FLOWER,2,100.0,50,255,GRASS,DIRT,SOIL)
-Plant(OxeyeDaisy,10,75.0,30,128,GRASS,DIRT)
-Plant(AzureBluet,10,75.0,30,128,GRASS,DIRT)
-SmallLake(ICE,2,1.0,5,20)
-CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5)
-CustomStructure(RiverRocks,0.5,TotemBase,0.1,Bricktowerbranching,0.15,GravelOreT1,1.0,RedbrickHouseBranching,0.25,DngStart,0.05,WitchVillageBranching,0.1,StandingStonesBranching,0.1,CastleBranching,0.25)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -480,7 +434,7 @@ BiomeObjects:
 # regardless of these settings.
 # Disables strongholds for this biome. If there is no suitable biome nearby,
 # Minecraft will ignore this setting.
-StrongholdsEnabled: true
+StrongholdsEnabled: false
 
 # Whether a Woodland Mansion can be placed in this biome.
 WoodLandMansionsEnabled: false
@@ -492,10 +446,10 @@ OceanMonumentsEnabled: false
 NetherFortressesEnabled: false
 
 # The village type in this biome. Can be wood, sandstone, taiga, savanna or disabled.
-VillageType: taiga
+VillageType: disabled
 
 # The mineshaft type in this biome. Can be normal, mesa or disabled.
-MineshaftType: normal
+MineshaftType: disabled
 
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
 # Note that mineshafts will never spawn, regardless of this setting, if 
@@ -538,20 +492,20 @@ RareBuildingType: disabled
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
 # Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
 # For Spigot virtual biomes (that use ReplaceToBiomeName, f.e. the default biomes) this list doesn't work.
-SpawnMonsters: [{"mob": "minecraft:spider", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:slime", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "minecraft:witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: []
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
 # For instance [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
 # Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
-SpawnCreatures: [{"mob": "minecraft:sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "minecraft:pig", "weight": 10, "min": 4, "max": 4}, {"mob": "minecraft:chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "minecraft:cow", "weight": 8, "min": 4, "max": 4}, {"mob": "minecraft:wolf", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: []
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 # For instance [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
 # Use the "/otg entities" console command to get a list of possible mobs and mob types.
 # Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
 # For Spigot virtual biomes (that use ReplaceToBiomeName, f.e. the default biomes) this list doesn't work.
-SpawnWaterCreatures: [{"mob": "minecraft:squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: []
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 # For instance [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
@@ -559,7 +513,7 @@ SpawnWaterCreatures: [{"mob": "minecraft:squid", "weight": 10, "min": 4, "max": 
 # Use the "/otg biome -m" console command to get the list of registered mobs for a biome.
 # *Some mob spawning lists may only work for custom biomes (that don't use replacetobiomename).
 # For Spigot virtual biomes (that use ReplaceToBiomeName, f.e. the default biomes) this list doesn't work.
-SpawnAmbientCreatures: [{"mob": "minecraft:bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: []
 
 # Forge Biome Dictionary ID used by other mods to identify a biome and place
 # modded blocks, items and mobs in it.
@@ -579,5 +533,5 @@ BiomeDictId:
 # and SpawnAmbientCreatures settings. Any mob type defined using those settings
 # will override inherited mob settings for the same mob.
 # Use this setting to inherit modded mobs from vanilla biomes (see also: BiomeDictId)
-InheritMobsBiomeName: Extreme Hills
+InheritMobsBiomeName: 
 
