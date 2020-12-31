@@ -66,11 +66,11 @@ uniquee:deaths_odium
 advancedrocketry:spacebreathing
 endercore:xpboost
 endercore:autosmelt
-enderio:witherarrow
-enderio:repellent
 enderio:shimmer
-enderio:soulbound
 enderio:witherweapon
+enderio:repellent
+enderio:witherarrow
+enderio:soulbound
 ffenchants:explosive_arrow
 ffenchants:archers_revenge
 ffenchants:expulsion

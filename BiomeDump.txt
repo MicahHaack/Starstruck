@@ -72,6 +72,7 @@ ID	Resource name
 27	minecraft:birch_forest
 0	minecraft:ocean
 6	minecraft:swampland
+57	biometweaker:frost_forest
 129	minecraft:mutated_plains
 49	advancedrocketry:stormland
 30	minecraft:taiga_cold

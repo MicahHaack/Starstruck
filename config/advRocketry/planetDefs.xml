@@ -1,0 +1,25 @@
+<galaxy>
+    <star blackHole="false" name="TBD" temp="100" x="0" y="0" numPlanets="7" numGasGiants="0">
+        <planet DIMID="4" name="MOON_TBD">
+            <isKnown>true</isKnown>
+            <hasRings>false</hasRings>
+            <GasGiant>false</GasGiant>
+            <genType>0</genType>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>16</gravitationalMultiplier>
+            <orbitalDistance>200</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>10</orbitalPhi>
+            <avgTemperature>208</avgTemperature>
+            <rotationalPeriod>128000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+            <biomeIds>57,45,54</biomeIds>
+        </planet>
+    </star>
+</galaxy>
