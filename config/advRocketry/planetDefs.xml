@@ -19,7 +19,7 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
             <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
-            <biomeIds>57,45,54</biomeIds>
+            <biomeIds>57,45,54,58</biomeIds>
         </planet>
     </star>
 </galaxy>

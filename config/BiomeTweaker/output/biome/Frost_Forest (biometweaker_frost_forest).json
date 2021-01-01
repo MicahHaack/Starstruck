@@ -6,7 +6,7 @@
   "Class": "me.superckl.biometweaker.common.world.biome.BiomeTweakerBiome",
   "Root Height": 1.0,
   "Height Variation": 0.2,
-  "Top Block": "advancedrocketry:moonturf",
+  "Top Block": "minecraft:snow",
   "Filler Block": "advancedrocketry:moonturf",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
@@ -14,16 +14,16 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": 0.0,
+  "Temperature": 0.2,
   "Humidity": 0.0,
   "Water Tint": 16777215,
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SNOWY",
-    "FOREST",
     "MOON",
-    "COLD"
+    "COLD",
+    "SNOWY",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

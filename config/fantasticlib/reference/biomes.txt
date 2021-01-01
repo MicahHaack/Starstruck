@@ -78,3 +78,4 @@ advancedrocketry:moondark
 advancedrocketry:volcanic
 advancedrocketry:volcanicbarren
 biometweaker:frost_forest
+biometweaker:tar_pits
