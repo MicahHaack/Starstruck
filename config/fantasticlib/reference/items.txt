@@ -1840,6 +1840,12 @@ advancedrocketry:thermite
 advancedrocketry:hovercraft
 advancedrocketry:biomechanger
 forge:bucketfilled
+aim:aimwrench
+aim:aimupgrade
+aim:infoprovider
+aim:inventorymanagementmanual
+aim:craftingcomponent
+aim:aimpositioncard
 aim:aimcore
 aim:networkcable
 aim:inventoryrelay
@@ -1863,12 +1869,6 @@ aim:positioneditor
 aim:fluid_moltenxp
 aim:networksignalbridge
 aim:shulkerboxrelay
-aim:aimwrench
-aim:aimupgrade
-aim:infoprovider
-aim:inventorymanagementmanual
-aim:craftingcomponent
-aim:aimpositioncard
 appliedenergistics2:quartz_ore
 appliedenergistics2:charged_quartz_ore
 appliedenergistics2:matrix_frame

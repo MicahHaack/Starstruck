@@ -1,0 +1,86 @@
+{
+    "populate": { 
+        "heavy_oil_sprout": {
+            "distribution": "uniform",
+            "cluster-count": 1,
+            "chunk-chance": 20,
+            "min-height": 25,
+            "max-height": 35,
+            "generator": {
+                "type": "sequential", 
+                "generators": [
+                    {
+                            "type": "spout",
+                            "radius": 1,
+                            "height": 65,
+                            "block": "gregtech:fluid.oil_heavy",
+                            "material": [
+                                {
+                                    "name": "minecraft:stone"
+                                },
+                                {
+                                    "name": "minecraft:dirt"
+                                },
+                                {
+                                    "name": "minecraft:air"
+                                },
+                                {
+                                    "name": "advancedrocketry:moonturf_dark"
+                                },
+                                {
+                                    "name": "forestry:bog_earth"
+                                },
+                                {
+                                    "name": "minecraft:gravel"
+                                }
+                            ]
+                    },
+                    {
+                        "type": "spout",
+                            "radius": 0,
+                            "height": 70,
+                            "block": "gregtech:fluid.oil_heavy",
+                            "material": [
+                                {
+                                    "name": "minecraft:stone"
+                                },
+                                {
+                                    "name": "minecraft:dirt"
+                                },
+                                {
+                                    "name": "minecraft:air"
+                                },
+                                {
+                                    "name": "advancedrocketry:moonturf_dark"
+                                },
+                                {
+                                    "name": "forestry:bog_earth"
+                                },
+                                {
+                                    "name": "minecraft:gravel"
+                                }
+                            ]
+                    },
+                    {
+                             "type": "boulder",
+                             "block": "gregtech:fluid.oil_heavy",
+                             "diameter": 10,
+                             "size-variance": 5,
+                             "count": 1
+                    }
+                ]
+            },
+            "biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:tar_pits"
+						]
+					}
+				]
+			}
+        }
+    }
+}
