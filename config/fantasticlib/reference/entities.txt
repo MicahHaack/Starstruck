@@ -199,9 +199,9 @@ bloodmagic:corrupted_spider
 thermaldynamics:transport
 p455w0rdslib:sitting_entity
 betterquesting:placeholder
-forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
+forestry:butterflyge
 immersiveengineering:revolvershot
 immersiveengineering:skylinehook
 immersiveengineering:revolvershothoming

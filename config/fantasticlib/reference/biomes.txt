@@ -79,3 +79,4 @@ advancedrocketry:volcanic
 advancedrocketry:volcanicbarren
 biometweaker:frost_forest
 biometweaker:tar_pits
+biometweaker:shattered_skies
