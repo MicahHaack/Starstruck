@@ -1,0 +1,45 @@
+{
+    "populate": {
+        "sky_island": {
+            "distribution": "gaussian",
+            "center-height": 120,
+            "spread": 35,
+            "cluster-count": 1,
+            "chunk-chance": 3,
+            "biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:shattered_skies"
+						]
+					}
+				]
+			},
+            "generator": {
+                "type": "geode",
+                "material": "minecraft:air",
+                "block": "advancedrocketry:moonturf",
+                "crust": [
+                    {
+                        "name": "advancedrocketry:moonturf",
+                        "weight": 99
+                    },
+                    {
+                        "name": "advancedrocketry:moonturf_dark",
+                        "weight": 98
+                    },
+                    {
+                        "name": "astralsorcery:blockmarble",
+                        "weight": 95
+                    },
+                    {
+                        "name": "astralsorcery:fluidblockliquidstarlight",
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    }
+}

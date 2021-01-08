@@ -24,22 +24,15 @@
     "HOT",
     "SAVANNA",
     "DRY",
-    "SPARSE",
-    "WASTELAND"
+    "WASTELAND",
+    "SPARSE"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
       5
     ]
   },
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "nc.entity.EntityFeralGhoul",
-      "Weight": 32767,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "nc.entity.EntityFeralGhoul",

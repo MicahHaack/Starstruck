@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "HOT",
     "DRY",
-    "SANDY",
-    "HILLS"
+    "HILLS",
+    "SANDY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -87,6 +87,12 @@
       "Entity Class": "net.minecraft.entity.monster.EntityHusk",
       "Weight": 80,
       "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 10,
+      "Min Group Count": 1,
       "Max Group Count": 4
     }
   ],

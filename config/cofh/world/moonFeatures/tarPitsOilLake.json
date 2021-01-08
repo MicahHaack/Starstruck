@@ -1,0 +1,34 @@
+{
+    "populate": {
+        "oil_lakes": {
+            "distribution": "surface",
+            "follow-terrain": "true",
+            "cluster-count": 2,
+            "chunk-chance": 6,
+            "material": [
+                {
+                    "name": "forestry:bog_earth"
+                },
+                {
+                    "name": "advancedrocketry:moonturf_dark"
+                }
+            ],
+            "generator": {
+                    "type": "lake",
+                    "block": "gregtech:fluid.oil_heavy",
+                    "use-material": false
+            },
+            "biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:tar_pits"
+						]
+					}
+				]
+			}
+        }
+    }
+}

@@ -1,0 +1,10 @@
+Since JSON does not support commenting,
+I have opted to put block information in this text file
+
+Examples include numerical orientation values for various blocks
+
+steel slope facing upwards (full face on bottom)
+"onCeiling":"0b"
+
+steel slope facing downwards (full face on top)
+"onCeiling":"1b"

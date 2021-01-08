@@ -24,6 +24,11 @@ val names = ["BRC_LV_MOTOR_POOR_RESEARCH", "BRC_LV_MOTOR_FAIR_RESEARCH", "BRC_LV
 val quals = ["POOR", "FAIR", "GOOD", "GREAT", "PERFECT"] as string[];
 val machine = "basic_research_computer";
 
+
+/* Need to figure out what I want the recipes to be
+    after that I need to find a nice way to add them
+*/
+
 var i = 0;
 for name in names {
 
