@@ -64,13 +64,13 @@ uniquee:demeters_soul
 uniquee:pestilences_odium
 uniquee:deaths_odium
 advancedrocketry:spacebreathing
-endercore:xpboost
 endercore:autosmelt
-enderio:shimmer
+endercore:xpboost
+enderio:witherarrow
 enderio:witherweapon
 enderio:repellent
-enderio:witherarrow
 enderio:soulbound
+enderio:shimmer
 ffenchants:explosive_arrow
 ffenchants:archers_revenge
 ffenchants:expulsion
