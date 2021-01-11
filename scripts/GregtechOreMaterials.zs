@@ -1,33 +1,37 @@
-#loader gregtech
+#priority 100
+
 import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.DustMaterial;
 import mods.gregtech.material.MaterialCasting;
 import mods.gregtech.material.FluidMaterial;
 import mods.gregtech.material.Material;
 
-var dust as DustMaterial;
+import crafttweaker.oredict.IOreDictEntry;
 
-/*for entry in MaterialRegistry.getAllMaterials() {
-    dust = MaterialCasting.toDust(entry);
-    //dust = entry as DustMaterial;
-    if ( !isNull(dust) ) {
-        print("material name: " + dust.name);
-        if ( dust.oreByProducts.length > 0 ) {
-            for item in dust.oreByProducts {
-                print(dust.name + " byproduct: " + item);
-            }
-        }
-    }
-}*/
+
+/* credit for oreByProducts parsing goes to Zook
+    ( Discord Zook#3724 )
+    Some strange type weirdness going on here, never
+    would have figured it out myself.
+*/
+
+// var map as value[key]
+var macerByProductMap = {} as string[string];
+var procStr as string;
+var adjDustName as string;
 
 for entry in MaterialRegistry.getAllMaterials() {
     if( entry instanceof DustMaterial ) {
-        dust = MaterialCasting.toDust(entry);
-        print("material name: " + dust.name);
-        if( !isNull(dust.oreByProducts) ) {
-            for item in dust.oreByProducts {
-                print(dust.name + " byproduct: " + item);
-            }
+        var dust = MaterialCasting.toDust(entry) as DustMaterial;
+        var byProds as [FluidMaterial] = dust.oreByProducts;
+        for byProd in byProds {
+            //print(dust.localizedName + " byproducts: " + byProd.localizedName );
+            procStr = byProd.localizedName.replaceAll(" ", "") as string;
+            procStr = "dust" + procStr.substring(0, 1).toUpperCase() + procStr.substring(1) as string;
+            //print("post-string processing: " + procStr);
+            adjDustName = dust.localizedName.replaceAll(" ", "") as string;
+            macerByProductMap[adjDustName] = procStr;
+
         }
     }
 }

@@ -138,7 +138,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "gregtech:metal_casing@4"
+                "modularmachinery:blockenergyinputhatch@3"
             ]
         },
         {
