@@ -69,11 +69,6 @@ macerByProductMap["Uraninite"] = "dustUranium";
 macerByProductMap["Thorium"] = "dustUranium";
 macerByProductMap["Uranium"] = "dustLead";
 
-
-for key, value in macerByProductMap {
-    print("name: " + key + " byprod: " + value);
-}
-
 // grab all ore items in the oreDict
 for entry in oreDict {
     if( entry.name.startsWith("ore") ) {
