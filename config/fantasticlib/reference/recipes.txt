@@ -14844,11 +14844,6 @@ nuclearcraft:tile.nuclearcraft.rtg_uranium
 nuclearcraft:tile.nuclearcraft.rtg_plutonium
 nuclearcraft:tile.nuclearcraft.rtg_americium
 nuclearcraft:tile.nuclearcraft.rtg_californium
-nuclearcraft:tile.nuclearcraft.solar_panel_basic
-nuclearcraft:tile.nuclearcraft.solar_panel_basic_1
-nuclearcraft:tile.nuclearcraft.solar_panel_advanced
-nuclearcraft:tile.nuclearcraft.solar_panel_du
-nuclearcraft:tile.nuclearcraft.solar_panel_elite
 nuclearcraft:tile.nuclearcraft.decay_generator
 nuclearcraft:tile.nuclearcraft.voltaic_pile_basic
 nuclearcraft:tile.nuclearcraft.voltaic_pile_advanced

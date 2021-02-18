@@ -110,6 +110,8 @@ global LVResearch as IItemStack[string] = {} as IItemStack[string];
 
 val strtier = TIER + LV;
 
+val datastick = <gregtech:meta_item_1:32708>;
+
 for compkey, compval in comps {
     
     for qualkey, qualval in qualitys {
@@ -117,9 +119,14 @@ for compkey, compval in comps {
         val strtype = TYPE + compval;
         val strqual = QUALITY + qualval;
 
-        val item = <gregtech:meta_item_1:32708>.withTag({display: {Lore: [strtier, strtype, strqual]}});
+        val item = datastick.withTag({display: {Lore: [strtier, strtype, strqual]}});
 
         LVResearch["LV" + compkey + qualkey] = item;
+
+        // add research item to JEI
+        //mods.jei.JEI.addItem(item);
+        // ^ currently does not work due to incomplete implementations in JEI/Crafttweaker/GTCE
+        // look into writing a short mod to add all the items I need, may end up being easier
 
     }
 

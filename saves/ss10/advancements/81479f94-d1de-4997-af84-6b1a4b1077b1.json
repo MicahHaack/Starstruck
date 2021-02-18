@@ -1,4 +1,58 @@
 {
+  "nuclearcraft:devices/solar_panel_basic": {
+    "criteria": {
+      "has_item": "2021-02-17 20:58:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2021-01-27 09:06:30 -0500"
+    },
+    "done": true
+  },
+  "nuclearcraft:fission/rtg_uranium": {
+    "criteria": {
+      "has_item": "2021-02-17 20:42:20 -0500"
+    },
+    "done": true
+  },
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2021-01-02 18:32:18 -0500"
+    },
+    "done": true
+  },
+  "nuclearcraft:fission/rtg_plutonium": {
+    "criteria": {
+      "has_item": "2021-02-17 20:43:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2021-01-27 09:21:30 -0500"
+    },
+    "done": true
+  },
+  "enderioconduits:energy/2_energy_conduit_enhanced": {
+    "criteria": {
+      "inv_changed-enderio:power_conduit_enhanced": "2021-02-17 20:42:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2021-01-02 18:32:17 -0500"
+    },
+    "done": false
+  },
+  "nuclearcraft:fission/rtg_americium": {
+    "criteria": {
+      "has_item": "2021-02-17 20:43:34 -0500"
+    },
+    "done": true
+  },
   "immersiveengineering:main/craft_hammer": {
     "criteria": {
       "craft_hammer": "2021-01-07 19:59:44 -0500"
@@ -11,12 +65,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "entered_water": "2021-01-27 09:06:30 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2021-01-07 20:37:40 -0500"
@@ -26,6 +74,18 @@
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "entered_water": "2021-01-27 09:06:30 -0500"
+    },
+    "done": true
+  },
+  "enderioconduits:goals/all_conduits": {
+    "criteria": {
+      "inv_changed-enderio:power_conduit_enhanced2": "2021-02-17 20:42:57 -0500"
+    },
+    "done": false
+  },
+  "enderioconduits:energy/1_energy_conduit": {
+    "criteria": {
+      "inv_changed-enderio:power_conduit": "2021-02-17 20:42:57 -0500"
     },
     "done": true
   },
@@ -53,18 +113,6 @@
     },
     "done": true
   },
-  "astralsorcery:root": {
-    "criteria": {
-      "astralsorcery_present": "2021-01-02 18:32:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stonebrick": {
-    "criteria": {
-      "has_stone": "2021-01-27 09:21:30 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2021-01-27 09:21:30 -0500"
@@ -89,16 +137,16 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/crafting_cpu": {
+    "criteria": {
+      "c1k": "2021-02-17 21:04:10 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "entered_water": "2021-01-27 09:06:30 -0500"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "forest_hills": "2021-01-02 18:32:17 -0500"
-    },
-    "done": false
   }
 }
