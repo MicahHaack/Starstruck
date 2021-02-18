@@ -1,4 +1,5 @@
 #priority 10
+#loader contenttweaker
 /*
     File: ResearchDataInit.zs
     Author: Kel
@@ -10,6 +11,10 @@
 
 // Imports
 import crafttweaker.item.IItemStack;
+import mods.contenttweaker.Item;
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.LocalizedNameSupplier;
+import mods.contenttweaker.ResourceLocation;
 
 /* Lore lines begin with: 
 
@@ -110,8 +115,8 @@ global LVResearch as IItemStack[string] = {} as IItemStack[string];
 
 val strtier = TIER + LV;
 
-val datastick = <gregtech:meta_item_1:32708>;
-
+//val datastick = <gregtech:meta_item_1:32708>;
+var datastickresource = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/datastick");
 for compkey, compval in comps {
     
     for qualkey, qualval in qualitys {
@@ -119,14 +124,35 @@ for compkey, compval in comps {
         val strtype = TYPE + compval;
         val strqual = QUALITY + qualval;
 
-        val item = datastick.withTag({display: {Lore: [strtier, strtype, strqual]}});
+        // new item construction
+        var item = VanillaFactory.createItem("research_data_LV_" + compval.replace(" ", "_") + "_" + qualkey);
+        item.maxStackSize = 64;
 
-        LVResearch["LV" + compkey + qualkey] = item;
+        // rarity setting
+        if( qualkey == "POOR" || qualkey == "FAIR" ) {
+            item.rarity = "COMMON";
+        } else if( qualkey == "GOOD" ) {
+            item.rarity = "UNCOMMON";
+        } else if( qualkey == "GREAT" || qualkey == "PERFECT") {
+            item.rarity = "RARE";
+        }
+
+        item.textureLocation = datastickresource;
+
+        item.setLocalizedNameSupplier(function(item) {
+            return "Research Data";
+        });
+
+        //item = item.withTag({display: {Lore: [strtier, strtype, strqual]}});
+
+        //LVResearch["LV" + compkey + qualkey] = item;
 
         // add research item to JEI
         //mods.jei.JEI.addItem(item);
         // ^ currently does not work due to incomplete implementations in JEI/Crafttweaker/GTCE
         // look into writing a short mod to add all the items I need, may end up being easier
+
+        item.register();
 
     }
 
