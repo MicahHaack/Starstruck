@@ -4,8 +4,6 @@
     This is done to decrease the amount of resources need for 
     automation style machinery.
 
-
-
 */
 
 /* imports */
