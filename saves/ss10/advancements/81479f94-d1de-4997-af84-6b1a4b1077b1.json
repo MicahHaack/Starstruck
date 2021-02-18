@@ -1,4 +1,46 @@
 {
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "craft_hammer": "2021-01-07 19:59:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-01-16 10:26:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2021-01-27 09:06:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-01-07 20:37:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2021-01-27 09:06:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2021-01-27 09:06:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2021-01-27 09:21:30 -0500"
+    },
+    "done": true
+  },
   "nuclearcraft:root": {
     "criteria": {
       "location": "2021-01-02 18:32:17 -0500"
@@ -17,15 +59,39 @@
     },
     "done": true
   },
-  "immersiveengineering:main/craft_hammer": {
+  "minecraft:recipes/building_blocks/stonebrick": {
     "criteria": {
-      "craft_hammer": "2021-01-07 19:59:44 -0500"
+      "has_stone": "2021-01-27 09:21:30 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
+  "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
-      "has_lots_of_items": "2021-01-07 20:37:40 -0500"
+      "has_stone": "2021-01-27 09:21:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2021-01-27 09:21:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2021-01-27 09:06:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2021-01-27 09:06:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2021-01-27 09:06:30 -0500"
     },
     "done": true
   },
