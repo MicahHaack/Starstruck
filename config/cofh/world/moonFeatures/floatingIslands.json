@@ -20,7 +20,24 @@
             "generator": {
                 "type": "geode",
                 "material": "minecraft:air",
-                "block": "advancedrocketry:moonturf",
+                "block": [
+                    {
+                        "name": "advancedrocketry:moonturf",
+                        "weight": 25
+                    },
+                    {
+                        "name": "advancedrocketry:moonturf_dark",
+                        "weight": 25
+                    },
+                    {
+                        "name": "astralsorcery:blockmarble",
+                        "weight": 95
+                    },
+                    {
+                        "name": "astralsorcery:blockblackmarble",
+                        "weight": 95
+                    }
+                ],
                 "crust": [
                     {
                         "name": "advancedrocketry:moonturf",
@@ -35,8 +52,12 @@
                         "weight": 95
                     },
                     {
-                        "name": "astralsorcery:fluidblockliquidstarlight",
-                        "weight": 1
+                        "name": "astralsorcery:blockblackmarble",
+                        "weight": 95
+                    },
+                    {
+                        "name": "astralsorcery:blockcustomore",
+                        "weight": 2
                     }
                 ]
             }

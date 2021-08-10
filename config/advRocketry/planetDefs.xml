@@ -1,6 +1,6 @@
 <galaxy>
     <star blackHole="false" name="TBD" temp="100" x="0" y="0" numPlanets="7" numGasGiants="0">
-        <planet DIMID="4" name="MOON_TBD">
+        <planet DIMID="0" name="MOON_TBD">
             <isKnown>true</isKnown>
             <hasRings>false</hasRings>
             <GasGiant>false</GasGiant>
@@ -19,7 +19,7 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
             <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
-            <biomeIds>57,45,54,58,59</biomeIds>
+            <biomeIds></biomeIds>
         </planet>
     </star>
 </galaxy>

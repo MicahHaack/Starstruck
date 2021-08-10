@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/root": {
+    "criteria": {
+      "hold_manual": "2021-03-07 12:39:07 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest_hills": "2021-01-02 18:32:17 -0500"
@@ -82,6 +88,12 @@
       "inv_changed-enderio:power_conduit_enhanced2": "2021-02-17 20:42:57 -0500"
     },
     "done": false
+  },
+  "immersiveengineering:main/craft_revolver": {
+    "criteria": {
+      "craft_hammer": "2021-03-07 12:42:29 -0500"
+    },
+    "done": true
   },
   "enderioconduits:energy/1_energy_conduit": {
     "criteria": {

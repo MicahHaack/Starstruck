@@ -1,0 +1,17 @@
+//setBiomeProviderScript("MoonSpawnBiomes")
+
+// Biome Additions
+// Biomes made in BiomeTweaker
+
+addBiomes("biometweaker:shattered_skies")
+addBiomes("advancedrocketry:moon")
+addBiomes("advancedrocketry:moondark")
+addBiomes("biometweaker:tar_pits")
+addBiomes("biometweaker:frost_forest")
+
+overworld = new OverworldGenerator()
+
+addGenerator(overworld)
+
+// Disables clouds
+disableClouds()

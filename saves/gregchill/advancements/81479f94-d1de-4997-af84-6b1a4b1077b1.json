@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "nuclearcraft:root": {
+    "criteria": {
+      "location": "2021-04-07 08:41:39 -0400"
+    },
+    "done": true
+  },
   "astralsorcery:root": {
     "criteria": {
       "astralsorcery_present": "2020-12-17 16:26:34 -0500"

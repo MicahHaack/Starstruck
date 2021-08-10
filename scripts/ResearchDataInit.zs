@@ -1,5 +1,9 @@
-#priority 10
-#loader contenttweaker
+#norun
+
+// disabled for now until I find a better solution
+
+//#priority 10
+//#loader contenttweaker
 /*
     File: ResearchDataInit.zs
     Author: Kel
@@ -111,7 +115,21 @@ val comps = {
     } as string[string];
 
 // LV Map Declaration
-global LVResearch as IItemStack[string] = {} as IItemStack[string];
+/* useless since globals are not shared between loaders
+//global LVResearch as IItemStack[string] = {} as IItemStack[string];
+global LVResearch as string[string] = {} as string[string];
+global tierNBT as string[string] = {} as string[string];
+global typeNBT as string[string] = {} as string[string];
+global qualNBT as string[string] = {} as string[string];
+*/
+
+// make creative tab for research data
+// you may ask "why"
+// soley because this should let me obtain the IItemStacks
+// later in a different script, without needing to run
+// /ct hand for a very large number of items
+val LVResearchTab = mods.contenttweaker.VanillaFactory.createCreativeTab("LV_research_tab", <item:gregtech:meta_item_1:32708>);
+LVResearchTab.register();
 
 val strtier = TIER + LV;
 
@@ -125,6 +143,7 @@ for compkey, compval in comps {
         val strqual = QUALITY + qualval;
 
         // new item construction
+        var unlocalname = "research_data_LV_" + compval.replace(" ", "_") + "_" + qualkey;
         var item = VanillaFactory.createItem("research_data_LV_" + compval.replace(" ", "_") + "_" + qualkey);
         item.maxStackSize = 64;
 
@@ -139,13 +158,11 @@ for compkey, compval in comps {
 
         item.textureLocation = datastickresource;
 
+        item.creativeTab = LVResearchTab;
+
         item.setLocalizedNameSupplier(function(item) {
             return "Research Data";
         });
-
-        //item = item.withTag({display: {Lore: [strtier, strtype, strqual]}});
-
-        //LVResearch["LV" + compkey + qualkey] = item;
 
         // add research item to JEI
         //mods.jei.JEI.addItem(item);
@@ -153,6 +170,15 @@ for compkey, compval in comps {
         // look into writing a short mod to add all the items I need, may end up being easier
 
         item.register();
+
+        //val itemstack = <item:contenttweaker:unlocalname>;
+
+        //itemstack = itemstack.withTag({display: {Lore: [strtier, strtype, strqual]}});
+        //tierNBT["LV" + compkey + qualkey] = strtier;
+        //typeNBT["LV" + compkey + qualkey] = strtype;
+        //qualNBT["LV" + compkey + qualkey] = strqual;
+
+        //LVResearch["LV" + compkey + qualkey] = unlocalname;
 
     }
 
